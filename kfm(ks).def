@@ -1,0 +1,32 @@
+; Definition file for Kung Fu Man
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "Kung Fu Man"        ;Name of character
+displayname = "Kung Fu Man" ;Name of character to display
+versiondate = 04,14,2002    ;Version date of character (MM-DD-YYYY)
+mugenversion = 04,14,2002   ;Version of M.U.G.E.N character works on
+author = "Elecbyte"         ;Character author name
+pal.defaults = 6,3,4,2      ;Default palettes in order of preference
+
+; Files for the player
+[Files]
+cmd     = AI(ks)/kfmcmd.txt   ;Command set
+cns     = AI(ks)/kfm.cns   ;Constants
+st      = AI(ks)/kfm.cns   ;States
+stcommon= AI(ks)/common.cns ;Common states
+sprite  = kfm.sff   ;Sprite
+anim    = AI(ks)/kfm.air   ;Animation
+sound   = kfm.snd   ;Sound
+pal1    = kfm.act  ;Palettes (can have up to 12)
+pal2    = kfm2.act
+pal3    = kfm3.act
+pal4    = kfm4.act
+pal5    = kfm5.act
+pal6    = kfm6.act
+
+; Arcade mode
+[Arcade]
+intro.storyboard = intro.def
+ending.storyboard = ending.def
