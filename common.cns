@@ -138,7 +138,7 @@ value = 21
 ;IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-;Statedef 19Ïòºó×ß 21ÏòÇ°×ß
+;Statedef 19å‘åèµ° 21å‘å‰èµ°
 
 ; Walk
 [Statedef 19]
@@ -262,7 +262,7 @@ ctrl = 1
 ;IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-;Statedef 39ºóÌø 41Ç°Ìø 42Ô­µØÌø
+;Statedef 39åè·³ 41å‰è·³ 42åŸåœ°è·³
 
 [Statedef 39]
 type    = S
@@ -317,7 +317,7 @@ y = const(velocity.jump.y)
 [State 40, 5]
 type = VelSet
 trigger1 = AnimTime = 0
-trigger1 = prevstateno = 100 ;RUN_FWD
+trigger1 = prevstateno = [100,101] ;RUN_FWD
 trigger1 = sysvar(1) = 1
 x = const(velocity.runjump.fwd.x)
 
@@ -372,7 +372,6 @@ value = 41
 
 [State 45, 3]
 type = VarSet
-trigger1 = Var(59) = 0
 trigger1 = Time = 0
 sysvar(1) = 0
 
@@ -402,7 +401,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; AirJump Start
-; ¶ş¶ÎÌø
+; äºŒæ®µè·³
 [Statedef 46]
 type    = A
 physics = N
@@ -419,23 +418,20 @@ type = ChangeAnim
 trigger1 = !SelfAnimExist(44)
 value = 41
 
-[State 45, 3]
+[State 45, 4]
 type = VarSet
-trigger1 = Helper(97530),FVar(33) = 1
-trigger1 = Time = 0
-sysvar(1) = 0
+trigger1 = Backedgebodydist * 2 >= Frontedgebodydist
+sysvar(1) = -1
 
-[State 45, 6]
-type = VelSet
-trigger1 = Time = 2
-x = ifelse(sysvar(1)=0, const(velocity.airjump.neu.x), ifelse(sysvar(1)=1, const(velocity.airjump.fwd.x), const(velocity.airjump.back.x)))
-y = const(velocity.airjump.y)
+[State 45, 5]
+type = VarSet
+trigger1 = Backedgebodydist * 2 < Frontedgebodydist
+sysvar(1) = 1
 
 [State 45, 7]
 type = ChangeState
-trigger1 = Time = 2
-value = 50
-ctrl = 1
+trigger1 = 1
+value = 45
 
 ;---------------------------------------------------------------------------
 ; Jump Up
@@ -538,12 +534,13 @@ trigger2 = p2bodydist x <= (30+random/40) || Frontedgebodydist <= 10 || (inguard
 trigger2 = !(EnemyNear(Var(54)),Stateno = [5200,5220))
 trigger3 = Var(59) > 0
 trigger3 = (EnemyNear(Var(54)),Stateno = [150,160)) && (p2bodydist x < 12 || Helper(97530),FVar(34) = 3)
-trigger4 = Roundstate != 2
+trigger4 = Var(59) > 0
+trigger4 = Roundstate != 2 && (Backedgebodydist > 150 || P2bodydist X < 30)
 value = 0
-ctrl = 1
+ctrl = ifelse(var(59) > 0, 1, ctrl)
 
 ;---------------------------------------------------------------------------
-; RUN_FWD ×·»÷Ç°ÅÜ
+; RUN_FWD è¿½å‡»å‰è·‘
 [Statedef 101]
 type    = S
 physics = S
@@ -568,17 +565,18 @@ flag = NoAutoTurn
 [state 101, AI Ctrlset]
 type = Ctrlset
 trigger1 = Var(59) > 0
-value = ifelse((p2bodydist x > 15 || (Var(56) <= 0 && EnemyNear(Var(54)),Statetype != A && Helper(97530),FVar(34) > 0)), 0, 1)
+value = ifelse((p2bodydist x > 10 || (Var(56) <= 0 && EnemyNear(Var(54)),Statetype != A && Helper(97530),FVar(34) > 0)), 0, 1)
 
 [State 101, 4]
 type = ChangeState
 triggerall = stateno = 101
-triggerall = !(Var(56) = -1 && Helper(97530),FVar(10) = 12)
-trigger1 = ((p2bodydist x <= 5*(Helper(97530),FVar(33)!=5)*(Helper(97530),FVar(1)<9) || Frontedgebodydist <= 15) && (EnemyNear(Var(54)),Statetype = A || EnemyNear(Var(54)),Statetype = L)) 
+triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/20)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
+trigger1 = p2bodydist x <= 5 * (Helper(97530),FVar(33) != 5 && Helper(97530),FVar(1) < 9) || Frontedgebodydist <= 15
+trigger1 = EnemyNear(Var(54)),Statetype = A || EnemyNear(Var(54)),Statetype = L
 trigger1 = Helper(97530),FVar(10) != 5
 trigger2 = p2dist x <= 0 || Frontedgebodydist <= 5 || (EnemyNear(Var(54)),Stateno = 5120 && (EnemyNear(Var(54)),AnimTime > -3 || p2bodydist x < 50))
 trigger2 = Helper(97530),FVar(10) != 5
-trigger3 = Roundstate != 2
+trigger3 = Roundstate != 2 && (Backedgebodydist > 150 || P2bodydist X < 30)
 trigger4 = (EnemyNear(Var(54)),Stateno = [5200,5220)) && p2bodydist x < 15
 value = 0
 ctrl = 1
@@ -761,7 +759,7 @@ type = StateTypeSet
 trigger1 = Time = 0 && statetype = A
 physics = A
 
-[state 120£¬Hi to Lo]
+[state 120ï¼ŒHi to Lo]
 type = StateTypeSet
 triggerall = statetype = S
 triggerall = statetype != A
@@ -769,7 +767,7 @@ trigger1 = var(59) = 0
 trigger1 = command = "holddown"
 trigger2 = var(59) > 2 
 trigger2 = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))*(6-Var(59))) - 1) * 40) || (EnemyNear(Var(54)),Time > (6-Var(59))*(6-Var(59))*3/2) || Var(59) = 5
-trigger2 = p2statetype = C ;|| (p2statetype = S && random >= 750)  ;¶ÔÊÖ¶×ÏÂÊ±¶×·À£¬¶ÔÊÖÕ¾Á¢Ê±£¬25%¸ÅÂÊ¶×·À¡£
+trigger2 = p2statetype = C ;|| (p2statetype = S && random >= 750)  ;å¯¹æ‰‹è¹²ä¸‹æ—¶è¹²é˜²ï¼Œå¯¹æ‰‹ç«™ç«‹æ—¶ï¼Œ25%æ¦‚ç‡è¹²é˜²ã€‚
 trigger2 = !((Helper(97530),Var(15) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = C && Enemynear,Stateno != 0)
 trigger2 = !((Helper(97530),Var(16) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = C && Enemynear,Stateno != 0)
 trigger2 = !((Helper(97530),Var(17) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = C && Enemynear,Stateno != 0)
@@ -779,7 +777,7 @@ trigger2 = !((Floor(Helper(97530),Var(24)/1000) = Enemynear,Stateno) && p2statet
 statetype = C
 physics = C
 
-[state 120£¬Lo to Hi]
+[state 120ï¼ŒLo to Hi]
 type = StateTypeSet
 triggerall = statetype = C 
 triggerall = statetype != A
@@ -787,7 +785,7 @@ trigger1 = var(59) = 0
 trigger1 = command != "holddown"
 trigger2 = var(59) > 2 
 trigger2 = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))*(6-Var(59))) - 1) * 40) || (EnemyNear(Var(54)),Time > (6-Var(59))*(6-Var(59))*3/2) || Var(59) = 5
-trigger2 = p2statetype = A || p2statetype = S ;(p2statetype = S && random < 750)  ;¶ÔÊÖ¿ÕÖĞÊ±Á¢·À£¬¶ÔÊÖÕ¾Á¢Ê±£¬75%¸ÅÂÊÁ¢·À¡£
+trigger2 = p2statetype = A || p2statetype = S ;(p2statetype = S && random < 750)  ;å¯¹æ‰‹ç©ºä¸­æ—¶ç«‹é˜²ï¼Œå¯¹æ‰‹ç«™ç«‹æ—¶ï¼Œ75%æ¦‚ç‡ç«‹é˜²ã€‚
 trigger2 = !((Helper(97530),Var(15) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = S && Enemynear,Stateno != 0)
 trigger2 = !((Helper(97530),Var(16) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = S && Enemynear,Stateno != 0)
 trigger2 = !((Helper(97530),Var(17) = [Enemynear,Stateno*10,(Enemynear,Stateno+1)*10)) && p2statetype = S && Enemynear,Stateno != 0)
@@ -807,9 +805,9 @@ type = ChangeState
 trigger1 = var(59) = 0
 trigger1 = command != "holdback"
 trigger2 = !inguarddist
-trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;±»´ò±³Ê±²»³··À
+trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;è¢«æ‰“èƒŒæ—¶ä¸æ’¤é˜²
 trigger3 = var(59) > 2
-trigger3 = enemynear,hitdefattr = ,at ;¶ÔÊÖ³öÍ¶¼¼Ê±³··À
+trigger3 = enemynear,hitdefattr = ,at ;å¯¹æ‰‹å‡ºæŠ•æŠ€æ—¶æ’¤é˜²
 value = 140
 
 ;---------------------------------------------------------------------------
@@ -857,9 +855,9 @@ type = ChangeState
 trigger1 = var(59) = 0
 trigger1 = command != "holdback"
 trigger2 = !inguarddist
-trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;±»´ò±³Ê±²»³··À
+trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;è¢«æ‰“èƒŒæ—¶ä¸æ’¤é˜²
 trigger3 = var(59) > 2
-trigger3 = enemynear,hitdefattr = ,at ;¶ÔÊÖ³öÍ¶¼¼Ê±³··À
+trigger3 = enemynear,hitdefattr = ,at ;å¯¹æ‰‹å‡ºæŠ•æŠ€æ—¶æ’¤é˜²
 value = 140
 
 ;---------------------------------------------------------------------------
@@ -907,9 +905,9 @@ type = ChangeState
 trigger1 = var(59) = 0
 trigger1 = command != "holdback"
 trigger2 = !inguarddist
-trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;±»´ò±³Ê±²»³··À
+trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;è¢«æ‰“èƒŒæ—¶ä¸æ’¤é˜²
 trigger3 = var(59) > 2
-trigger3 = enemynear,hitdefattr = ,at ;¶ÔÊÖ³öÍ¶¼¼Ê±³··À
+trigger3 = enemynear,hitdefattr = ,at ;å¯¹æ‰‹å‡ºæŠ•æŠ€æ—¶æ’¤é˜²
 value = 140
 
 ;---------------------------------------------------------------------------
@@ -964,9 +962,9 @@ type = ChangeState
 trigger1 = var(59) = 0
 trigger1 = command != "holdback"
 trigger2 = !inguarddist
-trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;±»´ò±³Ê±²»³··À
+trigger2 = !(P2bodydist X < 60 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),p2dist x < 0) ;è¢«æ‰“èƒŒæ—¶ä¸æ’¤é˜²
 trigger3 = var(59) > 2
-trigger3 = enemynear,hitdefattr = ,at ;¶ÔÊÖ³öÍ¶¼¼Ê±³··À
+trigger3 = enemynear,hitdefattr = ,at ;å¯¹æ‰‹å‡ºæŠ•æŠ€æ—¶æ’¤é˜²
 value = 140
 
 ;---------------------------------------------------------------------------
