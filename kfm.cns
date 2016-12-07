@@ -2,19 +2,19 @@
 ; There are comments scattered through this file, so you may like to
 ; take a look if would like to learn more about the cns.
 
-; ‚±‚ê‚ÍKFM‚Ì’è”‚Æó‘Ô‚Ìƒtƒ@ƒCƒ‹‚Å‚·B
-; ‚±‚Ìƒtƒ@ƒCƒ‹‚Ì’†‚É‚Í’ß‚ªU‚ç‚³‚ê‚Ä‚¢‚é‚Ì‚ÅACNS‚ğK‚¢‚½‚¢‚¨•û‚Í
-; “Ç‚ñ‚Å‚İ‚½‚ç‚¢‚¢‚Å‚·B
+; å™å‚Ÿå¼KFMåºæ•æ‚¢å²å¿¬æ‡ºåºåƒ¼å‚½åƒ€å„–å±å¡ä¸…
+; å™åºåƒ¼å‚½åƒ€å„–åºæ‹åµå¼æ‹²åºå‘å¶¶å‚œåå‚Ÿå°å„å‚åºå±ä¸„CNSå‚ªå»—å„å¨å„åæ›½å¼
+; æ’‰å‚«å±å‚’å¨å‚œå„å„å±å¡ä¸…
 
 [Data]
 ;Amount of life to start with
-;‘Ì—ÍƒQ[ƒW‚Ì‰Šú’l
+;æ‡±æ¤¡åƒä¹•åƒ•åºå¼¶å©œæŠ£
 life = 1000
 ;attack power (more is stronger)
-;UŒ‚ƒ_ƒ[ƒW
+;å³Œå¯•åƒŸå„Šä¹•åƒ•
 attack = 100
 ;defensive power (more is stronger)
-;‘Ì—Íƒpƒ[
+;æ‡±æ¤¡åƒ·å„šä¹•
 defence = 100
 ;Percentage to increase defense everytime player is knocked down
 fall.defence_up = 50
@@ -89,7 +89,7 @@ crouch.friction = .82 ;Friction coefficient when crouching
 ;---------------------------------------------------------------------------
 ; Lose by Time Over
 ; CNS difficulty: basic
-; CNS ƒŒƒxƒ‹: Šî–{
+; CNS å„—å„€å„–: å©æ®
 [Statedef 170]
 type = S
 ctrl = 0
@@ -105,7 +105,7 @@ time = 1
 ;---------------------------------------------------------------------------
 ; Win state decider
 ; CNS difficulty: basic
-; CNS ƒŒƒxƒ‹: Šî–{
+; CNS å„—å„€å„–: å©æ®
 [Statedef 180]
 type = S
 
@@ -117,7 +117,7 @@ value = 181
 ;---------------------------------------------------------------------------
 ; Win pose 1 - Bow
 ; CNS difficulty: basic
-; CNS ƒŒƒxƒ‹: Šî–{
+; CNS å„—å„€å„–: å©æ®
 [Statedef 181]
 type = S
 ctrl = 0
@@ -133,7 +133,7 @@ time = 1
 ;---------------------------------------------------------------------------
 ; Introduction
 ; CNS difficulty: basic
-; CNS ƒŒƒxƒ‹: Šî–{
+; CNS å„—å„€å„–: å©æ®
 [Statedef 191]
 type = S
 ctrl = 0
@@ -157,8 +157,8 @@ value = 0
 
 ; You can delete the following two controllers if you're building your own
 ; character using KFM. These are the wood pieces that KFM kicks.
-; ‚±‚ê‚ªKFM‚ªR‚é–Ø‚Ì”Â‚Å‚·BKFM‚ÌCNS‚ğ‹M•û‚ÌƒLƒƒƒ‰‚É—˜—p‚µ‚Ä‚¢‚é‚È‚çA
-; ‰º‚É‚ ‚é“ñ‚Â‚ÌƒRƒ“ƒgƒƒ‰[‚ğÁ‚µ‚½‚ç‚¢‚¢‚Å‚·B
+; å™å‚Ÿå‘KFMå‘å»Ÿå‚æ ˜åºæ–…å±å¡ä¸…KFMåºCNSå‚ªå©±æ›½åºåƒ‰å„å„”åµæ£™æ¢¡åŸå°å„å‚å´å‚œä¸„
+; å£“åµåå‚æ“‡å®åºåƒå„åƒ©å„˜å„”ä¹•å‚ªå¾šåŸå¨å‚œå„å„å±å¡ä¸…
 [State 191, Wood 1]
 type = Explod
 trigger1 = RoundState != 0
@@ -511,13 +511,13 @@ ctrl = 1
 ;     air, because of the "M" in the guardflag, meaning it can only
 ;     be guarded "middle". The second hit has an "MA" guardflag, so
 ;     it can be guarded both on the ground and in the air.
-; CNS ƒŒƒxƒ‹: ˆÕ
-; Ú×: ‚±‚ê‚Í‰£‘Å‚ª“ñ”­‚ ‚éUŒ‚‚Å‚·B
-; ‰£‘Å‚Å‚«‚éƒAƒjƒ[ƒVƒ‡ƒ“‚Ì–‡‚ÍˆêXHitDef‚ğ“o˜^‚µ‚Ä‚¢‚Ü‚·B
-; ˆê”­–Ú‚ÌUŒ‚‚ÌHitDef‚É‚Íguardflag‚ªuMvimiddle’†’iƒK[ƒhj
-; ‚ÉƒZƒbƒg‚³‚ê‚Ä‚¢‚é‚Ì‚ÅA‘Šè‚Í‹ó’†‚ÅƒK[ƒh‚Å‚«‚Ü‚¹‚ñB“ñ”­–Ú
-; ‚ÌUŒ‚‚Ìguardflag‚ÍuMAvimiddle+air’†’i{‹ó’†ƒK[ƒhj‚ÅA
-; ’nãA‹ó’†‚Å‚àƒK[ƒh‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+; CNS å„—å„€å„–: å ˆ
+; å¾»åµ¶: å™å‚Ÿå¼å¢¸æ‡ªå‘æ“‡æ•ªåå‚å³Œå¯•å±å¡ä¸…
+; å¢¸æ‡ªå±å’å‚å‚¾åƒ¯å„Šä¹•åƒ”å„‘å„åºæƒå¼å ¦ä¹†HitDefå‚ªæŠæ¦åŸå°å„å‚‘å¡ä¸…
+; å ¦æ•ªæ šåºå³Œå¯•åºHitDefåµå¼guardflagå‘ä¹½Mä¹¿ä¹®middleäº–æ‹æŠœåƒˆä¹•åƒªä¹¯
+; åµåƒ™åƒ¢åƒ©åå‚Ÿå°å„å‚åºå±ä¸„æ†¡åº¤å¼å¬»æ‹å±åƒˆä¹•åƒªå±å’å‚‘å£å‚«ä¸…æ“‡æ•ªæ š
+; åºå³Œå¯•åºguardflagå¼ä¹½MAä¹¿ä¹®middle+airäº–æ‹æŠœäº„å¬»æ‹åƒˆä¹•åƒªä¹¯å±ä¸„
+; æŠ§å¿‹ä¸„å¬»æ‹å±å‚•åƒˆä¹•åƒªå¡å‚å™å²å‘å±å’å‚‘å¡ä¸…
 [Statedef 410]
 type    = C
 movetype= A
@@ -631,8 +631,8 @@ ctrl = 1
 ;     animation as he falls. Also, the hitflag parameter in the HitDef
 ;     is set to "MAFD". The "D" indicates that a downed opponent can be
 ;     hit by the attack.
-; CNS ƒŒƒxƒ‹: ˆÕ
-; Ú×:
+; CNS å„—å„€å„–: å ˆ
+; å¾»åµ¶:
 [Statedef 440]
 type    = C
 movetype= A
@@ -2878,73 +2878,72 @@ ctrl = 1
 
 ;[AI helper]
 
-
-
-
 ;---------------------------------------------------------------------------
 old
 ;---------------------------------------------------------------------------
-;AI helper(97530) ±äÁ¿±í£º
+;AI helper(97530) å˜é‡è¡¨ï¼š
 ;
-;Var(0 ~ 4) = ¶Ô·½ÉÁ±Ü¼ÇÂ¼
-;Var(5 ~ 9) = ¶Ô·½ÎŞµĞ´ò»÷¼¼¼ÇÂ¼
-;Var(10 ~ 14) = ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼ +++
-;Var(15 ~ 18) = ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼
-;Var(19 ~ 22) = ²»¿É¿Õ·À¼¼¼ÇÂ¼
-;Var(23 ~ 24) = P2statenoÆÆ·À¼¼¼°Ê±¼ä¼ÇÂ¼ +++
-;Var(25 ~ 29) = °¼±ØÉ±²»³É¹¦¼ÇÂ¼
+;Var(0 ~ 4) = å¯¹æ–¹é—ªé¿è®°å½•
+;Var(5 ~ 9) = å¯¹æ–¹æ— æ•Œæ‰“å‡»æŠ€è®°å½•
+;Var(10 ~ 14) = å¯¹æ–¹ä¸å¯æŠ•è®°å½• +++
+;Var(15 ~ 18) = ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•
+;Var(19 ~ 22) = ä¸å¯ç©ºé˜²æŠ€è®°å½•
+;Var(23 ~ 24) = P2statenoç ´é˜²æŠ€åŠæ—¶é—´è®°å½• +++
+;Var(25 ~ 29) = å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•
 ;......
-;Var(45 ~ 49) = ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼
+;Var(45 ~ 49) = è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•
 ;......
-;FVar(0) = Æğ¹¥±»°¼Ïà¹Ø
-;FVar(1) = ÉıÁú¡¢·ÉÌß»òÇáÕÆ±»ÊÜÉíÏà¹Ø
-;FVar(2) = ÈıÁ¬ÕÆ±»ÊÜÉíÏà¹Ø
-;FVar(3) = µØÃæ×·»÷Ïà¹Ø
+;FVar(0) = èµ·æ”»è¢«å‡¹ç›¸å…³
+;FVar(1) = å‡é¾™ã€é£è¸¢æˆ–è½»æŒè¢«å—èº«ç›¸å…³
+;FVar(2) = ä¸‰è¿æŒè¢«å—èº«ç›¸å…³
+;FVar(3) = åœ°é¢è¿½å‡»ç›¸å…³
 ;......
-;FVar(10) = ÌØÊâÕĞÊı»÷ÖĞÏà¹Ø +++
-;FVar(11) = ÎŞÏŞÁ¬´ÎÊı
+;FVar(10) = ç‰¹æ®Šæ‹›æ•°å‡»ä¸­ç›¸å…³ +++
+;FVar(11) = æ— é™è¿æ¬¡æ•°
 ;......
-;FVar(23) = ¶Ô·½Ä¦²ÁÏµÊı +++
-;FVar(24) = ¶Ô·½³£ÓÃÆğÊÖ¹¥»÷ÀàĞÍ¼ÇÂ¼
-;FVar(25) = ¶ÔÊÖ³¬±ØÉ±Power¼ÇÂ¼
+;FVar(21) = å¯¹æ–¹ä¸‹è½é€Ÿåº¦è®°å½• +++
+;FVar(22) = å¯¹æ–¹åœ°é¢å—èº«è®°å½• +++
+;FVar(23) = å¯¹æ–¹æ‘©æ“¦ç³»æ•° +++
+;FVar(24) = å¯¹æ–¹å¸¸ç”¨èµ·æ‰‹æ”»å‡»ç±»å‹è®°å½•
+;FVar(25) = å¯¹æ‰‹è¶…å¿…æ€Powerè®°å½•
 ;FVar(26) = 
-;FVar(28) = ÌôĞÆ´ÎÊı
-;FVar(29) = ¶ÔÊÖÆğÉíÊ±¼äÓë¶ÔÊÖµ¹µØÊ±¼ä
-;FVar(30) = ÓÎÏ·¼ÆÊ±
-;FVar(31) = Ã¿Ö¡ÓÃRandom±äÁ¿
-;FVar(32) = ¹¥»÷ÓÃRandom±äÁ¿
-;FVar(33) = ÌØÊâÈËÎï¶Ô²ß
-;FVar(34) = ¶ÔÊÖµÄ·ÀÓùÓ²Ö±ºÍÊÜ´´Ó²Ö±ËùÊ£Ê±¼ä¼ÇÂ¼
-;FVar(35) = ¶ÔÊÖ·Ç¹¥»÷×´Ì¬Ê±µÄhelperÊı¼ÇÂ¼
-;FVar(36) = ¿ÕÖĞÌøÔ¾´ÎÊı
-;FVar(37) = juggle¼ÆËã
-;FVar(38) = Ë«·½ÆğÉíºóÎŞµĞÊ±¼ä
-;FVar(39) = ¶ÔÊÖ±ØÉ±Í¶¡¢ÎŞµĞÒÆ¶¯¼¼µÈ¸÷ÖÖ¾¯½ä¼°ÌØÊâÇé¿ö£¨¶ş½øÖÆ£©
+;FVar(28) = æŒ‘è¡…æ¬¡æ•°
+;FVar(29) = å¯¹æ‰‹èµ·èº«æ—¶é—´ä¸å¯¹æ‰‹å€’åœ°æ—¶é—´
+;FVar(30) = æ¸¸æˆè®¡æ—¶
+;FVar(31) = æ¯å¸§ç”¨Randomå˜é‡
+;FVar(32) = æ”»å‡»ç”¨Randomå˜é‡
+;FVar(33) = ç‰¹æ®Šäººç‰©å¯¹ç­–
+;FVar(34) = å¯¹æ‰‹çš„é˜²å¾¡ç¡¬ç›´å’Œå—åˆ›ç¡¬ç›´æ‰€å‰©æ—¶é—´è®°å½•
+;FVar(35) = å¯¹æ‰‹éæ”»å‡»çŠ¶æ€æ—¶çš„helperæ•°è®°å½•
+;FVar(36) = ç©ºä¸­è·³è·ƒæ¬¡æ•°
+;FVar(37) = juggleè®¡ç®—
+;FVar(38) = åŒæ–¹èµ·èº«åæ— æ•Œæ—¶é—´
+;FVar(39) = å¯¹æ‰‹å¿…æ€æŠ•ã€æ— æ•Œç§»åŠ¨æŠ€ç­‰å„ç§è­¦æˆ’åŠç‰¹æ®Šæƒ…å†µï¼ˆäºŒè¿›åˆ¶ï¼‰
 
 ;---------------------------------------------------------------------------
-;AI helper(97531) ±äÁ¿±í£º
+;AI helper(97531) å˜é‡è¡¨ï¼š
 ;
-;Var(0 ~ 25) = ¶Ô·½atk³öÕĞ±àºÅ¼ÇÂ¼
-;Var(26 ~ 30) = ¶Ô·½proj/helper³öÕĞ±àºÅ¼ÇÂ¼
-;Var(31 ~ 35) = ¶Ô·½throw³öÕĞ±àºÅ¼ÇÂ¼
-;Var(36 ~ 39) = ¶Ô·½³¬±ØÉ±atk³öÕĞ±àºÅ¼ÇÂ¼
-;Var(40 ~ 44) = ¶Ô·½µ±Éí¼ÇÂ¼
+;Var(0 ~ 25) = å¯¹æ–¹atkå‡ºæ‹›ç¼–å·è®°å½•
+;Var(26 ~ 30) = å¯¹æ–¹proj/helperå‡ºæ‹›ç¼–å·è®°å½•
+;Var(31 ~ 35) = å¯¹æ–¹throwå‡ºæ‹›ç¼–å·è®°å½•
+;Var(36 ~ 39) = å¯¹æ–¹è¶…å¿…æ€atkå‡ºæ‹›ç¼–å·è®°å½•
+;Var(40 ~ 44) = å¯¹æ–¹å½“èº«è®°å½•
 ;...
-;Var(51 ~ 57) = ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼
-;Var(58) = ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿
-;Var(59) = ¶Ô·½projÊıÄ¿¼ÇÂ¼
+;Var(51 ~ 57) = å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•
+;Var(58) = å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡
+;Var(59) = å¯¹æ–¹projæ•°ç›®è®°å½•
 ;......
-;FVar(0 ~ 25) = ¶Ô·½atk³öÕĞÊ±¼ä¼ÇÂ¼
-;FVar(26 ~ 30) = ¶Ô·½proj/helper³öÕĞÊ±¼ä¼ÇÂ¼
-;FVar(31 ~ 35) = ¶Ô·½throw³öÕĞÊ±¼ä¼ÇÂ¼
-;FVar(36 ~ 39) = ¶Ô·½³¬±ØÉ±atk³öÕĞÊ±¼ä¼ÇÂ¼
+;FVar(0 ~ 25) = å¯¹æ–¹atkå‡ºæ‹›æ—¶é—´è®°å½•
+;FVar(26 ~ 30) = å¯¹æ–¹proj/helperå‡ºæ‹›æ—¶é—´è®°å½•
+;FVar(31 ~ 35) = å¯¹æ–¹throwå‡ºæ‹›æ—¶é—´è®°å½•
+;FVar(36 ~ 39) = å¯¹æ–¹è¶…å¿…æ€atkå‡ºæ‹›æ—¶é—´è®°å½•
 
 ;---------------------------------------------------------------------------
-;AI helper(97534) ±äÁ¿±í£º
+;AI helper(97534) å˜é‡è¡¨ï¼š
 ;
-;Var(0 ~ 25) = ¶Ô·½atk³öÕĞ²»¿É»÷ÖĞ¾àÀë¼ÇÂ¼
+;Var(0 ~ 25) = å¯¹æ–¹atkå‡ºæ‹›ä¸å¯å‡»ä¸­è·ç¦»è®°å½•
 ;......
-;FVar(0 ~ 25) = ¶Ô·½atk³öÕĞ×î¿ì»÷ÖĞÊ±¼ä
+;FVar(0 ~ 25) = å¯¹æ–¹atkå‡ºæ‹›æœ€å¿«å‡»ä¸­æ—¶é—´
 
 
 ;===========================================================================
@@ -2956,12 +2955,12 @@ ctrl = 0
 [State 97530, nothitby]
 type=nothitby
 trigger1= 1
-value = sca   ;±£ÏÕÆğ¼û¼Ó¸öÎŞµĞ¡£ÓĞÊ±ºòÄ³Ğ©ÈËÎïÖĞÁË¶ÔÊÖµÄÈ«ÆÁ´óÕĞ£¬»á¶à³öÒ»¸ö·ÖÉíÀ´¾ÍÊÇÒòÎªai helperÒ²±»»÷ÖĞ£¬±»´òµ½ÆÁÄ»ÄÚÁË¡£
+value = sca   ;ä¿é™©èµ·è§åŠ ä¸ªæ— æ•Œã€‚æœ‰æ—¶å€™æŸäº›äººç‰©ä¸­äº†å¯¹æ‰‹çš„å…¨å±å¤§æ‹›ï¼Œä¼šå¤šå‡ºä¸€ä¸ªåˆ†èº«æ¥å°±æ˜¯å› ä¸ºai helperä¹Ÿè¢«å‡»ä¸­ï¼Œè¢«æ‰“åˆ°å±å¹•å†…äº†ã€‚
 
-[State 97530,égß`¤¤¤Ç±¾Ìå¤¬À´¤¿¤éÁ¢¤Á¤ØÒÆĞĞ]
+[State 97530,é–“é•ã„ã§æœ¬ä½“ãŒæ¥ãŸã‚‰ç«‹ã¡ã¸ç§»è¡Œ]
 type=selfstate
 trigger1=!ishelper
-value=0       ;±£ÏÕ£¬Èç¹û¸ã´íÁË²»ÊÇhelper¶øÊÇ±¾ÌåµÄ»°£¬¾Í×ªµ½state 0
+value=0       ;ä¿é™©ï¼Œå¦‚æœæé”™äº†ä¸æ˜¯helperè€Œæ˜¯æœ¬ä½“çš„è¯ï¼Œå°±è½¬åˆ°state 0
 
 [State 97530]
 Type = AssertSpecial
@@ -2985,7 +2984,7 @@ V = 0
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼0]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = (Enemynear(Root,Var(54)), PrevStateno <= 160) && (Enemynear(Root,Var(54)), Stateno >= 200)
@@ -3006,7 +3005,7 @@ value = Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼ reset]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½• reset]
 type = Varset
 triggerall = Var(1) != 0
 trigger1 = Enemynear(Root,Var(54)),Stateno = Var(1)
@@ -3015,7 +3014,7 @@ V = 1
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼1]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½•1]
 type = Varset
 triggerall = Var(1) = 0
 trigger1 = Var(0) != 0
@@ -3024,7 +3023,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼ reset]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½• reset]
 type = Varset
 triggerall = Var(2) != 0
 trigger1 = Enemynear(Root,Var(54)),Stateno = Var(2)
@@ -3033,7 +3032,7 @@ V = 2
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼2]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½•2]
 type = Varset
 triggerall = Var(2) = 0
 trigger1 = Var(0) != 0
@@ -3043,7 +3042,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼ reset]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½• reset]
 type = Varset
 triggerall = Var(3) != 0
 trigger1 = Enemynear(Root,Var(54)),Stateno = Var(3)
@@ -3052,7 +3051,7 @@ V = 3
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼3]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½•3]
 type = Varset
 triggerall = Var(3) = 0
 trigger1 = Var(0) != 0
@@ -3063,7 +3062,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼ reset]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½• reset]
 type = Varset
 triggerall = Var(4) != 0
 trigger1 = Enemynear(Root,Var(54)),Stateno = Var(4)
@@ -3072,7 +3071,7 @@ V = 4
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü¼ÇÂ¼4]
+[State 97530, å¯¹æ–¹é—ªé¿è®°å½•4]
 type = Varset
 triggerall = Var(4) = 0
 trigger1 = Var(0) != 0
@@ -3094,7 +3093,7 @@ V = 5
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼0]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 Triggerall = Enemynear(Root,Var(54)),Movetype != H && Enemynear(Root,Var(54)),Stateno >= 700
@@ -3107,7 +3106,7 @@ V = 5
 value = Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼0]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 Triggerall = Enemynear(Root,Var(54)),Movetype != H && Enemynear(Root,Var(54)),Stateno >= 700
@@ -3121,7 +3120,7 @@ value = Enemynear(Root,Var(54)),PrevStateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼1]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•1]
 type = Varset
 triggerall = Var(6) = 0
 trigger1 = Var(5) != 0
@@ -3130,7 +3129,7 @@ Value = Var(5)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼2]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•2]
 type = Varset
 triggerall = Var(7) = 0
 trigger1 = Var(5) != 0
@@ -3140,7 +3139,7 @@ Value = Var(5)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼3]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•3]
 type = Varset
 triggerall = Var(8) = 0
 trigger1 = Var(5) != 0
@@ -3151,7 +3150,7 @@ Value = Var(5)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½ÎŞµĞ¹¥»÷¼¼¼ÇÂ¼4]
+[State 97530, å¯¹æ–¹æ— æ•Œæ”»å‡»æŠ€è®°å½•4]
 type = Varset
 triggerall = Var(9) = 0
 trigger1 = Var(5) != 0
@@ -3171,7 +3170,7 @@ V = 10
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼ÅĞ¶¨ÖĞ0]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•åˆ¤å®šä¸­0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(10) = 0
@@ -3185,7 +3184,7 @@ V = 10
 value = -Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼0]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(10) < 0
@@ -3200,7 +3199,7 @@ value = Abs(Var(10))
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼1]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•1]
 type = Varset
 triggerall = Var(11) = 0
 trigger1 = Var(10) > 0
@@ -3209,7 +3208,7 @@ Value = Var(10)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼2]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•2]
 type = Varset
 triggerall = Var(48) = 0
 trigger1 = Var(10) > 0
@@ -3219,7 +3218,7 @@ Value = Var(10)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼3]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•3]
 type = Varset
 triggerall = Var(13) = 0
 trigger1 = Var(10) > 0
@@ -3230,7 +3229,7 @@ Value = Var(10)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½²»¿ÉÍ¶¼ÇÂ¼4]
+[State 97530, å¯¹æ–¹ä¸å¯æŠ•è®°å½•4]
 type = Varset
 triggerall = Var(14) = 0
 trigger1 = Var(10) > 0
@@ -3242,7 +3241,7 @@ Value = Var(10)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼ Reset]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½• Reset]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3255,19 +3254,19 @@ V = 15
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼1]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•1]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
 triggerall = Var(15) = 0
 triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
 trigger1 = Root,PrevStateno = [120,160) 
-trigger1 = Root,Movetype = H && (Root,Stateno != [120,160))
+trigger1 = Root,Statetype != A && Root,Movetype = H && (Root,Stateno != [120,160))
 V = 15
 value = Enemynear(Root,Var(54)),Stateno*10
 IgnoreHitPause = 1
 
-[State 97530, Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼1]
+[State 97530, ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•1]
 Type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3281,7 +3280,7 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼ Reset]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½• Reset]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3294,7 +3293,7 @@ V = 16
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼2]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•2]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3302,12 +3301,12 @@ triggerall = Floor(Var(15)/10) != Enemynear(Root,Var(54)),Stateno
 triggerall = Var(16) = 0
 triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
 trigger1 = Root,PrevStateno = [120,160) 
-trigger1 = Root,Movetype = H && (Root,Stateno != [120,160))
+trigger1 = Root,Statetype != A && Root,Movetype = H && (Root,Stateno != [120,160))
 V = 16
 value = Enemynear(Root,Var(54)),Stateno*10
 IgnoreHitPause = 1
 
-[State 97530, Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼2]
+[State 97530, ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•2]
 Type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3321,7 +3320,7 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼ Reset]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½• Reset]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3334,7 +3333,7 @@ V = 17
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼3]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•3]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3343,12 +3342,12 @@ triggerall = Floor(Var(16)/10) != Enemynear(Root,Var(54)),Stateno
 triggerall = Var(17) = 0
 triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
 trigger1 = Root,PrevStateno = [120,160) 
-trigger1 = Root,Movetype = H && (Root,Stateno != [120,160))
+trigger1 = Root,Statetype != A && Root,Movetype = H && (Root,Stateno != [120,160))
 V = 17
 value = Enemynear(Root,Var(54)),Stateno*10
 IgnoreHitPause = 1
 
-[State 97530, Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼3]
+[State 97530, ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•3]
 Type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3362,7 +3361,7 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼ Reset]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½• Reset]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3375,7 +3374,7 @@ V = 18
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÆÆ·À¼¼/Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼4]
+[State 97530, ç ´é˜²æŠ€/ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•4]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3385,12 +3384,12 @@ triggerall = Floor(Var(17)/10) != Enemynear(Root,Var(54)),Stateno
 triggerall = Var(18) = 0
 triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
 trigger1 = Root,PrevStateno = [120,160) 
-trigger1 = Root,Movetype = H && (Root,Stateno != [120,160))
+trigger1 = Root,Statetype != A && Root,Movetype = H && (Root,Stateno != [120,160))
 V = 18
 value = Enemynear(Root,Var(54)),Stateno*10
 IgnoreHitPause = 1
 
-[State 97530, Õ¾Á¢ÏÂ¶Î/ÏÂ¶×ÖĞ¶Î¼ÇÂ¼4]
+[State 97530, ç«™ç«‹ä¸‹æ®µ/ä¸‹è¹²ä¸­æ®µè®°å½•4]
 Type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno != 0
@@ -3404,10 +3403,65 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-;Var(19 ~ 22) = ²»¿É¿Õ·À¼¼
+[State 97530, ä¸å¯ç©ºé˜²æŠ€è®°å½•1]
+Type = VarSet
+triggerall = Root,Var(59) = 5
+triggerall = Enemynear(Root,Var(54)),Stateno != 0
+triggerall = Var(19) = 0
+triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
+trigger1 = Root,PrevStateno = [120,160) 
+trigger1 = Root,Statetype = A && Root,Movetype = H && (Root,Stateno != [120,160))
+V = 19
+value = Enemynear(Root,Var(54)),Stateno
+IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼1 ½øÈë·ÀÓù×´Ì¬]
+[State 97530, ä¸å¯ç©ºé˜²æŠ€è®°å½•2]
+Type = VarSet
+triggerall = Root,Var(59) = 5
+triggerall = Enemynear(Root,Var(54)),Stateno != 0
+triggerall = Floor(Var(19)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Var(20) = 0
+triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
+trigger1 = Root,PrevStateno = [120,160) 
+trigger1 = Root,Statetype = A && Root,Movetype = H && (Root,Stateno != [120,160))
+V = 20
+value = Enemynear(Root,Var(54)),Stateno
+IgnoreHitPause = 1
+
+;---------------------------------------------------------------------------
+[State 97530, ä¸å¯ç©ºé˜²æŠ€è®°å½•3]
+Type = VarSet
+triggerall = Root,Var(59) = 5
+triggerall = Enemynear(Root,Var(54)),Stateno != 0
+triggerall = Floor(Var(19)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Floor(Var(20)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Var(21) = 0
+triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
+trigger1 = Root,PrevStateno = [120,160) 
+trigger1 = Root,Statetype = A && Root,Movetype = H && (Root,Stateno != [120,160))
+V = 21
+value = Enemynear(Root,Var(54)),Stateno
+IgnoreHitPause = 1
+
+;---------------------------------------------------------------------------
+[State 97530, ä¸å¯ç©ºé˜²æŠ€è®°å½•4]
+Type = VarSet
+triggerall = Root,Var(59) = 5
+triggerall = Enemynear(Root,Var(54)),Stateno != 0
+triggerall = Floor(Var(19)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Floor(Var(20)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Floor(Var(21)/10) != Enemynear(Root,Var(54)),Stateno
+triggerall = Var(22) = 0
+triggerall = Enemynear,Movetype = A && (Enemynear,Movecontact || (!Enemynear,Movecontact&&(Enemynear,Numhelper>0||(Enemynear,Projhit = 1))))
+trigger1 = Root,PrevStateno = [120,160) 
+trigger1 = Root,Statetype = A && Root,Movetype = H && (Root,Stateno != [120,160))
+V = 22
+value = Enemynear(Root,Var(54)),Stateno
+IgnoreHitPause = 1
+
+;---------------------------------------------------------------------------
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•1 è¿›å…¥é˜²å¾¡çŠ¶æ€]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(23) <= 0
@@ -3417,7 +3471,7 @@ V = 23
 value = -Enemynear(Root,Var(54)),Stateno * 1000
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼1]
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•1]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(23) < 0
@@ -3428,7 +3482,7 @@ V = 23
 value = Abs(Var(23))
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼Ê±¼ä¼ÇÂ¼1]
+[State 97530, P2statenoç ´é˜²æŠ€æ—¶é—´è®°å½•1]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(23) > 0
@@ -3437,7 +3491,7 @@ V = 23
 Value  = Var(23) + ifelse(Enemynear(Root,Var(54)),Time > 999, 999, Enemynear(Root,Var(54)),Time)
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼1 Reset]
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•1 Reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(23) < 0
@@ -3450,7 +3504,7 @@ value = 0
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼2 ½øÈë·ÀÓù×´Ì¬]
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•2 è¿›å…¥é˜²å¾¡çŠ¶æ€]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(24) <= 0
@@ -3461,7 +3515,7 @@ V = 24
 value = -Enemynear(Root,Var(54)),Stateno * 1000
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼2]
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•2]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(24) < 0
@@ -3473,7 +3527,7 @@ V = 24
 value = Abs(Var(24))
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼Ê±¼ä¼ÇÂ¼2]
+[State 97530, P2statenoç ´é˜²æŠ€æ—¶é—´è®°å½•2]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(24) > 0
@@ -3482,7 +3536,7 @@ V = 24
 Value  = Var(24) + ifelse(Enemynear(Root,Var(54)),Time > 999, 999, Enemynear(Root,Var(54)),Time)
 IgnoreHitPause = 1
 
-[State 97530, P2statenoÆÆ·À¼¼¼ÇÂ¼2 Reset]
+[State 97530, P2statenoç ´é˜²æŠ€è®°å½•2 Reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(24) < 0
@@ -3504,7 +3558,7 @@ V = 25
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼0]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(25) = 0
@@ -3514,7 +3568,7 @@ V = 25
 value = -Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
 
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼0 È·ÈÏ]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•0 ç¡®è®¤]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(25) < 0
@@ -3526,7 +3580,7 @@ value = abs(Var(25))
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼1]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•1]
 type = Varset
 triggerall = Var(26) = 0
 trigger1 = Var(25) >= 200
@@ -3535,7 +3589,7 @@ Value = Var(25)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼2]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•2]
 type = Varset
 triggerall = Var(27) = 0
 trigger1 = Var(25) >= 200
@@ -3545,7 +3599,7 @@ Value = Var(25)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼3]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•3]
 type = Varset
 triggerall = Var(28) = 0
 trigger1 = Var(25) >= 200
@@ -3556,7 +3610,7 @@ Value = Var(25)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, °¼±ØÉ±²»³É¹¦¼ÇÂ¼4]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸè®°å½•4]
 type = Varset
 triggerall = Var(29) = 0
 trigger1 = Var(25) >= 200
@@ -3578,7 +3632,7 @@ V = 45
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÌøÔ¾±ÜÏÂ¶Î¿ªÊ¼¼ÇÂ¼0]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¼€å§‹è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(45) = 0
@@ -3589,7 +3643,7 @@ V = 45
 value = -Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
 
-[State 97530, ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼0]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(45) < 0
@@ -3600,7 +3654,7 @@ value = abs(Var(45))
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼1]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•1]
 type = Varset
 triggerall = Var(46) = 0
 trigger1 = Var(45) >= 200
@@ -3609,7 +3663,7 @@ Value = Var(45)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼2]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•2]
 type = Varset
 triggerall = Var(47) = 0
 trigger1 = Var(45) >= 200
@@ -3619,7 +3673,7 @@ Value = Var(45)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼3]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•3]
 type = Varset
 triggerall = Var(48) = 0
 trigger1 = Var(45) >= 200
@@ -3630,7 +3684,7 @@ Value = Var(45)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌøÔ¾±ÜÏÂ¶ÎÊ§°Ü¼ÇÂ¼4]
+[State 97530, è·³è·ƒé¿ä¸‹æ®µå¤±è´¥è®°å½•4]
 type = Varset
 triggerall = Var(24) = 0
 trigger1 = Var(45) >= 200
@@ -3642,7 +3696,7 @@ Value = Var(45)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ³õÊ¼/Æğ¹¥³É¹¦ Reset]
+[State 97530, åˆå§‹/èµ·æ”»æˆåŠŸ Reset]
 type = VarSet
 trigger1 = FVar(0) < 0
 trigger1 = Root,Stateno = 200 || Root,Stateno = 230 || Root,Stateno = 400 || Root,Stateno = 430
@@ -3652,7 +3706,7 @@ FV = 0
 value = 1
 IgnoreHitPause = 1
 
-[State 97530, Æğ¹¥³É¹¦/±»·ÀÓù/ÉÁ±Ü Reset]
+[State 97530, èµ·æ”»æˆåŠŸ/è¢«é˜²å¾¡/é—ªé¿ Reset]
 type = VarSet
 triggerall = FVar(0) < 0
 trigger1 = Root,Stateno = 200 || Root,Stateno = 230 || Root,Stateno = 400 || Root,Stateno = 430
@@ -3663,7 +3717,7 @@ FV = 0
 value = -FVar(0)
 IgnoreHitPause = 1
 
-[State 97530, Æğ¹¥ÖĞ]
+[State 97530, èµ·æ”»ä¸­]
 type = VarSet
 triggerall = FVar(0) > 0 && FVar(0) < 9
 Triggerall = Enemynear(Root,Var(54)),Stateno = 5120 && Enemynear(Root,Var(54)),AnimTime > -5 && Enemynear(Root,Var(54)),Vel X = 0
@@ -3676,7 +3730,7 @@ FV = 0
 value = -FVar(0)
 IgnoreHitPause = 1
 
-[State 97530, Æğ¹¥±»°¼1´Î]
+[State 97530, èµ·æ”»è¢«å‡¹1æ¬¡]
 type = VarSet
 triggerall = FVar(0) = -1
 trigger1 = Root,Movetype = H
@@ -3685,7 +3739,7 @@ FV = 0
 value = 2
 IgnoreHitPause = 1
 
-[State 97530, Æğ¹¥±»°¼2´Î]
+[State 97530, èµ·æ”»è¢«å‡¹2æ¬¡]
 type = VarSet
 triggerall = FVar(0) = -2
 trigger1 = Root,Movetype = H
@@ -3694,7 +3748,7 @@ FV = 0
 value = 9
 IgnoreHitPause = 1
 
-[State 97530, Æğ¹¥±»°¼¼ì²â ¶ÔÊÖÎŞ±ä¸ü]
+[State 97530, èµ·æ”»è¢«å‡¹æ£€æµ‹ å¯¹æ‰‹æ— å˜æ›´]
 type = VarSet
 Trigger1 = Roundstate = 1
 trigger1 = Root,Var(57) = Enemynear(Root,Var(54)),ID
@@ -3703,19 +3757,19 @@ value = (Root,Var(58)%10)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÉıÁú»òÇáÕÆ±»ÊÜÉí Reset]
+[State 97530, å‡é¾™æˆ–è½»æŒè¢«å—èº« Reset]
 type = VarSet
-trigger1 = FVar(1) = 1 && Var(59) != 5
+trigger1 = FVar(1) = 1 && FVar(10) != 5
 trigger1 = Root,PrevStateno < 160 && (Root,Stateno = [1100,1120)) && Root,AnimElemTime(4) = 1 && Root,Movehit
 trigger1 = Enemynear(Root,Var(54)),Statetype = A && Enemynear(Root,Var(54)),Movetype = H
-trigger2 = FVar(1) = 9 && Var(59) = 6
+trigger2 = FVar(1) = 9 && FVar(10) = 6
 trigger2 = Root,Stateno = 400 && Root,Movehit
 trigger2 = Enemynear(Root,Var(54)),Statetype = A && Enemynear(Root,Var(54)),Movetype = H
 FV = 1
-value = ifelse((Var(1) = 9), 1, 0)
+value = ifelse((FVar(1) = 9), 1, 0)
 IgnoreHitPause = 1
 
-[State 97530, ÉıÁú»òÇáÕÆ¿ªÊ¼]
+[State 97530, å‡é¾™æˆ–è½»æŒå¼€å§‹]
 type = VarSet
 triggerall = FVar(1) = 1
 trigger1 = ((Root,Stateno = 1000 && Root,AnimElemTime(7) < 1) || ((Root,Stateno = [1100,1120)) && Root,AnimElemTime(4) < 1) || (Root,Stateno = 200 && Root,AnimElemTime(4) < 1))
@@ -3724,7 +3778,7 @@ FV = 1
 value = -1
 IgnoreHitPause = 1
 
-[State 97530, ÉıÁú»òÇáÕÆ±»ÊÜÉí]
+[State 97530, å‡é¾™æˆ–è½»æŒè¢«å—èº«]
 type = VarSet
 triggerall = FVar(1) <= 0
 trigger1 = ((Root,Stateno = 1000 && Root,AnimElemTime(7) < 1) || ((Root,Stateno = [1100,1120)) && Root,AnimElemTime(4) < 1) || (Root,Stateno = 200 && Root,AnimElemTime(4) < 1 && FVar(1) < 0))
@@ -3733,7 +3787,7 @@ FV = 1
 value = ifelse(!FVar(1), 1, 9)
 IgnoreHitPause = 1
 
-[State 97530, ÉıÁú»òÇáÕÆ±»ÊÜÉí ·ÇRoundstate2]
+[State 97530, å‡é¾™æˆ–è½»æŒè¢«å—èº« éRoundstate2]
 type = VarSet
 triggerall = FVar(1) < 0
 trigger1 = Roundstate != 2
@@ -3741,7 +3795,7 @@ FV = 1
 value = Abs(FVar(1))
 IgnoreHitPause = 1
 
-[State 97530, ÉıÁú»òÇáÕÆ±»ÊÜÉíÏà¹Ø ¶ÔÊÖÎŞ±ä¸ü]
+[State 97530, å‡é¾™æˆ–è½»æŒè¢«å—èº«ç›¸å…³ å¯¹æ‰‹æ— å˜æ›´]
 type = VarSet
 Trigger1 = Roundstate = 1
 trigger1 = Root,Var(57) = Enemynear(Root,Var(54)),ID
@@ -3750,7 +3804,7 @@ value = ((Root,Var(58)%100)-(Root,Var(58)%10))/10
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÈıÁ¬ÕÆ²»±»ÊÜÉí Reset]
+[State 97530, ä¸‰è¿æŒä¸è¢«å—èº« Reset]
 type = VarSet
 triggerall = FVar(2) = 1
 trigger1 = (Root,Stateno = [3000,3050)) && Root,AnimElemTime(7) <= 1 && Root,Movehit
@@ -3759,7 +3813,7 @@ FV = 2
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÈıÁ¬ÕÆ±»ÊÜÉí1´Î]
+[State 97530, ä¸‰è¿æŒè¢«å—èº«1æ¬¡]
 type = VarSet
 triggerall = FVar(2) = 0
 trigger1 = (Root,Stateno = [3000,3050)) && Root,AnimElemTime(7) <= 1
@@ -3768,7 +3822,7 @@ FV = 2
 value = 1
 IgnoreHitPause = 1
 
-[State 97530, ÈıÁ¬ÕÆ±»ÊÜÉí2´Î ²»¿ÉÁ¬]
+[State 97530, ä¸‰è¿æŒè¢«å—èº«2æ¬¡ ä¸å¯è¿]
 type = VarSet
 triggerall = FVar(2) = 1
 trigger1 = (Root,Stateno = [3000,3050)) && Root,AnimElemTime(7) <= 1
@@ -3777,7 +3831,7 @@ FV = 2
 value = 9
 IgnoreHitPause = 1
 
-[State 97530, ÈıÁ¬ÕÆ±»ÊÜÉíÏà¹Ø ¶ÔÊÖÎŞ±ä¸ü]
+[State 97530, ä¸‰è¿æŒè¢«å—èº«ç›¸å…³ å¯¹æ‰‹æ— å˜æ›´]
 type = VarSet
 Trigger1 = Roundstate = 1
 trigger1 = Root,Var(57) = Enemynear(Root,Var(54)),ID
@@ -3786,7 +3840,7 @@ value = ((Root,Var(58)%1000)-(Root,Var(58)%100))/100
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, µØÃæ×·»÷Ïà¹Ø Reset]
+[State 97530, åœ°é¢è¿½å‡»ç›¸å…³ Reset]
 type = VarSet
 triggerall = FVar(3) > 0 && FVar(3) < 9
 trigger1 = (Enemynear(Root,Var(54)),Stateno = [5120,5130)) || (Enemynear(Root,Var(54)),Stateno = [5200,5220)) || (Enemynear(Root,Var(54)),Movetype = A) || Enemynear(Root,Var(54)),Stateno < 200
@@ -3795,7 +3849,7 @@ FV = 3
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, µØÃæ×·»÷¿ÉÄÜ]
+[State 97530, åœ°é¢è¿½å‡»å¯èƒ½]
 type = VarSet
 triggerall = FVar(3) = 0
 trigger1 = (Root,Stateno = [3000,3050)) && Root,Movehit && Root,AnimElemTime(23) < 0 && Enemynear(Root,Var(54)),Statetype = A
@@ -3804,7 +3858,7 @@ FV = 3
 value = 1
 IgnoreHitPause = 1
 
-[State 97530, µØÃæ×·»÷]
+[State 97530, åœ°é¢è¿½å‡»]
 type = VarSet
 trigger1 = FVar(3) = 1
 trigger1 = (Enemynear(Root,Var(54)),Stateno = [5100,5120))
@@ -3813,7 +3867,7 @@ FV = 3
 value = 2
 IgnoreHitPause = 1
 
-[State 97530, µØÃæ×·»÷±»ÊÜÉí]
+[State 97530, åœ°é¢è¿½å‡»è¢«å—èº«]
 type = VarSet
 trigger1 = FVar(3) = 2
 trigger1 = (Root,Stateno = [430,450)) && Root,Time < 10
@@ -3822,7 +3876,7 @@ FV = 3
 value = 9
 IgnoreHitPause = 1
 
-[State 97530, µØÃæ×·»÷Ïà¹Ø ¶ÔÊÖÎŞ±ä¸ü]
+[State 97530, åœ°é¢è¿½å‡»ç›¸å…³ å¯¹æ‰‹æ— å˜æ›´]
 type = VarSet
 Trigger1 = Roundstate = 1
 trigger1 = Root,Var(57) = Enemynear(Root,Var(54)),ID
@@ -3831,7 +3885,7 @@ value = ((Root,Var(58)%10000)-(Root,Var(58)%1000))/1000
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌØÊâÕĞÊı»÷ÖĞ Reset]
+[State 97530, ç‰¹æ®Šæ‹›æ•°å‡»ä¸­ Reset]
 type = VarSet
 triggerall = FVar(10) > 0
 trigger1 = Enemynear(Root,Var(54)),Movetype != H
@@ -3842,21 +3896,21 @@ FV = 10
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ³¬ÉıÁú»÷ÖĞ]
+[State 97530, è¶…å‡é¾™å‡»ä¸­]
 type = VarSet
 trigger1 = Root,Stateno = 3050 && Root,movehit
 FV = 10
 Value = 1
 IgnoreHitPause = 1
 
-[State 97530, ³¬ÈıÁ¬ÕÆ»÷ÖĞ]
+[State 97530, è¶…ä¸‰è¿æŒå‡»ä¸­]
 type = VarSet
 trigger1 = Root,Stateno = 3000 && Root,movehit
 FV = 10
 Value = 1
 IgnoreHitPause = 1
 
-[State 97530, Í¶¼¼»÷ÖĞ]
+[State 97530, æŠ•æŠ€å‡»ä¸­]
 type = VarSet
 trigger1 = Root,Stateno = 810
 trigger1 = Abs(helper(97532),RootDist X) < 100 || Abs(helper(97533),RootDist X) < 100
@@ -3864,7 +3918,7 @@ FV = 10
 Value = 3
 IgnoreHitPause = 1
 
-[State 97530, ¿ìÕÆ»÷ÖĞ]
+[State 97530, å¿«æŒå‡»ä¸­]
 type = VarSet
 trigger1 = Root,Stateno = 1020 && Root,movehit
 trigger1 = (Enemynear(Root,Var(54)),Stateno = [1025,1028]) && Enemynear(Root,Var(54)),Movetype = H
@@ -3872,7 +3926,7 @@ FV = 10
 Value = 4
 IgnoreHitPause = 1
 
-[State 97530, Çá/ÖØÉıÁú»÷ÖĞ1]
+[State 97530, è½»/é‡å‡é¾™å‡»ä¸­1]
 type = VarSet
 triggerall = FVar(10) = 4
 trigger1 = (Root,Stateno = [1100,1120)) && Root,movehit && Root,AnimElemTime(4) <= 1 && Enemynear(Root,Var(54)),Movetype = H
@@ -3880,32 +3934,47 @@ FV = 10
 Value = 5
 IgnoreHitPause = 1
 
-[State 97530, Çá/ÖØÉıÁú»÷ÖĞ2]
+[State 97530, è½»/é‡å‡é¾™å‡»ä¸­2]
 type = VarSet
 trigger1 = (Root,Stateno = [1100,1120)) && Root,movehit && Root,AnimElemTime(8) > 0 && Enemynear(Root,Var(54)),Movetype = H
 FV = 10
 Value = 6
 IgnoreHitPause = 1
 
-[State 97530, Çá/ÖØÏ¥»÷ÖĞ]
+[State 97530, è½»/é‡è†å‡»ä¸­]
 type = VarSet
 trigger1 = ((Root,Stateno = [1050,1051]) || (Root,Stateno = [1060,1061])) && Root,movehit && Enemynear(Root,Var(54)),Movetype = H
 FV = 10
 Value = 7
 IgnoreHitPause = 1
 
-[State 97530, µ¹µØ×·»÷»÷ÖĞ]
+[State 97530, å¿«å‡é¾™å‡»ä¸­]
+type = VarSet
+trigger1 = Root,Stateno =  1120 && Root,movehit && Root,AnimElemTime(8) > 0 && Enemynear(Root,Var(54)),Movetype = H
+FV = 10
+Value = 8
+IgnoreHitPause = 1
+
+[State 97530, å€’åœ°è¿½å‡»å‡»ä¸­]
 type = VarSet
 trigger1 = (Root,Stateno = [430,450)) && Root,movehit && EnemyNear(Var(54)),Statetype = L && Enemynear(Root,Var(54)),Movetype = H
 FV = 10
 Value = 11
 IgnoreHitPause = 1
 
-[State 97530, ¶×ÇáÈ­»÷ÖĞ]
+[State 97530, è¹²è½»æ‹³ç©ºä¸­å‡»ä¸­]
 type = VarSet
 trigger1 = Root,Stateno = 400 && Root,movehit && EnemyNear(Var(54)),Statetype = A && Enemynear(Root,Var(54)),Movetype = H
 FV = 10
 Value = 12
+IgnoreHitPause = 1
+
+[State 97530, è¹²è½»æ‹³ç©ºä¸­å‡»ä¸­åå…¶ä»–æ‹›å¼å‡»ä¸­]
+type = VarSet
+triggerall = FVar(10) = 12
+trigger1 = Root,Stateno != 400 && Root,movehit && EnemyNear(Var(54)),Statetype = A && Enemynear(Root,Var(54)),Movetype = H
+FV = 10
+Value = 13
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
@@ -3920,17 +3989,17 @@ FV = 11
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÎŞÏŞÁ¬»÷ÖĞ´ÎÊı]
+[State 97530, æ— é™è¿å‡»ä¸­æ¬¡æ•°]
 type = VarAdd
 triggerall = Root,Time >= 1
-Triggerall = Enemynear(Root,Var(54)),Statetype != A
+;Triggerall = Enemynear(Root,Var(54)),Statetype != A
 trigger1 = Root,Stateno = 400 && Root,Movehit && Enemynear(Root,Var(54)),time = 1
 trigger2 = (Root,Stateno = [600,640]) && Root,PrevStateno = 600 && Root,Movehit = 2 
 trigger2 = EnemyNear(Var(54)),Statetype = S && FVar(33) = 12
 FV = 11
 value = 10
 
-[State 97530, ¶×ÇáÈ­±»·ÀÓù´ÎÊı]
+[State 97530, è¹²è½»æ‹³è¢«é˜²å¾¡æ¬¡æ•°]
 type = VarAdd
 triggerall = Root,Time >= 1
 Triggerall = Root,Moveguarded && Enemynear(Root,Var(54)),time = 1
@@ -3941,7 +4010,32 @@ value = -1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½Ä¦²ÁÏµÊı]
+[State 97530, å¯¹æ–¹ä¸‹è½é€Ÿåº¦è®°å½• reset]
+type = VarSet
+triggerall = FVar(20) > -999
+trigger1 = Enemynear(Root,Var(54)),Statetype != A
+FV = 21
+Value = -999
+
+[State 97530, å¯¹æ–¹ä¸‹è½é€Ÿåº¦è®°å½•]
+type = VarSet
+trigger1 = Enemynear(Root,Var(54)),Statetype = A
+FV = 21
+Value = ifelse((Enemynear(Root,Var(54)),Vel Y=FVar(20)),999,(Enemynear(Root,Var(54)),Vel Y))
+
+;---------------------------------------------------------------------------
+[State 97530, å¯¹æ–¹åœ°é¢å—èº«è®°å½•]
+type = VarSet
+triggerall = Enemynear(Root,Var(54)),Pos Y = 0
+trigger1 = Enemynear(Root,Var(54)),Stateno = [5200,5201]
+trigger2 = (Enemynear(Root,Var(54)),Stateno != [5050,5220]) && Enemynear(Root,Var(54)),PrevStateno = 5050
+trigger3 = (Enemynear(Root,Var(54)),Stateno != [5050,5220]) && (Enemynear(Root,Var(54)),PrevStateno = [5070,5080))
+trigger4 = (Enemynear(Root,Var(54)),Stateno != [5050,5220]) && (Enemynear(Root,Var(54)),PrevStateno = [5100,5120))
+FV = 22
+Value = Enemynear(Root,Var(54)),Stateno
+
+;---------------------------------------------------------------------------
+[State 97530, å¯¹æ–¹æ‘©æ“¦ç³»æ•°]
 type = VarSet
 Trigger1 = 1
 FV = 23
@@ -3949,7 +4043,7 @@ Value = ifelse((EnemyNear(Var(54)),Statetype = S),(EnemyNear(Var(54)),Const(move
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶Ô·½³£ÓÃÆğÊÖ¹¥»÷ÀàĞÍ¼ÇÂ¼ ´ò»÷¼¼]
+[State 97530, å¯¹æ–¹å¸¸ç”¨èµ·æ‰‹æ”»å‡»ç±»å‹è®°å½• æ‰“å‡»æŠ€]
 type = VarAdd
 Triggerall = Enemynear(Root,Var(54)),Movetype = A
 Triggerall = FVar(24) >= 0 ;&& (ceil(FVar(24)) % 1000 < 999
@@ -3959,7 +4053,7 @@ FV = 24
 Value = 1
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½³£ÓÃÆğÊÖ¹¥»÷ÀàĞÍ¼ÇÂ¼ ·ÉĞĞµÀ¾ß]
+[State 97530, å¯¹æ–¹å¸¸ç”¨èµ·æ‰‹æ”»å‡»ç±»å‹è®°å½• é£è¡Œé“å…·]
 type = VarAdd
 Triggerall = Enemynear(Root,Var(54)),Movetype = A
 Triggerall = FVar(24) >= 0 ;&& (ceil(FVar(24)) % 1000000 < 999000
@@ -3969,7 +4063,7 @@ FV = 24
 Value = 1000
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½³£ÓÃÆğÊÖ¹¥»÷ÀàĞÍ¼ÇÂ¼ Í¶¼¼]
+[State 97530, å¯¹æ–¹å¸¸ç”¨èµ·æ‰‹æ”»å‡»ç±»å‹è®°å½• æŠ•æŠ€]
 type = VarAdd
 Triggerall = Enemynear(Root,Var(54)),Movetype = A
 Triggerall = FVar(24) >= 0 ;&& (ceil(FVar(24)) % 1000000000 < 999000000
@@ -3979,7 +4073,7 @@ FV = 24
 Value = 1000000
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½³£ÓÃÆğÊÖ¹¥»÷ÀàĞÍ¼ÇÂ¼ ÊÇ·ñÒÑÆğÊÖ]
+[State 97530, å¯¹æ–¹å¸¸ç”¨èµ·æ‰‹æ”»å‡»ç±»å‹è®°å½• æ˜¯å¦å·²èµ·æ‰‹]
 type = null; VarSet
 Trigger1 = FVar(24) < 0
 Trigger1 = ((Root,ctrl || Root,Stateno < 150) && Root,Movetype != A) && ((Enemynear(Root,Var(54)),ctrl || Enemynear(Root,Var(54)),Stateno < 160) && Enemynear(Root,Var(54)),Movetype != A)
@@ -3990,7 +4084,7 @@ Value = -FVar(24)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶ÔÊÖ³¬±ØÉ±Power¼ÇÂ¼]
+[State 97530, å¯¹æ‰‹è¶…å¿…æ€Powerè®°å½•]
 type = VarSet
 Trigger1 = Enemynear(Root,Var(54)),Movetype != A
 Trigger2 = Enemynear(Root,Var(54)),Movetype = A && (Enemynear(Root,Var(54)),Time >= (Enemynear(Root,Var(54)),Time - Enemynear(Root,Var(54)),AnimTime) * 3 / 4)
@@ -4011,7 +4105,7 @@ FV = 28
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÂôÃÈ/Ê¤ÀûºóÌôĞÆ´ÎÊı]
+[State 97530, å–èŒ/èƒœåˆ©åæŒ‘è¡…æ¬¡æ•°]
 type = VarAdd
 triggerall = Root,Stateno = 195 && Root,Time = 1
 trigger1 = Roundstate = 2
@@ -4021,21 +4115,21 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶ÔÊÖµ¹µØÊ±¼äÀÛ»ı]
+[State 97530, å¯¹æ‰‹å€’åœ°æ—¶é—´ç´¯ç§¯]
 type = VarAdd
 trigger1 = Enemynear(Root,Var(54)),Stateno = 5110 && (Floor(FVar(29))%1000) = 0
 FV = 29
 value = -1
 IgnoreHitPause = 1
 
-[State 97530, ¶ÔÊÖµ¹µØÊ±¼ä¼ÇÂ¼]
+[State 97530, å¯¹æ‰‹å€’åœ°æ—¶é—´è®°å½•]
 type = VarSet
 trigger1 = Enemynear(Root,Var(54)),Stateno != 5110 && Enemynear(Root,Var(54)),PrevStateno = 5110 && FVar(29) < 0
 FV = 29
 value = Abs(FVar(29))
 IgnoreHitPause = 1
 
-[State 97530, ¶ÔÊÖÆğÉíÊ±¼ä]
+[State 97530, å¯¹æ‰‹èµ·èº«æ—¶é—´]
 type = VarSet
 trigger1 = Enemynear(Root,Var(54)),Stateno = 5120 && Enemynear(Root,Var(54)),Vel X = 0
 trigger1 = Abs(Enemynear(Root,Var(54)),AnimTime) > Floor(FVar(29)/1000)
@@ -4052,7 +4146,7 @@ FV = 30
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ÓÎÏ·¼ÆÊ±]
+[State 97530, æ¸¸æˆè®¡æ—¶]
 type = VarAdd
 trigger1 = Roundstate = 2 || (Roundstate = 1 && Root,Movetype = H)
 FV = 30
@@ -4060,7 +4154,7 @@ value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, Ã¿Ö¡ÓÃRandom±äÁ¿]
+[State 97530, æ¯å¸§ç”¨Randomå˜é‡]
 type = VarSet
 Trigger1 = 1
 FV = 31
@@ -4068,7 +4162,7 @@ Value = Random
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¹¥»÷ÓÃRandom±äÁ¿]
+[State 97530, æ”»å‡»ç”¨Randomå˜é‡]
 type = VarSet
 Trigger1 = FVar(32) = 0
 Trigger2 = FVar(33) != 2
@@ -4081,7 +4175,7 @@ Value = Random
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ÌØÊâÈËÎï¶Ô²ß Reset]
+[State 97530, ç‰¹æ®Šäººç‰©å¯¹ç­– Reset]
 type = VarSet
 triggerall = FVar(33) != 0
 trigger1 = Enemynear(Root,Var(54)),Name != "mechhisuiex"
@@ -4093,14 +4187,14 @@ trigger1 = !(Enemynear(Root,Var(54)),Name = "Mr.HEART" && (Enemynear(Root,Var(54
 trigger1 = !(Enemynear(Root,Var(54)),Name = "judgment" && Enemynear(Root,Var(54)),Authorname = "kishio")
 trigger1 = !(Enemynear(Root,Var(54)),Name = "justice" && Enemynear(Root,Var(54)),Authorname = "muteki")
 trigger1 = !(Enemynear(Root,Var(54)),Name = "Tin's fdeath" && Enemynear(Root,Var(54)),Authorname = "Tin")
-trigger1 = !(Enemynear(Root,Var(54)),Name = "Sanzou_Kongoumaru" && Enemynear(Root,Var(54)),Authorname = "‡H")
+trigger1 = !(Enemynear(Root,Var(54)),Name = "Sanzou_Kongoumaru" && Enemynear(Root,Var(54)),Authorname = "å˜“")
 trigger1 = !(Enemynear(Root,Var(54)),Name = "ruili" && Enemynear(Root,Var(54)),Authorname = "kayui uma")
 trigger1 = !(Enemynear(Root,Var(54)),Name = "Gi Gi" && Enemynear(Root,Var(54)),Authorname = "Trasgo7")
 FV = 33
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, SMH¶Ô²ß1]
+[State 97530, SMHå¯¹ç­–1]
 type = VarSet
 triggerall = FVar(33) < 1
 trigger1 = Enemynear(Root,Var(54)),Name = "mechhisuiex"
@@ -4109,7 +4203,7 @@ FV = 33
 Value = 1
 IgnoreHitPause = 1
 
-[State 97530, SMH¶Ô²ß2]
+[State 97530, SMHå¯¹ç­–2]
 type = VarSet
 triggerall = FVar(33) < 2
 trigger1 = Enemynear(Root,Var(54)),Name = "mechhisuiex"
@@ -4118,7 +4212,7 @@ FV = 33
 Value = 2
 IgnoreHitPause = 1
 
-[State 97530, SMH¶Ô²ß3]
+[State 97530, SMHå¯¹ç­–3]
 type = VarSet
 triggerall = FVar(33) < 3 
 trigger1 = Enemynear(Root,Var(54)),Name = "mechhisuiex"
@@ -4127,7 +4221,7 @@ FV = 33
 Value = 3
 IgnoreHitPause = 1
 
-[State 97530, SMH¶Ô²ß4]
+[State 97530, SMHå¯¹ç­–4]
 type = VarSet
 triggerall = FVar(33) < 4
 trigger1 = Enemynear(Root,Var(54)),Name = "mechhisuiex"
@@ -4136,7 +4230,7 @@ FV = 33
 Value = 4
 IgnoreHitPause = 1
 
-[State 97530, ºÚ¹í¶Ô²ß1]
+[State 97530, é»‘é¬¼å¯¹ç­–1]
 type = VarSet
 triggerall = FVar(33) = 0
 trigger1 = Enemynear(Root,Var(54)),Name = "elque"
@@ -4144,7 +4238,7 @@ FV = 33
 Value = 5
 IgnoreHitPause = 1
 
-[State 97530, KFM¾¯½ä]
+[State 97530, KFMè­¦æˆ’]
 type = VarSet
 triggerall = FVar(33) = 0
 trigger1 = Enemynear(Root,Var(54)),Name = "Kung Fu Man"
@@ -4152,7 +4246,7 @@ FV = 33
 Value = 11
 IgnoreHitPause = 1
 
-[State 97530, ËÆ·Ç¿ÕÈĞ¶Ô²ß]
+[State 97530, ä¼¼éç©ºåˆƒå¯¹ç­–]
 type = VarSet
 triggerall = FVar(33) = 0
 trigger1 = EnemyNear(Var(54)),Const(size.head.pos.y) < -135
@@ -4161,7 +4255,7 @@ trigger3 = Enemynear(Root,Var(54)),Name = "Mr.HEART" && (Enemynear(Root,Var(54))
 trigger4 = Enemynear(Root,Var(54)),Name = "judgment" && Enemynear(Root,Var(54)),Authorname = "kishio"
 trigger5 = Enemynear(Root,Var(54)),Name = "justice" && Enemynear(Root,Var(54)),Authorname = "muteki"
 trigger6 = Enemynear(Root,Var(54)),Name = "Tin's fdeath" && Enemynear(Root,Var(54)),Authorname = "Tin"
-trigger7 = Enemynear(Root,Var(54)),Name = "Sanzou_Kongoumaru" && Enemynear(Root,Var(54)),Authorname = "‡H"
+trigger7 = Enemynear(Root,Var(54)),Name = "Sanzou_Kongoumaru" && Enemynear(Root,Var(54)),Authorname = "å˜“"
 trigger8 = Enemynear(Root,Var(54)),Name = "ruili" && Enemynear(Root,Var(54)),Authorname = "kayui uma"
 trigger9 = Enemynear(Root,Var(54)),Name = "Gi Gi" && Enemynear(Root,Var(54)),Authorname = "Trasgo7"
 FV = 33
@@ -4169,7 +4263,7 @@ Value = 12
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¼ÇÂ¼¶ÔÊÖµÄ·ÀÓùÓ²Ö±ºÍÊÜ´´Ó²Ö±ËùÊ£Ê±¼ä]
+[State 97530, è®°å½•å¯¹æ‰‹çš„é˜²å¾¡ç¡¬ç›´å’Œå—åˆ›ç¡¬ç›´æ‰€å‰©æ—¶é—´]
 type=varadd
 trigger1 = FVar(34) > 0
 FV = 34
@@ -4184,7 +4278,7 @@ FV = 34
 Value = 0
 ignorehitpause = 1
 
-[State 97530,¥¬©`¥ÉÓ²Ö±]
+[State 97530,ã‚¬ãƒ¼ãƒ‰ç¡¬ç›´]
 type = varset
 triggerall = Enemynear(Root,Var(54)),movetype = H
 triggerall = Enemynear(Root,Var(54)),stateno < 200
@@ -4196,7 +4290,7 @@ FV = 34
 Value = Enemynear(Root,Var(54)),gethitvar(ctrltime)+Enemynear(Root,Var(54)),gethitvar(hitshaketime)+1
 ignorehitpause=1
 
-[State 97530,¥¬©`¥ÉÓ²Ö±]
+[State 97530,ã‚¬ãƒ¼ãƒ‰ç¡¬ç›´]
 type = varset
 triggerall = Enemynear(Root,Var(54)),movetype = H
 triggerall = Enemynear(Root,Var(54)),stateno < 200
@@ -4208,7 +4302,7 @@ FV = 34
 Value = ifelse(Enemynear(Root,Var(54)),gethitvar(ctrltime)<Enemynear(Root,Var(54)),gethitvar(hittime),Enemynear(Root,Var(54)),gethitvar(ctrltime),Enemynear(Root,Var(54)),gethitvar(hittime))+Enemynear(Root,Var(54)),gethitvar(hitshaketime)+1
 ignorehitpause = 1
 
-[State 97530,¤Î¤±¤¾¤êÊ±¼ä]
+[State 97530,ã®ã‘ãã‚Šæ—¶é—´]
 type = varset
 triggerall = Enemynear(Root,Var(54)),movetype = H
 triggerall = Enemynear(Root,Var(54)),stateno >= 200
@@ -4219,7 +4313,7 @@ FV = 34
 Value = Enemynear(Root,Var(54)),gethitvar(hittime)+Enemynear(Root,Var(54)),gethitvar(hitshaketime)+1
 ignorehitpause=1
 
-[State 97530,ÊÜÉí²»ÄÜÊ±¼ä]
+[State 97530,å—èº«ä¸èƒ½æ—¶é—´]
 type = varset
 triggerall = Enemynear(Root,Var(54)),stateno >= 200
 triggerall = Enemynear(Root,Var(54)),movetype = H
@@ -4231,7 +4325,7 @@ FV = 34
 Value = Enemynear(Root,Var(54)),gethitvar(fall.recovertime)-1
 ignorehitpause = 1
 
-[State 97530,ÊÜÉí²»ÄÜÊ±¼ä]
+[State 97530,å—èº«ä¸èƒ½æ—¶é—´]
 type = varset
 triggerall = numenemy >= 2
 triggerall = Enemynear(Root,Var(54)),stateno >= 200
@@ -4243,7 +4337,7 @@ FV = 34
 Value = Enemynear(Root,Var(54)),gethitvar(fall.recovertime)-100
 ignorehitpause = 1
 
-[State 97530,ÊÜÉí²»ÄÜÊ±¼ä]
+[State 97530,å—èº«ä¸èƒ½æ—¶é—´]
 type =varset
 triggerall = Enemynear(Root,Var(54)),stateno >= 200
 triggerall = Enemynear(Root,Var(54)),movetype = H
@@ -4256,7 +4350,7 @@ Value = 999
 ignorehitpause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, ¶ÔÊÖ·Ç¹¥»÷×´Ì¬Ê±µÄhelperÊı¼ÇÂ¼]
+[State 97530, å¯¹æ‰‹éæ”»å‡»çŠ¶æ€æ—¶çš„helperæ•°è®°å½•]
 type = VarSet
 trigger1 = Roundstate = 2
 trigger1 = Enemynear(Root,Var(54)),ctrl = 1
@@ -4276,13 +4370,13 @@ IgnoreHitPause = 1
 [State 97530, Reset]
 type = VarSet
 triggerall = FVar(36) != 0
-trigger1 = Root,Statetype = S
+trigger1 = Root,Statetype != A
 trigger2 = Root,Movetype = H
 FV = 36
 Value = 0
 IgnoreHitPause = 1
 
-[State 97530, ¿ÕÖĞÌøÔ¾´ÎÊı]
+[State 97530, ç©ºä¸­è·³è·ƒæ¬¡æ•°]
 type = VarAdd
 trigger1 = Root,Stateno = 45 && Root,time = 1
 FV = 36
@@ -4290,7 +4384,7 @@ Value = 1
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97530, juggle¼ÆËã Reset]
+[State 97530, juggleè®¡ç®— Reset]
 type = VarSet
 triggerall = FVar(37) != Const(data.airjuggle)
 trigger1 = Enemynear(Root,Var(54)),Movetype = A
@@ -4420,15 +4514,14 @@ IgnoreHitPause = 1
 ;Triggerall = Enemynear(Root,Var(54)),gethitvar(fall)
 
 ;---------------------------------------------------------------------------
-[State 97530,¶ÔÊÖÎ´ÆğÉí]
+[State 97530,å¯¹æ‰‹æœªèµ·èº«]
 type = VarSet
-trigger1 = Floor(FVar(38)) % 1000 = 0
 trigger1 = Enemynear(Root,Var(54)),Statetype = L
 FV = 38
-value = FVar(38) + 12
+value = Floor(FVar(38) / 1000) * 1000 + 12
 IgnoreHitPause = 1
 
-[State 97530,¶ÔÊÖÆğÉíºóÎŞµĞÊ±¼ä¼ÆËã]
+[State 97530,å¯¹æ‰‹èµ·èº«åæ— æ•Œæ—¶é—´è®¡ç®—]
 type = VarAdd
 trigger1 = Floor(FVar(38)) % 1000 > 0
 trigger1 = Enemynear(Root,Var(54)),Statetype != L
@@ -4436,15 +4529,14 @@ FV = 38
 value = -1
 IgnoreHitPause = 1
 
-[State 97530,ÎÒ·½Î´ÆğÉí]
+[State 97530,æˆ‘æ–¹æœªèµ·èº«]
 type = VarSet
-trigger1 = Floor(FVar(38) / 1000) = 0
 trigger1 = Root,Statetype = L
 FV = 38
-value = FVar(38) + 12000
+value = Floor(FVar(38)) % 1000 + 12000
 IgnoreHitPause = 1
 
-[State 97530,ÎÒ·½ÆğÉíºóÎŞµĞÊ±¼ä¼ÆËã]
+[State 97530,æˆ‘æ–¹èµ·èº«åæ— æ•Œæ—¶é—´è®¡ç®—]
 type = VarAdd
 trigger1 = Floor(FVar(38) / 1000) > 0
 trigger1 = Root,Statetype != L
@@ -4460,7 +4552,7 @@ FV = 39
 value = 0
 IgnoreHitPause = 1
 
-[State 97530, ±ØÉ±Í¶¾¯½ä Check]
+[State 97530, å¿…æ€æŠ•è­¦æˆ’ Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 trigger1 = Enemynear(Root,Var(54)),Stateno = 4000
@@ -4477,7 +4569,7 @@ FV = 39
 value = 2**0
 IgnoreHitPause = 1
 
-[State 97530, ÎŞµĞÒÆ¶¯¼¼¾¯½ä Check]
+[State 97530, æ— æ•Œç§»åŠ¨æŠ€è­¦æˆ’ Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 trigger1 = Enemynear(Root,Var(54)),Stateno=[1800,1810)
@@ -4488,7 +4580,7 @@ FV = 39
 value = 2**1
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÉÁ±Ü Check]
+[State 97530, å¯¹æ–¹é—ªé¿ Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4500,7 +4592,7 @@ FV = 39
 value = 2**2
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½ÎŞµĞ´ò»÷¼¼ Check]
+[State 97530, å¯¹æ–¹æ— æ•Œæ‰“å‡»æŠ€ Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4512,7 +4604,7 @@ FV = 39
 value = 2**3
 IgnoreHitPause = 1
 
-[State 97530, ¶Ô·½Í¶¼¼ Check]
+[State 97530, å¯¹æ–¹æŠ•æŠ€ Check]
 type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4525,7 +4617,7 @@ FV = 39
 value = 2**4
 IgnoreHitPause = 1
 
-[State 97530, ÏÂ¶×¶ã±Ü¹¥»÷ Check]
+[State 97530, ä¸‹è¹²èº²é¿æ”»å‡» Check]
 type = VarAdd
 triggerall = Root,Var(59) = 5
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4539,7 +4631,7 @@ FV = 39
 value = 2**5
 IgnoreHitPause = 1
 
-[State 97530, °¼±ØÉ±²»³É¹¦ Check]
+[State 97530, å‡¹å¿…æ€ä¸æˆåŠŸ Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4551,7 +4643,7 @@ FV = 39
 value = 2**6
 IgnoreHitPause = 1
 
-[State 97530, ²»¿ÉÍ¶ Check]
+[State 97530, ä¸å¯æŠ• Check]
 type = VarAdd
 triggerall = Root,Var(59) > 3
 triggerall = Enemynear(Root,Var(54)),Stateno >= 200
@@ -4573,12 +4665,12 @@ ctrl = 0
 [State 97531, nothitby]
 type=nothitby
 trigger1= 1
-value = sca   ;±£ÏÕÆğ¼û¼Ó¸öÎŞµĞ¡£ÓĞÊ±ºòÄ³Ğ©ÈËÎïÖĞÁË¶ÔÊÖµÄÈ«ÆÁ´óÕĞ£¬»á¶à³öÒ»¸ö·ÖÉíÀ´¾ÍÊÇÒòÎªai helperÒ²±»»÷ÖĞ£¬±»´òµ½ÆÁÄ»ÄÚÁË¡£
+value = sca   ;ä¿é™©èµ·è§åŠ ä¸ªæ— æ•Œã€‚æœ‰æ—¶å€™æŸäº›äººç‰©ä¸­äº†å¯¹æ‰‹çš„å…¨å±å¤§æ‹›ï¼Œä¼šå¤šå‡ºä¸€ä¸ªåˆ†èº«æ¥å°±æ˜¯å› ä¸ºai helperä¹Ÿè¢«å‡»ä¸­ï¼Œè¢«æ‰“åˆ°å±å¹•å†…äº†ã€‚
 
-[State 97531,égß`¤¤¤Ç±¾Ìå¤¬À´¤¿¤éÁ¢¤Á¤ØÒÆĞĞ]
+[State 97531,é–“é•ã„ã§æœ¬ä½“ãŒæ¥ãŸã‚‰ç«‹ã¡ã¸ç§»è¡Œ]
 type=selfstate
 trigger1=!ishelper
-value=0       ;±£ÏÕ£¬Èç¹û¸ã´íÁË²»ÊÇhelper¶øÊÇ±¾ÌåµÄ»°£¬¾Í×ªµ½state 0
+value=0       ;ä¿é™©ï¼Œå¦‚æœæé”™äº†ä¸æ˜¯helperè€Œæ˜¯æœ¬ä½“çš„è¯ï¼Œå°±è½¬åˆ°state 0
 
 [State 97531]
 Type = AssertSpecial
@@ -4603,17 +4695,13 @@ V = 0
 value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½atk³öÕĞ±àºÅ¼ÇÂ¼0]
+[State 97531, å¯¹æ–¹atkå‡ºæ‹›ç¼–å·è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(0) = 0
 triggerall = (Enemynear(Root,Var(54)), Stateno >= 200) ; && (Enemynear(Root,Var(54)), PrevStateno <= 160)
 Trigger1 = Enemynear(Root,Var(54)),Movetype = A
 Trigger1 = Enemynear(Root,Var(54)),hitdefattr = sca,aa,at
-Trigger1 = !(Root,Stateno = 1401 && Enemynear(Root,Var(54)),Stateno = 1402)
-Trigger1 = !(Root,Stateno = 1450 && Enemynear(Root,Var(54)),Stateno = 1456)
-Trigger1 = !(Root,Stateno = 1416 && Enemynear(Root,Var(54)),Stateno = 1417)
-Trigger1 = !(Root,Stateno = 4404 && Enemynear(Root,Var(54)),Stateno = 4406)
 V = 0
 value = Enemynear(Root,Var(54)),Stateno
 IgnoreHitPause = 1
@@ -4630,7 +4718,7 @@ FV = 0
 value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½atk³öÕĞÊ±¼ä¼ÇÂ¼0]
+[State 97531, å¯¹æ–¹atkå‡ºæ‹›æ—¶é—´è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 trigger1 = Var(0) != 0
@@ -4639,7 +4727,7 @@ value = Enemynear(Root,Var(54)),Time
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼1]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•1]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(1) = 0
@@ -4649,7 +4737,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼2]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•2]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(2) = 0
@@ -4660,7 +4748,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼3]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•3]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(3) = 0
@@ -4672,7 +4760,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼4]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•4]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(4) = 0
@@ -4685,7 +4773,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼5]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•5]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(5) = 0
@@ -4699,7 +4787,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼6]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•6]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(6) = 0
@@ -4714,7 +4802,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼7]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•7]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(7) = 0
@@ -4730,7 +4818,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼8]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•8]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(8) = 0
@@ -4747,7 +4835,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼9]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•9]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(9) = 0
@@ -4765,7 +4853,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼10]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•10]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(10) = 0
@@ -4784,7 +4872,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼11]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•11]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(11) = 0
@@ -4804,7 +4892,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼12]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•12]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(12) = 0
@@ -4825,7 +4913,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼13]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•13]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(13) = 0
@@ -4847,7 +4935,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼14]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•14]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(14) = 0
@@ -4870,7 +4958,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼15]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•15]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(15) = 0
@@ -4894,7 +4982,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼16]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•16]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(16) = 0
@@ -4919,7 +5007,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼17]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•17]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(17) = 0
@@ -4945,7 +5033,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼18]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•18]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(18) = 0
@@ -4972,7 +5060,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼19]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•19]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(19) = 0
@@ -5000,7 +5088,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼20]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•20]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(20) = 0
@@ -5029,7 +5117,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼21]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•21]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(21) = 0
@@ -5059,7 +5147,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼22]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•22]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(22) = 0
@@ -5090,7 +5178,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼23]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•23]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(23) = 0
@@ -5122,7 +5210,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼24]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•24]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(24) = 0
@@ -5155,7 +5243,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼25]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•25]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,na,sa
 triggerall = Var(25) = 0
@@ -5189,7 +5277,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼26 reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•26 reset]
 type = Varset
 triggerall = Var(26) != 0
 Triggerall = Enemynear(Root,Var(54)), Stateno = Var(26)
@@ -5198,7 +5286,7 @@ FV = 26
 Value  = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼26]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•26]
 type = Varset
 triggerall = Var(26) = 0
 triggerall = Var(59) < Enemynear(Root,Var(54)),Numproj || Helper(97530),FVar(35) < Enemynear(Root,Var(54)),Numhelper
@@ -5238,7 +5326,7 @@ Value  = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼27 reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•27 reset]
 type = Varset
 triggerall = Var(27) != 0
 Triggerall = Enemynear(Root,Var(54)), Stateno = Var(27)
@@ -5247,7 +5335,7 @@ FV = 27
 Value  = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼27]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•27]
 type = Varset
 triggerall = Var(27) = 0
 triggerall = Var(59) < Enemynear(Root,Var(54)),Numproj || Helper(97530),FVar(35) < Enemynear(Root,Var(54)),Numhelper
@@ -5288,7 +5376,7 @@ Value  = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼28 reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•28 reset]
 type = Varset
 triggerall = Var(28) != 0
 Triggerall = Enemynear(Root,Var(54)), Stateno = Var(28)
@@ -5297,7 +5385,7 @@ FV = 28
 Value  = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼28]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•28]
 type = Varset
 triggerall = Var(28) = 0
 triggerall = Var(59) < Enemynear(Root,Var(54)),Numproj || Helper(97530),FVar(35) < Enemynear(Root,Var(54)),Numhelper
@@ -5339,7 +5427,7 @@ Value  = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼29 reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•29 reset]
 type = Varset
 triggerall = Var(29) != 0
 Triggerall = Enemynear(Root,Var(54)), Stateno = Var(29)
@@ -5348,7 +5436,7 @@ FV = 29
 Value  = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼29]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•29]
 type = Varset
 triggerall = Var(29) = 0
 triggerall = Var(59) < Enemynear(Root,Var(54)),Numproj || Helper(97530),FVar(35) < Enemynear(Root,Var(54)),Numhelper
@@ -5391,7 +5479,7 @@ Value  = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼30 reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•30 reset]
 type = Varset
 triggerall = Var(30) != 0
 Triggerall = Enemynear(Root,Var(54)), Stateno = Var(30)
@@ -5400,7 +5488,7 @@ V = 30
 Value  = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼30]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•30]
 type = Varset
 triggerall = Var(30) = 0
 triggerall = Var(59) < Enemynear(Root,Var(54)),Numproj || Helper(97530),FVar(35) < Enemynear(Root,Var(54)),Numhelper
@@ -5444,7 +5532,7 @@ Value  = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼31]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•31]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,nt,st
 triggerall = Var(31) = 0
@@ -5479,7 +5567,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼32]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•32]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,nt,st
 triggerall = Var(32) = 0
@@ -5515,7 +5603,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼33]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•33]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,nt,st
 triggerall = Var(33) = 0
@@ -5552,7 +5640,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼34]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•34]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,nt,st
 triggerall = Var(34) = 0
@@ -5590,7 +5678,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼35]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•35]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,ht
 triggerall = Var(35) = 0
@@ -5629,7 +5717,7 @@ Value  = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼36]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•36]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,ha
 triggerall = Var(36) = 0
@@ -5639,7 +5727,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼37]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•37]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,ha
 triggerall = Var(37) = 0
@@ -5650,7 +5738,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼38]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•38]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,ha
 triggerall = Var(38) = 0
@@ -5662,7 +5750,7 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¼ÇÂ¼39]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·è®°å½•39]
 type = Varset
 Triggerall = Enemynear(Root,Var(54)),hitdefattr = sca,ha
 triggerall = Var(39) = 0
@@ -5675,14 +5763,14 @@ Value = Var(0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿ reset]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡ reset]
 Type = VarSet
 trigger1 = Var(58) != 0
 V = 58
 value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿]
+[State 97531, å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡]
 Type = Null
 triggerall = Enemynear(Root,Var(54)),Movetype = A
 trigger1 = Var(1) = Enemynear(Root,Var(54)),Stateno
@@ -5777,7 +5865,7 @@ V = 59
 value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½projÊıÁ¿]
+[State 97531, å¯¹æ–¹projæ•°é‡]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = Var(59) = 0
@@ -5788,7 +5876,7 @@ value = Enemynear(Root,Var(54)),Numproj
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½³öÕĞÊ±¼ä¼ÇÂ¼1~39]
+[State 97531, å¯¹æ–¹å‡ºæ‹›æ—¶é—´è®°å½•1~39]
 type = Varset
 triggerall = Var(Var(58)) != 0
 trigger1 = FVar(Var(58)) = 0
@@ -5806,15 +5894,15 @@ V = 40
 value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½µ±Éí¼ÇÂ¼0]
+[State 97531, å¯¹æ–¹å½“èº«è®°å½•0]
 Type = VarSet
 Triggerall = Root,Movetype = A
 trigger1 = !Root,Movereversed
 V = 40
 value = -Enemynear(Root,Var(54)),Stateno
-IgnoreHitPause = 1
+IgnoreHitPause = 1 
 
-[State 97530, ¶Ô·½µ±Éí¼ÇÂ¼0]
+[State 97530, å¯¹æ–¹å½“èº«è®°å½•0]
 Type = VarSet
 Triggerall = Var(40) < 0
 ;Triggerall = Root,Movetype = A
@@ -5824,7 +5912,7 @@ value = Abs(Var(40))
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½µ±Éí¼ÇÂ¼1]
+[State 97531, å¯¹æ–¹å½“èº«è®°å½•1]
 type = Varset
 triggerall = Var(41) = 0
 trigger1 = Var(40) > 0
@@ -5833,7 +5921,7 @@ Value = Var(40)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½µ±Éí¼ÇÂ¼2]
+[State 97531, å¯¹æ–¹å½“èº«è®°å½•2]
 type = Varset
 triggerall = Var(42) = 0
 trigger1 = Var(40) > 0
@@ -5843,7 +5931,7 @@ Value = Var(40)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½µ±Éí¼ÇÂ¼3]
+[State 97531, å¯¹æ–¹å½“èº«è®°å½•3]
 type = Varset
 triggerall = Var(43) = 0
 trigger1 = Var(40) > 0
@@ -5854,7 +5942,7 @@ Value = Var(40)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½µ±Éí¼ÇÂ¼4]
+[State 97531, å¯¹æ–¹å½“èº«è®°å½•4]
 type = Varset
 triggerall = Var(44) = 0
 trigger1 = Var(40) > 0
@@ -5866,7 +5954,7 @@ Value = Var(40)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(51) != 0
@@ -5878,7 +5966,7 @@ V = 51
 Value = 0
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Root,Statetype = C && Root,Stateno < 200
@@ -5890,7 +5978,7 @@ Value = Enemynear(Root,Var(54)), Stateno
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(52) > 0
@@ -5900,7 +5988,7 @@ V = 52
 Value = -Var(52)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼1]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•1]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(52) = 0
@@ -5910,7 +5998,7 @@ Value = ifelse(Enemynear(Root,Var(54)),Movecontact, -Enemynear(Root,Var(54)),Sta
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(53) > 0
@@ -5920,7 +6008,7 @@ V = 53
 Value = -Var(53)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼2]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•2]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(53) = 0
@@ -5931,7 +6019,7 @@ Value = ifelse(Enemynear(Root,Var(54)),Movecontact, -Enemynear(Root,Var(54)),Sta
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(54) > 0
@@ -5941,7 +6029,7 @@ V = 54
 Value = -Var(54)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼3]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•3]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(54) = 0
@@ -5953,7 +6041,7 @@ Value = ifelse(Enemynear(Root,Var(54)),Movecontact, -Enemynear(Root,Var(54)),Sta
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(55) > 0
@@ -5963,7 +6051,7 @@ V = 55
 Value = -Var(55)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼4]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•4]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(55) = 0
@@ -5976,7 +6064,7 @@ Value = ifelse(Enemynear(Root,Var(54)),Movecontact, -Enemynear(Root,Var(54)),Sta
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(56) > 0
@@ -5986,7 +6074,7 @@ V = 56
 Value = -Var(56)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼5]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•5]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(56) = 0
@@ -6000,7 +6088,7 @@ Value = ifelse(Enemynear(Root,Var(54)),Movecontact, -Enemynear(Root,Var(54)),Sta
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼ reset]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½• reset]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(57) > 0
@@ -6010,7 +6098,7 @@ V = 57
 Value = -Var(57)
 IgnoreHitPause = 1
 
-[State 97531, ¶Ô·½¿ÉÏÂ¶×¶ã±ÜµÄÕ¾Á¢¹¥»÷±àºÅ¼ÇÂ¼6]
+[State 97531, å¯¹æ–¹å¯ä¸‹è¹²èº²é¿çš„ç«™ç«‹æ”»å‡»ç¼–å·è®°å½•6]
 type = Varset
 triggerall = Root,Var(59) = 5
 triggerall = Var(57) = 0
@@ -6034,12 +6122,12 @@ ctrl = 0
 [State 97532, nothitby]
 type=nothitby
 trigger1= 1
-value = sca   ;±£ÏÕÆğ¼û¼Ó¸öÎŞµĞ¡£ÓĞÊ±ºòÄ³Ğ©ÈËÎïÖĞÁË¶ÔÊÖµÄÈ«ÆÁ´óÕĞ£¬»á¶à³öÒ»¸ö·ÖÉíÀ´¾ÍÊÇÒòÎªai helperÒ²±»»÷ÖĞ£¬±»´òµ½ÆÁÄ»ÄÚÁË¡£
+value = sca   ;ä¿é™©èµ·è§åŠ ä¸ªæ— æ•Œã€‚æœ‰æ—¶å€™æŸäº›äººç‰©ä¸­äº†å¯¹æ‰‹çš„å…¨å±å¤§æ‹›ï¼Œä¼šå¤šå‡ºä¸€ä¸ªåˆ†èº«æ¥å°±æ˜¯å› ä¸ºai helperä¹Ÿè¢«å‡»ä¸­ï¼Œè¢«æ‰“åˆ°å±å¹•å†…äº†ã€‚
 
-[State 97532,égß`¤¤¤Ç±¾Ìå¤¬À´¤¿¤éÁ¢¤Á¤ØÒÆĞĞ]
+[State 97532,é–“é•ã„ã§æœ¬ä½“ãŒæ¥ãŸã‚‰ç«‹ã¡ã¸ç§»è¡Œ]
 type=selfstate
 trigger1=!ishelper
-value=0       ;±£ÏÕ£¬Èç¹û¸ã´íÁË²»ÊÇhelper¶øÊÇ±¾ÌåµÄ»°£¬¾Í×ªµ½state 0
+value=0       ;ä¿é™©ï¼Œå¦‚æœæé”™äº†ä¸æ˜¯helperè€Œæ˜¯æœ¬ä½“çš„è¯ï¼Œå°±è½¬åˆ°state 0
 
 [State 97532]
 Type = AssertSpecial
@@ -6096,12 +6184,12 @@ ctrl = 0
 [State 97534, nothitby]
 type=nothitby
 trigger1= 1
-value = sca   ;±£ÏÕÆğ¼û¼Ó¸öÎŞµĞ¡£ÓĞÊ±ºòÄ³Ğ©ÈËÎïÖĞÁË¶ÔÊÖµÄÈ«ÆÁ´óÕĞ£¬»á¶à³öÒ»¸ö·ÖÉíÀ´¾ÍÊÇÒòÎªai helperÒ²±»»÷ÖĞ£¬±»´òµ½ÆÁÄ»ÄÚÁË¡£
+value = sca   ;ä¿é™©èµ·è§åŠ ä¸ªæ— æ•Œã€‚æœ‰æ—¶å€™æŸäº›äººç‰©ä¸­äº†å¯¹æ‰‹çš„å…¨å±å¤§æ‹›ï¼Œä¼šå¤šå‡ºä¸€ä¸ªåˆ†èº«æ¥å°±æ˜¯å› ä¸ºai helperä¹Ÿè¢«å‡»ä¸­ï¼Œè¢«æ‰“åˆ°å±å¹•å†…äº†ã€‚
 
-[State 97534,égß`¤¤¤Ç±¾Ìå¤¬À´¤¿¤éÁ¢¤Á¤ØÒÆĞĞ]
+[State 97534,é–“é•ã„ã§æœ¬ä½“ãŒæ¥ãŸã‚‰ç«‹ã¡ã¸ç§»è¡Œ]
 type=selfstate
 trigger1=!ishelper
-value=0       ;±£ÏÕ£¬Èç¹û¸ã´íÁË²»ÊÇhelper¶øÊÇ±¾ÌåµÄ»°£¬¾Í×ªµ½state 0
+value=0       ;ä¿é™©ï¼Œå¦‚æœæé”™äº†ä¸æ˜¯helperè€Œæ˜¯æœ¬ä½“çš„è¯ï¼Œå°±è½¬åˆ°state 0
 
 [State 97534]
 Type = AssertSpecial
@@ -6115,7 +6203,7 @@ x = Root,Pos X
 y = 99999
 
 ;---------------------------------------------------------------------------
-[State 97534, ¶Ô·½atk³öÕĞ¿É·ñ»÷ÖĞ¾àÀë¼ÇÂ¼³õÊ¼Ìõ¼ş]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›å¯å¦å‡»ä¸­è·ç¦»è®°å½•åˆå§‹æ¡ä»¶]
 Type = VarRangeSet
 triggerall = Root,Var(59) = 5
 trigger1 = RoundState = 1
@@ -6131,18 +6219,19 @@ first = 1
 last = 29
 
 ;---------------------------------------------------------------------------
-[State 97534, ¶Ô·½atk³öÕĞ²»¿É»÷ÖĞ×îĞ¡¾àÀë¼ÇÂ¼1~25]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›ä¸å¯å‡»ä¸­æœ€å°è·ç¦»è®°å½•1~25]
 Type = VarSet
 triggerall = (Helper(97531),Var(58) = [1,25]) && Helper(97531),Fvar(Helper(97531),Var(58))+1 = Enemynear(Root,Var(54)),Time
 triggerall = Root,P2bodydist X > 0 && Enemynear(Root,Var(54)),Stateno >= 200 && !Enemynear(Root,Var(54)),Movecontact
 triggerall = (Root,Ctrl || (Root,stateno = [120,160))) && (Root,Statetype = S || Root,Statetype = C)
 triggerall = Floor(Helper(97530),FVar(38)/1000) < 9
 trigger1 = Root,P2bodydist X < (var(Helper(97531),Var(58)) % 1000)
+trigger1 = Root,P2bodydist X > Floor(var(Helper(97531),Var(58)) / 1000)
 V = Helper(97531),Var(58)
 value = Floor(var(Helper(97531),Var(58)) / 1000) * 1000 + Floor(Root,P2bodydist X)
 IgnoreHitPause = 1
 
-[State 97534, ¶Ô·½atk³öÕĞ¿É»÷ÖĞ×î´ó¾àÀë¼ÇÂ¼1~25]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›å¯å‡»ä¸­æœ€å¤§è·ç¦»è®°å½•1~25]
 Type = VarSet
 triggerall = (Helper(97531),Var(58) = [1,25]) && Helper(97531),Fvar(Helper(97531),Var(58)) <= Enemynear(Root,Var(54)),Time
 triggerall = Root,P2bodydist X > 0 && Enemynear(Root,Var(54)),Stateno >= 200 && Enemynear(Root,Var(54)),Movecontact
@@ -6152,27 +6241,28 @@ V = Helper(97531),Var(58)
 value = Floor(Root,P2bodydist X) * 1000 + (var(Helper(97531),Var(58)) % 1000)
 IgnoreHitPause = 1
 
-[State 97534, ¶Ô·½atk³öÕĞ¾àÀë¼ÇÂ¼Ã¬¶Ü1~25]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›è·ç¦»è®°å½•çŸ›ç›¾1~25]
 Type = VarSet
 triggerall = Helper(97531),Var(58) = [1,25]
 trigger1 = Floor(var(Helper(97531),Var(58)) / 1000) > (var(Helper(97531),Var(58)) % 1000)
 V = Helper(97531),Var(58)
-value = ifelse(Enemynear(Root,Var(54)),Statetype != A, (var(Helper(97531),Var(58)) % 1000) * 1001, Floor(var(Helper(97531),Var(58)) / 1000) * 1001)
+value = Floor(var(Helper(97531),Var(58)) / 1000) * 1000 + 999
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97534, ¶Ô·½atk³öÕĞ²»¿É»÷ÖĞ×îĞ¡¾àÀë¼ÇÂ¼36~39]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›ä¸å¯å‡»ä¸­æœ€å°è·ç¦»è®°å½•36~39]
 Type = VarSet
 triggerall = (Helper(97531),Var(58) = [36,39]) && Helper(97531),Fvar(Helper(97531),Var(58))+1 = Enemynear(Root,Var(54)),Time
 triggerall = Root,P2bodydist X > 0 && Enemynear(Root,Var(54)),Stateno >= 200 && !Enemynear(Root,Var(54)),Movecontact
 triggerall = (Root,Ctrl || (Root,stateno = [120,160))) && (Root,Statetype = S || Root,Statetype = C)
 triggerall = Floor(Helper(97530),FVar(38)/1000) < 9
 trigger1 = Root,P2bodydist X < (var(Helper(97531),Var(58)-10) % 1000)
+trigger1 = Root,P2bodydist X > Floor(var(Helper(97531),Var(58)-10) / 1000)
 V = Helper(97531),Var(58)-10
 value = Floor(var(Helper(97531),Var(58)) / 1000) * 1000 + Floor(Root,P2bodydist X)
 IgnoreHitPause = 1
 
-[State 97534, ¶Ô·½atk³öÕĞ¿É»÷ÖĞ×î´ó¾àÀë¼ÇÂ¼36~39]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›å¯å‡»ä¸­æœ€å¤§è·ç¦»è®°å½•36~39]
 Type = VarSet
 triggerall = (Helper(97531),Var(58) = [36,39]) && Helper(97531),Fvar(Helper(97531),Var(58)) <= Enemynear(Root,Var(54)),Time
 triggerall = Root,P2bodydist X > 0 && Enemynear(Root,Var(54)),Stateno >= 200 && Enemynear(Root,Var(54)),Movecontact
@@ -6182,16 +6272,16 @@ V = Helper(97531),Var(58)-10
 value = Floor(Root,P2bodydist X) * 1000 + (var(Helper(97531),Var(58)-10) % 1000)
 IgnoreHitPause = 1
 
-[State 97534, ¶Ô·½atk³öÕĞ¾àÀë¼ÇÂ¼Ã¬¶Ü36~39]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›è·ç¦»è®°å½•çŸ›ç›¾36~39]
 Type = VarSet
 triggerall = Helper(97531),Var(58) = [36,39]
 trigger1 = Floor(var(Helper(97531),Var(58)-10) / 1000) > (var(Helper(97531),Var(58)-10) % 1000)
 V = Helper(97531),Var(58)-10
-value = ifelse(Enemynear(Root,Var(54)),Statetype != A, (var(Helper(97531),Var(58)-10) % 1000) * 1001, Floor(var(Helper(97531),Var(58)) / 1000) * 1001)
+value = Floor(var(Helper(97531),Var(58)-10) / 1000) * 1000 + 999
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97534, ¶Ô·½atk³öÕĞ×î¿ì»÷ÖĞÊ±¼ä³õÊ¼Ìõ¼ş]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›æœ€å¿«å‡»ä¸­æ—¶é—´åˆå§‹æ¡ä»¶]
 Type = VarRangeSet
 triggerall = Root,Var(59) = 5
 trigger1 = FVar(1) = 0 && FVar(2) = 0 && FVar(3) = 0 && FVar(4) = 0 && FVar(5) = 0
@@ -6216,7 +6306,7 @@ FV = 0
 value = 0
 IgnoreHitPause = 1
 
-[State 97534, ¶Ô·½atk³öÕĞ×î¿ì»÷ÖĞÊ±¼ä¼ÇÂ¼0]
+[State 97534, å¯¹æ–¹atkå‡ºæ‹›æœ€å¿«å‡»ä¸­æ—¶é—´è®°å½•0]
 Type = VarSet
 triggerall = Root,Var(59) = 5
 triggerall = FVar(0) = 0
@@ -6226,10 +6316,55 @@ value = Enemynear(Root,Var(54)),Time
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State 97534, ¶Ô·½³öÕĞ×î¿ì»÷ÖĞÊ±¼ä¼ÇÂ¼ 1~25+36~39]
+[State 97534, å¯¹æ–¹å‡ºæ‹›æœ€å¿«å‡»ä¸­æ—¶é—´è®°å½• 1~25+36~39]
 type = Varset
 triggerall = FVar(0) > 0
 trigger1 = FVar(Helper(97531),Var(58) - ifelse(Helper(97531),Var(58) < 30, 0, 10)) > FVar(0)
 FV = Helper(97531),Var(58) - ifelse(Helper(97531),Var(58) < 30, 0, 10)
 Value  = FVar(0)
 IgnoreHitPause = 1
+
+
+;===========================================================================
+;---------------------------------------------------------------------------
+[Statedef 97535, AI helper]
+Anim = 97531
+ctrl = 0
+
+[State 97535, nothitby]
+type=nothitby
+trigger1= 1
+value = sca   ;ä¿é™©èµ·è§åŠ ä¸ªæ— æ•Œã€‚æœ‰æ—¶å€™æŸäº›äººç‰©ä¸­äº†å¯¹æ‰‹çš„å…¨å±å¤§æ‹›ï¼Œä¼šå¤šå‡ºä¸€ä¸ªåˆ†èº«æ¥å°±æ˜¯å› ä¸ºai helperä¹Ÿè¢«å‡»ä¸­ï¼Œè¢«æ‰“åˆ°å±å¹•å†…äº†ã€‚
+
+[State 97535,é–“é•ã„ã§æœ¬ä½“ãŒæ¥ãŸã‚‰ç«‹ã¡ã¸ç§»è¡Œ]
+type=selfstate
+trigger1=!ishelper
+value=0       ;ä¿é™©ï¼Œå¦‚æœæé”™äº†ä¸æ˜¯helperè€Œæ˜¯æœ¬ä½“çš„è¯ï¼Œå°±è½¬åˆ°state 0
+
+[State 97535]
+Type = AssertSpecial
+Trigger1 = IsHelper
+flag = invisible
+
+[State 97535]
+type = PosSet
+trigger1 = 1
+x = Root,Pos X - ifelse(Root,facing=1,50,-50)
+y = Root,Pos Y
+
+[State 97535]
+type = Turn
+trigger1 = facing != Root,facing
+
+;---------------------------------------------------------------------------
+[State 97535, æœ¬ä½“èµ·èº«åˆ¤å®š]
+type = Varset
+trigger1 = Root,Stateno = 5120
+V = 0
+value = 5
+
+[State 97535, æœ¬ä½“èµ·èº«åæ— æ•Œæ—¶é—´]
+type = Varadd
+trigger1 = Var(0) > 0
+V = 0
+value = -1

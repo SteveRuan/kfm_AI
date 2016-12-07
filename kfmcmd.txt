@@ -309,207 +309,207 @@ time = 1
 ;---------------------------------------------------------------------------
 [Command]
 name = "AI0"
-Command=a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Command=a,a,a,a,a,a,a,a
 time = 0
 [Command]
 name = "AI1"
-Command=b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+Command=b,b,b,b,b,b,b,b
 time = 0
 [Command]
 name = "AI2"
-Command=c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+Command=c,c,c,c,c,c,c,c
 time = 0
 [Command]
 name = "AI3"
-Command=x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+Command=x,x,x,x,x,x,x,x
 time = 0
 [Command]
 name = "AI4"
-Command=y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y
+Command=y,y,y,y,y,y,y,y
 time = 0
 [Command]
 name = "AI5"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=z,z,z,z,z,z,z,z
 time = 0
 [Command]
 name = "AI6"
-Command=s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s
+Command=s,s,s,s,s,s,s,s
 time = 0
 [Command]
 name = "AI7"
-Command=F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Command=F,F,F,F,F,F,F,F
 time = 0
 [Command]
 name = "AI8"
-Command=D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+Command=D,D,D,D,D,D,D,D
 time = 0
 [Command]
 name = "AI9"
-Command=B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+Command=B,B,B,B,B,B,B,B
 time = 0
 [Command]
 name = "AI10"
-Command=U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U
+Command=U,U,U,U,U,U,U,U
 time = 0
 [Command]
 name = "AI11"
-Command=a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Command=a,a,a,a,b,b,b,b
 time = 0
 [Command]
 name = "AI12"
-Command=c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+Command=b,b,b,b,c,c,c,c
 time = 0
 [Command]
 name = "AI13"
-Command=x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+Command=c,c,c,c,a,a,a,a
 time = 0
 [Command]
 name = "AI14"
-Command=y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y
+Command=x,x,x,x,y,y,y,y
 time = 0
 [Command]
 name = "AI15"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=y,y,y,y,z,z,z,z
 time = 0
 [Command]
 name = "AI16"
-Command=s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s
+Command=s,a,b,c,x,y,z,s
 time = 0
 [Command]
 name = "AI17"
-Command=a,B,c,x,y,z,s,B,D,F,U,a,b,c,x,y,z,s,s
+Command=a,b,c,x,y,z,s,a+b+c+x+y+z+s
 time = 0
 [Command]
 name = "AI18"
-Command=a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Command=F,F,F,F,B,B,B,B
 time = 0
 [Command]
 name = "AI19"
-Command=b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+Command=B,B,B,B,U,U,U,U
 time = 0
 [Command]
 name = "AI20"
-Command=c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+Command=U,U,U,U,D,D,D,D
 time = 0
 [Command]
 name = "AI21"
-Command=x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+Command=D,D,D,D,F,F,F,F
 time = 0
 [Command]
 name = "AI22"
-Command=y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y
+Command=UF,DF,DB,UB,UF,DF,DB,UB
 time = 0
 [Command]
 name = "AI23"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=DF,UF,UB,DB,DF,UF,UB,DB
 time = 0
 [Command]
 name = "AI24"
-Command=s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s
+Command=a+b,b+c,c+x,x+y,y+z,z+s,s+a
 time = 0
 [Command]
 name = "AI25"
-Command=F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Command=x+y,y+z,z+a,a+b,b+c,c+s,s+x
 time = 0
 [Command]
 name = "AI26"
-Command=D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+Command=F,a,F,a,F,a,F,a
 time = 0
 [Command]
 name = "AI27"
-Command=B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+Command=B,b,B,b,B,b,B,b
 time = 0
 [Command]
 name = "AI28"
-Command=U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U
+Command=U,c,U,c,U,c,U,c
 time = 0
 [Command]
 name = "AI29"
-Command=a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Command=D,s,D,s,D,s,D,s
 time = 0
 [Command]
 name = "AI30"
-Command=c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+Command=F,s,F,s,F,s,F,s
 time = 0
 [Command]
 name = "AI31"
-Command=x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+Command=B,x,B,x,B,x,B,x
 time = 0
 [Command]
 name = "AI32"
-Command=y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y
+Command=U,y,U,y,U,y,U,y
 time = 0
 [Command]
 name = "AI33"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=D,z,D,z,D,z,D,z
 time = 0
 [Command]
 name = "AI34"
-Command=s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s
+Command=UF,U,UB,U,UF,U,UB,U
 time = 0
 [Command]
 name = "AI35"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=UB,U,UF,U,UB,U,UF,U
 time = 0
 [Command]
 name = "AI36"
-Command=z,z,z,z,z,z,a,a,a,z,z,z,z,z,z,z,z,z,z
+Command=DF,D,DB,D,DF,D,DB,D
 time = 0
 [Command]
 name = "AI37"
-Command=z,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,z,z,z
+Command=DB,D,DF,D,DB,D,DF,D
 time = 0
 [Command]
 name = "AI38"
-Command=z,z,z,z,z,a,a,a,z,z,z,z,z,a,a,a,z,z,z
+Command=UF,F,DF,F,UF,F,DF,F
 time = 0
 [Command]
 name = "AI39"
-Command=z,z,z,z,z,a,a,a,z,z,z,z,z,z,a,a,z,z,z
+Command=UB,B,DB,B,UB,B,DB,B
 time = 0
 [Command]
 name = "AI40"
-Command=z,z,z,z,a,a,a,z,z,z,z,a,z,z,a,a,z,z,z
+Command=DF,F,UF,F,DF,F,UF,F
 time = 0
 [Command]
 name = "AI41"
-Command=z,z,z,a,z,z,z,z,z,z,z,z,z,a,a,z,z,z,z
+Command=DB,B,UB,B,DB,B,UB,B
 time = 0
 [Command]
 name = "AI42"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+Command=a,b,a,b,a,b,a,b
 time = 0
 [Command]
 name = "AI43"
-Command=z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,a,a,z
+Command=b,c,b,c,b,c,b,c
 time = 0
 [Command]
 name = "AI44"
-Command=z,z,a,a,a,a,z,z,z,z,z,z,z,z,z,a,a,a,z
+Command=c,x,c,x,c,x,c,x
 time = 0
 [Command]
 name = "AI45"
-Command=z,z,z,z,z,z,a,a,z,z,z,z,z,a,a,a,a,z,z
+Command=x,y,x,y,x,y,x,y
 time = 0
 [Command]
 name = "AI46"
-Command=z,z,z,z,z,z,z,z,a,a,a,a,a,a,z,z,z,z,z
+Command=y,z,y,z,y,z,y,z
 time = 0
 [Command]
 name = "AI47"
-Command=z,z,z,a,a,a,a,z,z,z,z,z,z,z,z,z,z,z,z
+Command=z,s,z,s,z,s,z,s
 time = 0
 [Command]
 name = "AI48"
-Command=z,z,z,z,z,a,a,a,z,z,z,a,a,a,z,z,a,z,a
+Command=s,a,s,a,s,a,s,a
 time = 0
 [Command]
 name = "AI49"
-Command=z,z,z,z,a,a,a,z,z,z,z,z,a,a,a,z,z,z,z
+Command=F,B,F,B,F,B,F,B
 time = 0
 [Command]
 name = "AI50"
-Command=z,z,z,a,a,z,z,z,z,z,z,z,z,z,a,a,z,z,z
+Command=U,D,U,D,U,D,U,D
 
 ;---------------------------------------------------------------------------
 ; 2. State entry
@@ -558,7 +558,7 @@ Command=z,z,z,a,a,z,z,z,z,z,z,z,z,z,a,a,z,z,z
 ;===========================================================================
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
 [State -1, Smash Kung Fu Upper]
 type = ChangeState
 value = 3050
@@ -573,7 +573,7 @@ trigger2 = movecontact
 
 ;---------------------------------------------------------------------------
 ;Triple Kung Fu Palm (uses one super bar)
-;O—óƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚Pj
+;å¶°æ¥åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
 [State -1, Triple Kung Fu Palm]
 type = ChangeState
 value = 3000
@@ -608,7 +608,7 @@ var(1) = 1
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Knee (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[R‚èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
+;æ‡å„åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
 [State -1, Fast Kung Fu Knee]
 type = ChangeState
 value = 1070
@@ -619,7 +619,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Knee
-;ƒJƒ“ƒt[R‚èiãj
+;åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åº›ä¹¯
 [State -1, Light Kung Fu Knee]
 type = ChangeState
 value = 1050
@@ -629,7 +629,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Knee
-;ƒJƒ“ƒt[R‚èiãj
+;åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åº›ä¹¯
 [State -1, Strong Kung Fu Knee]
 type = ChangeState
 value = 1060
@@ -639,7 +639,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
 [State -1, Fast Kung Fu Palm]
 type = ChangeState
 value = 1020
@@ -650,7 +650,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
 [State -1, Light Kung Fu Palm]
 type = ChangeState
 value = 1000
@@ -660,7 +660,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èi‹­j
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®å«®ä¹¯
 [State -1, Strong Kung Fu Palm]
 type = ChangeState
 value = 1010
@@ -670,7 +670,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Upper (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[EƒEƒbƒp[
+;æ‡å„åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•
 [State -1, Fast Kung Fu Upper]
 type = ChangeState
 value = 1120
@@ -681,7 +681,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Upper
-;ƒJƒ“ƒt[EƒEƒbƒp[iãj
+;åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åº›ä¹¯
 [State -1, Light Kung Fu Upper]
 type = ChangeState
 value = 1100
@@ -691,7 +691,7 @@ trigger1 = var(1) ;Use combo condition (above)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Upper
-;ƒJƒ“ƒt[EƒEƒbƒp[i‹­j
+;åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®å«®ä¹¯
 [State -1, Strong Kung Fu Upper]
 type = ChangeState
 value = 1110
@@ -730,7 +730,7 @@ trigger1 = var(1) ;Use combo condition (above)
 ;===========================================================================
 ;---------------------------------------------------------------------------
 ;Run Fwd
-;ƒ_ƒbƒVƒ…
+;åƒŸåƒ¢åƒ”å„
 [State -1, Run Fwd]
 type = ChangeState
 value = 100
@@ -741,7 +741,7 @@ trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ;Run Back
-;Œã‘Şƒ_ƒbƒVƒ…
+;å±»æˆ…åƒŸåƒ¢åƒ”å„
 [State -1, Run Back]
 type = ChangeState
 value = 105
@@ -752,15 +752,13 @@ trigger1 = ctrl
 
 
 
-
-
 ;---------------------------------------------------------------------------
 
-;²âÊÔ
+;æµ‹è¯•
 
 ;---------------------------------------------------------------------------
 ;Triple Kung Fu Palm (uses one super bar)
-;O—óƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚Pj
+;å¶°æ¥åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
 [State -1, Triple Kung Fu Palm]
 type = null;ChangeState
 value = 3050
@@ -773,7 +771,7 @@ trigger1 = stateno = 1000
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Knee
-;ƒJƒ“ƒt[R‚èiãj
+;åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åº›ä¹¯
 [State -1, Strong Kung Fu Knee]
 type = null;ChangeState
 value = 1060
@@ -783,7 +781,7 @@ trigger1 = stateno = 200 || stateno = 210 || stateno = 400 || stateno = 410 || s
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
 [State -1, Fast Kung Fu Palm]
 type = null;ChangeState
 value = 1020
@@ -803,7 +801,7 @@ trigger1 = stateno = 210 || stateno = 240 || stateno = 410 || stateno = 230 || s
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
 [State -1, Light Kung Fu Palm]
 type = null;ChangeState
 value = 1000
@@ -813,7 +811,7 @@ trigger1 = movehit
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
+;æ£«åªåº›åƒ·å„åƒ 
 [State -1, Stand Light Punch]
 type = null;ChangeState
 value = 200
@@ -823,7 +821,7 @@ trigger1 = movehit
 
 ;---------------------------------------------------------------------------
 ;Stand Strong Punch
-;—§‚¿‹­ƒpƒ“ƒ`
+;æ£«åªå«®åƒ·å„åƒ 
 [State -1, Stand Strong Punch]
 type = null;ChangeState
 value = 210
@@ -833,7 +831,7 @@ trigger2 = (stateno = 230) && time > 6
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
 [State -1, Stand Light Kick]
 type = null;ChangeState
 value = 230
@@ -844,7 +842,7 @@ trigger2 = (stateno = 230) && time > 9
 
 ;---------------------------------------------------------------------------
 ;Standing Strong Kick
-;—§‚¿‹­ƒLƒbƒN
+;æ£«åªå«®åƒ‰åƒ¢åƒ‹
 [State -1, Standing Strong Kick]
 type = null;ChangeState
 value = 240
@@ -854,7 +852,7 @@ trigger2 = (stateno = 230) && time > 6
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Punch
-;‚µ‚á‚ª‚İ‹­ƒpƒ“ƒ`
+;åŸå‚–å‘å‚’å«®åƒ·å„åƒ 
 [State -1, Crouching Strong Punch]
 type = null;ChangeState
 value = 410
@@ -863,7 +861,7 @@ trigger1 = (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
 [State -1, Crouching Light Kick]
 type = null;ChangeState
 value = 430
@@ -872,7 +870,7 @@ trigger1 = (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
 [State -1, Crouching Strong Kick]
 type = null;ChangeState
 value = 440
@@ -880,6 +878,11 @@ trigger1 = (stateno = 400) || (stateno = 430)
 trigger1 = (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
+[State -1, Crouching Strong Kick]
+type = null;ChangeState
+value = 120
+trigger1 = inguarddist
+trigger1 = ctrl && stateno != 120
 
 
 
@@ -891,7 +894,7 @@ trigger1 = (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Kung Fu Throw
-;“Š‚°
+;æ³å˜
 [State -1, Kung Fu Throw]
 type = ChangeState
 value = 800
@@ -913,7 +916,7 @@ trigger2 = p2movetype != H
 ;===========================================================================
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
+;æ£«åªåº›åƒ·å„åƒ 
 [State -1, Stand Light Punch]
 type = ChangeState
 value = 200
@@ -927,7 +930,7 @@ trigger2 = time > 6
 
 ;---------------------------------------------------------------------------
 ;Stand Strong Punch
-;—§‚¿‹­ƒpƒ“ƒ`
+;æ£«åªå«®åƒ·å„åƒ 
 [State -1, Stand Strong Punch]
 type = ChangeState
 value = 210
@@ -941,7 +944,7 @@ trigger3 = (stateno = 230) && time > 6
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
 [State -1, Stand Light Kick]
 type = ChangeState
 value = 230
@@ -955,7 +958,7 @@ trigger3 = (stateno = 230) && time > 9
 
 ;---------------------------------------------------------------------------
 ;Standing Strong Kick
-;—§‚¿‹­ƒLƒbƒN
+;æ£«åªå«®åƒ‰åƒ¢åƒ‹
 [State -1, Standing Strong Kick]
 type = ChangeState
 value = 240
@@ -969,7 +972,7 @@ trigger3 = (stateno = 230) && time > 6
 
 ;---------------------------------------------------------------------------
 ;Taunt
-;’§”­
+;æŒ§æ•ª
 [State -1, Taunt]
 type = ChangeState
 value = 195
@@ -980,7 +983,7 @@ trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
 [State -1, Crouching Light Punch]
 type = ChangeState
 value = 400
@@ -992,7 +995,7 @@ trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Punch
-;‚µ‚á‚ª‚İ‹­ƒpƒ“ƒ`
+;åŸå‚–å‘å‚’å«®åƒ·å„åƒ 
 [State -1, Crouching Strong Punch]
 type = ChangeState
 value = 410
@@ -1006,7 +1009,7 @@ trigger2 = (time > 9) || (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
 [State -1, Crouching Light Kick]
 type = ChangeState
 value = 430
@@ -1020,7 +1023,7 @@ trigger2 = (time > 9) || (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
 [State -1, Crouching Strong Kick]
 type = ChangeState
 value = 440
@@ -1034,7 +1037,7 @@ trigger2 = (time > 9) || (movecontact && time > 5)
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
+;å¬»æ‹åº›åƒ·å„åƒ 
 [State -1, Jump Light Punch]
 type = ChangeState
 value = 600
@@ -1072,7 +1075,7 @@ trigger2 = stateno = 1350 ;Air blocking
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
 [State -1, Jump Strong Kick]
 type = ChangeState
 value = 640
@@ -1092,44 +1095,44 @@ trigger3 = stateno = 1350 ;Air blocking
 
 
 ;===========================================================================
-;[AI½á¹¹]
+;[AIç»“æ„]
 ;
 ;
-;[AI¿ª¹Ø]
-;£ü
-;[±äÁ¿]
-;£ü
-;[ÌØÊâÓÅÏÈ¡¢¶Ô²ß]
-;£ü
-;[ÇĞ·´¡¢×¥³öÕĞÓ²Ö±]
-;£ü
-;[ÇÀÕĞ]
-;£ü
-;[(Æğ¹¥¡¢Ñ¹ÖÆ¡¢×¥ÊÜÉí¡¢Æ­ÕĞ¡¢Õ©·É)]
-;£ü©À[µØÉÏ]
-;£ü©¸[¿ÕÖĞ]
-;[(Á¬ÕĞ¡¢Ä¿Ñº¡¢µØÃæ×·»÷)]
-;£ü©À[µØÉÏ]
-;£ü©¸[¿ÕÖĞ]
-;[Á¢»Ø]
-;£ü
-;[·ÀÓù]
-;£ü
-;[ÒÆ¶¯]
-;£ü
-;[ĞîÆø]
-;£ü
+;[AIå¼€å…³]
+;ï½œ
+;[å˜é‡]
+;ï½œ
+;[ç‰¹æ®Šä¼˜å…ˆã€å¯¹ç­–]
+;ï½œ
+;[åˆ‡åã€æŠ“å‡ºæ‹›ç¡¬ç›´]
+;ï½œ
+;[æŠ¢æ‹›]
+;ï½œ
+;[(èµ·æ”»ã€å‹åˆ¶ã€æŠ“å—èº«ã€éª—æ‹›ã€è¯ˆé£)]
+;ï½œâ”œ[åœ°ä¸Š]
+;ï½œâ””[ç©ºä¸­]
+;[(è¿æ‹›ã€ç›®æŠ¼ã€åœ°é¢è¿½å‡»)]
+;ï½œâ”œ[åœ°ä¸Š]
+;ï½œâ””[ç©ºä¸­]
+;[ç«‹å›]
+;ï½œ
+;[é˜²å¾¡]
+;ï½œ
+;[ç§»åŠ¨]
+;ï½œ
+;[è“„æ°”]
+;ï½œ
 ;[AI helper]
 
 
 ;===========================================================================
 
-;[AI¿ª¹Ø]
+;[AIå¼€å…³]
 
 ;---------------------------------------------------------------------------
-[State -1, AI¿ª¹Ø]
-Type = VarSet ;ÉèÖÃ±äÁ¿µÄÖµ
-Triggerall = Var(59) = 0   ;µ±Var(59)=0(aiÃ»ÓĞ±»¿ªÆôµÄÊ±ºò)
+[State -1, AIå¼€å…³]
+Type = VarSet ;è®¾ç½®å˜é‡çš„å€¼
+Triggerall = Var(59) = 0   ;å½“Var(59)=0(aiæ²¡æœ‰è¢«å¼€å¯çš„æ—¶å€™)
 Trigger1 = Command = "AI0"
 Trigger2 = Command = "AI1"
 Trigger3 = Command = "AI2"
@@ -1181,52 +1184,53 @@ Trigger48 = Command = "AI47"
 Trigger49 = Command = "AI48"
 Trigger50 = Command = "AI49"
 Trigger51 = Command = "AI50"
-Trigger52 = 1 ;ÎŞÌõ¼ş´¥·¢£¬¾ÍÊÇËùÎ½µÄai³£Ê±Æô¶¯£¬ÏëÊÖ¿ØÈËÎï¾ÍÔÚÕâĞĞÇ°Ãæ¼Ó·ÖºÅ
-;Trigger52 = movecontact
-;Trigger52 = enemynear,movetype = h
+;Trigger52 = 1 ;æ— æ¡ä»¶è§¦å‘ï¼Œå°±æ˜¯æ‰€è°“çš„aiå¸¸æ—¶å¯åŠ¨ï¼Œæƒ³æ‰‹æ§äººç‰©å°±åœ¨è¿™è¡Œå‰é¢åŠ åˆ†å·
+;--------------------AIä½œè€…æµ‹è¯•ç”¨--------------------
+;Trigger52 = Stateno = 400 ;|| Stateno = 430;[200,500]
+;Trigger52 = p2movetype = H
 V = 59
-Value = 5 ;AIµÈ¼¶Îª1~5£¨1~3²¢¼¶£¬4Ç¿¼¶£¬5Ğ××óÓÒ£©£¬ÏêÏ¸¼ûAI(ks) readme.txt
+Value = 5 ;AIç­‰çº§ä¸º1~5ï¼ˆ1~3å¹¶çº§ï¼Œ4å¼ºçº§ï¼Œ5å‡¶å·¦å³ï¼‰ï¼Œè¯¦ç»†è§AI(ks) readme.txt
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ÊÀ¼ÍÄ©ÇáÈ­Íõ/ËÆ·Ç¿ÕÈĞ¿ª¹Ø]
+[State -1, ä¸–çºªæœ«è½»æ‹³ç‹/ä¼¼éç©ºåˆƒå¼€å…³]
 Type = VarSet 
 Trigger1 = Var(59) = 5
 Trigger1 = Helper(97530),FVar(33) != (0,10]
 V = 56
-Value = 2 ;¶×ÇáÈ­Á¬»÷/ËÆ·Ç¿ÕÈĞ´ÎÊı£¬AIµÈ¼¶5×¨ÓÃ£¬¶×ÇáÈ­Á¬»÷´ÎÊıÎªX£¬ËÆ·Ç¿ÕÈĞ´ÎÊıÎªX/3£¬Ä¬ÈÏ2£¬1Îª¹Ø±Õ£¬100¾ÍÊÇ±±¶·°ÙÁÑÈ­...0Îª°áÔËÖÁÇ½±ßÍ£Ö¹£¬-1ÎªÎŞÏŞÁ¬²¢¿ªÆôÊÀ¼ÍÄ©ÅÅÇò£¬É÷ÓÃ- -
+Value = 2 ;è¹²è½»æ‹³è¿å‡»/ä¼¼éç©ºåˆƒæ¬¡æ•°ï¼ŒAIç­‰çº§5ä¸“ç”¨ï¼Œè¹²è½»æ‹³è¿å‡»æ¬¡æ•°ä¸ºXï¼Œä¼¼éç©ºåˆƒæ¬¡æ•°ä¸ºX/3åå‘ä¸Šå–ä½™ï¼Œé»˜è®¤2ï¼Œ1ä¸ºå…³é—­ï¼Œ100å°±æ˜¯åŒ—æ–—ç™¾è£‚æ‹³...0ä¸ºæ¬è¿è‡³å¢™è¾¹åœæ­¢ï¼Œ-1ä¸ºæ— é™è¿å¹¶å¼€å¯ä¸–çºªæœ«æ’çƒï¼Œæ…ç”¨- -
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ÌôĞÆ¿ª¹Ø]
+[State -1, æŒ‘è¡…å¼€å…³]
 Type = VarSet 
 Trigger1 = Var(59) > 0
 V = 55
-Value = 0 ;Ä¬ÈÏ0£¬0Îª¹Ø±Õ£¬1ÎªÊ¤ÀûºóÈı¾Ï¹ª£¬2ÎªÓÅÊÆÊ±µÍ¼¸ÂÊÌôĞÆ+Ê¤ÀûºóÈı¾Ï¹ª£¨É÷ÓÃ£©
+Value = 0 ;é»˜è®¤0ï¼Œ0ä¸ºå…³é—­ï¼Œ1ä¸ºèƒœåˆ©åä¸‰é èº¬ï¼Œ2ä¸ºä¼˜åŠ¿æ—¶ä½å‡ ç‡æŒ‘è¡…+èƒœåˆ©åä¸‰é èº¬ï¼ˆæ…ç”¨ï¼‰
 IgnoreHitPause = 1
 
 
 ;===========================================================================
 
-;[±äÁ¿]
+;[å˜é‡]
 
 ;---------------------------------------------------------------------------
-;±äÁ¿±í£º
+;å˜é‡è¡¨ï¼š
 ;
 ;Var(1) = Combo condition Check
-;Var(2) = Kung Fu Throw (state 800) ·½Ïò
+;Var(2) = Kung Fu Throw (state 800) æ–¹å‘
 ;......
-;Var(49) = ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿
+;Var(49) = å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡
 ;......
-;Var(54) = Ë«´ò¼ì²â
-;Var(55) = ÌôĞÆ¿ª¹Ø
-;Var(56) = ÊÀ¼ÍÄ©ÇáÈ­Íõ¿ª¹Ø
-;Var(57) = ¶ÔÊÖID¼ÇÂ¼
-;Var(58) = ±£Áô±äÁ¿
-;Var(59) = AI¿ª¹Ø/µÈ¼¶
+;Var(54) = åŒæ‰“æ£€æµ‹
+;Var(55) = æŒ‘è¡…å¼€å…³
+;Var(56) = ä¸–çºªæœ«è½»æ‹³ç‹å¼€å…³
+;Var(57) = å¯¹æ‰‹IDè®°å½•
+;Var(58) = ä¿ç•™å˜é‡
+;Var(59) = AIå¼€å…³/ç­‰çº§
 
 ;---------------------------------------------------------------------------
-[State -1, ±£Áô±äÁ¿]
+[State -1, ä¿ç•™å˜é‡]
 type = VarSet
 Trigger1 = Var(59) > 0
 Trigger1 = Roundstate > 2
@@ -1234,7 +1238,7 @@ V = 58
 value = Floor(Helper(97530),FVar(0) + Helper(97530),FVar(1)*10 + Helper(97530),FVar(2)*100 + Helper(97530),FVar(3)*1000)
 IgnoreHitPause = 1
 
-[State -1, ¶ÔÊÖ±ä¸ü ±£Áô±äÁ¿Reset]
+[State -1, å¯¹æ‰‹å˜æ›´ ä¿ç•™å˜é‡Reset]
 type = VarSet
 Triggerall = Var(59) > 0
 trigger1 = Var(57) != Enemynear,ID
@@ -1244,7 +1248,7 @@ value = 0
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ¶ÔÊÖID¼ÇÂ¼]
+[State -1, å¯¹æ‰‹IDè®°å½•]
 type = VarSet
 Triggerall = Var(59) > 0
 Triggerall = Roundstate = 2
@@ -1255,7 +1259,7 @@ value = Enemynear,ID
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State -1, Ë«´ò¼ì²â]
+[State -1, åŒæ‰“æ£€æµ‹]
 type = VarSet
 Triggerall = Var(59) > 0
 Triggerall = Roundstate = 2
@@ -1265,14 +1269,14 @@ value = ifelse(!(EnemyNear(0),Alive), 1, 0)
 IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿ reset]
+[State -1, å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡ reset]
 Type = VarSet
 trigger1 = Var(49) != 0
 V = 49
 value = 0
 IgnoreHitPause = 1
 
-[State -1, ¶Ô·½³öÕĞ±àºÅ¶ÔÓ¦±äÁ¿]
+[State -1, å¯¹æ–¹å‡ºæ‹›ç¼–å·å¯¹åº”å˜é‡]
 Type = Null
 triggerall = Enemynear(Root,Var(54)),Movetype = A
 trigger1 = Helper(97531),Var(1) = Enemynear(Root,Var(54)),Stateno
@@ -1356,20 +1360,20 @@ trigger39 = Var(49) := 39
 IgnoreHitPause= 1
 
 ;---------------------------------------------------------------------------
-;[State -1, ¶Ô·½Ä¿Ç°Stateno¼ÇÂ¼]
+;[State -1, å¯¹æ–¹ç›®å‰Statenoè®°å½•]
 ;type = VarSet
 ;trigger1 = 1
 ;V = 3
 ;Value = ifelse((Enemynear,hitdefattr = SCA,AA,AP,AT), 1, 0)
 
-;[State -1, ¶Ô·½Ä¿Ç°Stateno¼ÇÂ¼]
+;[State -1, å¯¹æ–¹ç›®å‰Statenoè®°å½•]
 ;type = VarSet
 ;trigger1 = Enemynear,Stateno < 200
 ;V = 3
 ;Value = 0
 
 ;---------------------------------------------------------------------------
-;[State -1, ¶Ô·½Ä¿Ç°Stateno¼ÇÂ¼]
+;[State -1, å¯¹æ–¹ç›®å‰Statenoè®°å½•]
 ;type = VarSet
 ;trigger1 = movetype != H && Stateno < 5000
 ;V = 3
@@ -1394,19 +1398,19 @@ IgnoreHitPause= 1
 
 ;---------------------------------------------------------------------------
 
-;[State -1, ÕĞÊ½Ê±¼äReset]
+;[State -1, æ‹›å¼æ—¶é—´Reset]
 ;Type = VarSet
 ;Trigger1 = statetype = A
 ;V = 4
 ;Value = time
 
-;[State -1, ÕĞÊ½Ê±¼äReset]
+;[State -1, æ‹›å¼æ—¶é—´Reset]
 ;Type = VarSet
 ;Trigger1 = statetype = C
 ;V = 4
 ;Value = 0
 
-;[State -1, ÕĞÊ½Ê±¼ä]
+;[State -1, æ‹›å¼æ—¶é—´]
 ;Type = VarAdd
 ;Trigger1 = movetype = A && !movehit
 ;V = 3
@@ -1415,10 +1419,10 @@ IgnoreHitPause= 1
 
 ;===========================================================================
 
-;[ÌØÊâÓÅÏÈ¡¢¶Ô²ß]
+;[ç‰¹æ®Šä¼˜å…ˆã€å¯¹ç­–]
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¶Ô²ßµÚÒ»¾Ö¿ª³¡Ç¿ÖÆÏÂ¶×]
+[State -1, SMHå¯¹ç­–ç¬¬ä¸€å±€å¼€åœºå¼ºåˆ¶ä¸‹è¹²]
 type = ChangeState
 value = 400
 Triggerall = Helper(97530),FVar(33) = 1
@@ -1430,7 +1434,7 @@ Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger1 = PrevStateno = 191
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¶Ô²ßÇ¿ÖÆÅÅ³ı¶×·Àwww]
+[State -1, SMHå¯¹ç­–å¼ºåˆ¶æ’é™¤è¹²é˜²www]
 type = ChangeState
 value = 131
 Triggerall = Helper(97530),FVar(33) = 1
@@ -1442,7 +1446,7 @@ Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno =
 Trigger1 = EnemyNear(Var(54)),Stateno=[2000,2009]
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¶Ô²ßÌôĞÆ]
+[State -1, SMHå¯¹ç­–æŒ‘è¡…]
 type = ChangeState
 value = 195
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1458,8 +1462,8 @@ Trigger2 = EnemyNear(Var(54)),Statetype = A
 
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Smash Kung Fu Upper SMH¶Ô²ß³¬ÉıÁúÒ»Æ¬ÎŞ»Ú155+70.8]
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Smash Kung Fu Upper SMHå¯¹ç­–è¶…å‡é¾™ä¸€ç‰‡æ— æ‚”155+70.8]
 type = ChangeState
 value = 3050
 Triggerall = Helper(97530),FVar(33) = 2
@@ -1472,7 +1476,7 @@ Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger1 = P2bodydist X < 110 && facing = EnemyNear(Var(54)),facing
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¶Ô²ßµÚÈı¾Ö¿ªÊ¼ºóÌø]
+[State -1, SMHå¯¹ç­–ç¬¬ä¸‰å±€å¼€å§‹åè·³]
 type = ChangeState
 value = 39
 Triggerall = Helper(97530),FVar(33) = 3
@@ -1484,8 +1488,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]))
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch SMH¶Ô²ßµÚÈı¾ÖÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch SMHå¯¹ç­–ç¬¬ä¸‰å±€è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = Helper(97530),FVar(33) = 4
@@ -1498,8 +1502,8 @@ Trigger1 = RoundNo = 3
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ºÚ¹í¶Ô²ßÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick é»‘é¬¼å¯¹ç­–è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1516,8 +1520,8 @@ Trigger2 = Helper(97530),FVar(34) = 9 || (Pos Y + Vel Y * 9 + Const(movement.yac
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Upper (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[EƒEƒbƒp[
-[State -1, Fast Kung Fu Upper ºÚ¹í¶Ô²ß¿ìÉıÁú98.(4,9)]
+;æ‡å„åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•
+[State -1, Fast Kung Fu Upper é»‘é¬¼å¯¹ç­–å¿«å‡é¾™98.(4,9)]
 type = ChangeState
 value = 1120
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1532,8 +1536,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm ºÚ¹í¶Ô²ßÇáÕÆ90.85.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm é»‘é¬¼å¯¹ç­–è½»æŒ90.85.9]
 type = ChangeState
 value = 1000
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1550,7 +1554,7 @@ Trigger1 = Movehit && P2dist X >= -5 && EnemyNear(Var(54)),Movetype = H
 ;Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
-[State -1, ÌøÔ¾»Ø±ÜÍ¶¼¼]
+[State -1, è·³è·ƒå›é¿æŠ•æŠ€]
 type = ChangeState
 value = ifelse(P2bodydist X > 50, 41, 42)
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1568,7 +1572,7 @@ Triggerall = !(EnemyNear(Var(54)),Name="cvsg_rugal" && EnemyNear(Var(54)),Staten
 Trigger1 = (Var(49) = [31,34]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)),Time > 5
 
 ;---------------------------------------------------------------------------
-[State -1, ¶ÔÍ¶ÎŞµĞÊ±·´»÷]
+[State -1, å¯¹æŠ•æ— æ•Œæ—¶åå‡»]
 type = ChangeState
 value = ifelse(P2bodydist X < 36, 400, 230)
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1586,7 +1590,7 @@ Triggerall = !(EnemyNear(Var(54)),Name="cvsg_rugal" && EnemyNear(Var(54)),Staten
 Trigger1 = (Var(49) = [31,34]) && (Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)),Time = [-5,5])
 
 ;---------------------------------------------------------------------------
-[State -1, ºó³·]
+[State -1, åæ’¤]
 type = ChangeState
 value = 105
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1601,9 +1605,9 @@ Trigger1 = (Var(49) = [31,34]) && (Helper(97531),FVar(Var(49)) - EnemyNear(Var(5
 Trigger2 = EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Stateno >= 200 && facing != EnemyNear(Var(54)),facing
 Trigger2 = ((Ceil(Helper(97530),FVar(39)) & 2**0) || EnemyNear(Var(54)),Stateno = Helper(97531),Var(35)) && Var(59) > 2
 Trigger3 = EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Stateno >= 200 && facing != EnemyNear(Var(54)),facing
-Trigger3 = EnemyNear(Var(54)),hitdefattr = SC,AT ;¶ÔÊÖ³öÍ¶¼¼Ê±ºó³·
+Trigger3 = EnemyNear(Var(54)),hitdefattr = SC,AT ;å¯¹æ‰‹å‡ºæŠ•æŠ€æ—¶åæ’¤
 Trigger3 = inguarddist || (P2bodydist X = [-20,100])
-Trigger4 = Helper(97530),FVar(0) = 9 && (EnemyNear(Var(54)),Stateno = [5110,5130)) && P2bodydist X < 50
+Trigger4 = Helper(97530),FVar(0) = 9 && (EnemyNear(Var(54)),Stateno = [5110,5130)) && P2bodydist X < 60
 
 ;Trigger4 = (P2bodydist X < 100) && (EnemyNear(Var(54)),Stateno = [200,700)) && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Time <= 1
 ;Trigger4 = Backedgebodydist > 60 && Random < 200 && Power < 300 
@@ -1618,8 +1622,8 @@ Trigger4 = Helper(97530),FVar(0) = 9 && (EnemyNear(Var(54)),Stateno = [5110,5130
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ¶Ô¿ÕÍ¶ÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch å¯¹ç©ºæŠ•è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1641,7 +1645,7 @@ Trigger1 = ((Var(49) = [31,34]) || EnemyNear(Var(54)),hitdefattr = A,AT) && Enem
 ;Trigger3 = Stateno = 1350 ;Air blocking
 
 ;---------------------------------------------------------------------------
-[State -1, Ô­µØÌøÔ¾/ÌøÔ¾Ç° ±ÜÏÂ¶Î]
+[State -1, åŸåœ°è·³è·ƒ/è·³è·ƒå‰ é¿ä¸‹æ®µ]
 type = ChangeState
 value = ifelse((P2bodydist X = [0,55]), 42, 41)
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1657,7 +1661,7 @@ Trigger1 = (Var(49) = [1,25]) && Helper(97531),FVar(Var(49)) >= 6
 Trigger2 = (EnemyNear(Var(54)),Stateno = [430,450)) && Random < 50
 
 ;---------------------------------------------------------------------------
-[State -1, ËÆ·Ç¿ÕÈĞÆğÌø]
+[State -1, ä¼¼éç©ºåˆƒèµ·è·³]
 type = ChangeState
 value = ifelse((((facing != EnemyNear(Var(54)),facing && EnemyNear(Var(54)),Backedgebodydist < 3) || (facing = EnemyNear(Var(54)),facing && EnemyNear(Var(54)),Frontedgebodydist < 3)) && P2bodydist X < 10),42,41)
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1672,7 +1676,7 @@ Trigger2 = Var(56) = 0 && ((facing != EnemyNear(Var(54)),facing && EnemyNear(Var
 Trigger3 = Var(56) < 0
 
 ;---------------------------------------------------------------------------
-[State -1, ÊÀ¼ÍÄ©×·»÷Ç°ÅÜ]
+[State -1, ä¸–çºªæœ«è¿½å‡»å‰è·‘]
 type = ChangeState
 value = 101
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1687,14 +1691,14 @@ Trigger2 = Var(56) = 0 && ((facing != EnemyNear(Var(54)),facing && EnemyNear(Var
 Trigger3 = Var(56) < 0
 
 ;---------------------------------------------------------------------------
-[State -1, ÊÀ¼ÍÄ©×·»÷ÏòÇ°×ß]
+[State -1, ä¸–çºªæœ«è¿½å‡»å‘å‰èµ°]
 type = ChangeState
 value = 21
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
 Triggerall = Var(59) = 5
 Triggerall = Roundstate = 2
 Triggerall = Statetype != A
-Triggerall = Stateno = 400 && Movehit && time > 5+4*(EnemyNear(Var(54)),Statetype=A) && EnemyNear(Var(54)),Movetype = H
+Triggerall = Stateno = 400 && Movehit && time > 5+3*(EnemyNear(Var(54)),Statetype=A) && EnemyNear(Var(54)),Movetype = H
 Triggerall = EnemyNear(Var(54)),Statetype !=L; S || EnemyNear(Var(54)),Statetype = C
 Triggerall = Helper(97530),FVar(11) > -6 
 Trigger1 = Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)
@@ -1703,8 +1707,8 @@ Trigger3 = Var(56) < 0
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ÊÀ¼ÍÄ©¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch ä¸–çºªæœ«è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1725,8 +1729,8 @@ Trigger2 = Helper(97530),FVar(37) = 15 && Helper(97530),FVar(10) = 12
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ËÆ·Ç¿ÕÈĞÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick ä¼¼éç©ºåˆƒè·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1747,8 +1751,8 @@ Trigger1 = EnemyNear(Var(54)),Statetype = S && Helper(97530),FVar(33) = 12 && En
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ËÆ·Ç¿ÕÈĞÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch ä¼¼éç©ºåˆƒè·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1758,7 +1762,7 @@ Triggerall = Statetype = A
 Triggerall = Pos Y + Vel Y * 4 + Const(movement.yaccel) * 4 * (4+1) / 2 < 0
 Trigger1 = P2bodydist X-Vel X*4 < 35 && P2dist X >= 0
 Trigger1 = EnemyNear(Var(54)),Statetype = S && Helper(97530),FVar(33) = 12 && EnemyNear(Var(54)),Movetype = H
-Trigger1 = ctrl || (Stateno = 600 && time >= 7 && Helper(97530),FVar(34) = 5)
+Trigger1 = ctrl || (Stateno = 600 && time >= 7 && Helper(97530),FVar(34) >= 5)
 
 ;Trigger1 = Statetype = A
 ;Trigger1 = ctrl
@@ -1768,8 +1772,8 @@ Trigger1 = ctrl || (Stateno = 600 && time >= 7 && Helper(97530),FVar(34) = 5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch Ë«´ò¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch åŒæ‰“è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1790,8 +1794,8 @@ Trigger2 = Numenemy > 1
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm Ë«´òÇáÕÆ90.70.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm åŒæ‰“è½»æŒ90.70.9]
 type = ChangeState
 value = 1000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1810,7 +1814,7 @@ Trigger2 = P2bodydist X < 65 && P2dist X >= 0 && EnemyNear(Var(54)),Statetype = 
 Trigger2 = Numenemy > 1
 
 ;---------------------------------------------------------------------------
-[State -1, ¶×¿É¿Ø]
+[State -1, è¹²å¯æ§]
 type = Ctrlset
 Triggerall = !Ishelper
 Triggerall = Var(59) != 0
@@ -1819,7 +1823,7 @@ Trigger1 = Stateno = 11
 value = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ¸ß¿ÕÊÜÉí]
+[State -1, é«˜ç©ºå—èº«]
 Type = ChangeState
 Value = 5210
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1828,31 +1832,34 @@ Triggerall = Vel Y > -1
 Triggerall = Pos Y < -20 && Pos Y > -80
 Triggerall = Alive && CanRecover
 Triggerall = Stateno = 5050 && Helper(97530),FVar(32) <= 800   ;&& (P2Bodydist X = [-10,50]) && Backedgebodydist > 30 
-Triggerall = EnemyNear(Var(54)), Stateno >= 160 && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Numproj = 0
-Trigger1 = EnemyNear(Var(54)),Movetype = H || EnemyNear(Var(54)),Statetype = L
+Triggerall = EnemyNear(Var(54)),Numproj = 0
+Trigger1 = (EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(34) > 16) || EnemyNear(Var(54)),Statetype = L
+Trigger2 = EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)), Stateno >= 160
 Trigger2 = (Var(49) = [1,25]) && Inguarddist
 Trigger2 = (EnemyNear(Var(54)),Time = (Helper(97531),FVar(Var(49))-3,Helper(97531),FVar(Var(49))]) && EnemyNear(Var(54)),AnimTime <= -(Helper(97530),FVar(32)/40+5)
 Trigger3 = Helper(97530),FVar(33) = 5
 
 ;---------------------------------------------------------------------------
-;[State -1, µÍ¿ÕÊÜÉí]
-;type = ChangeState
-;value = 5200
-;Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
-;Triggerall = Var(59) > 0
-;Triggerall = Vel Y > 0
-;Triggerall = Pos Y >= -20
-;Triggerall = Alive && CanRecover
-;Triggerall = Stateno = 5050 && P2dist X > 0 && Helper(97530),FVar(32) < 800 ;&& Backedgebodydist > 30 
-;Triggerall = EnemyNear(Var(54)), Stateno >= 160 && EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Numproj = 0
+[State -1, ä½ç©ºå—èº«]
+type = ChangeState
+value = 5200
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Vel Y > 0
+Triggerall = Pos Y >= -20
+Triggerall = Alive && CanRecover
+Triggerall = Stateno = 5050 && P2dist X > 0 && Helper(97530),FVar(32) < 800 ;&& Backedgebodydist > 30 
+Triggerall = EnemyNear(Var(54)),Numproj = 0
+Trigger1 = (EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(34) > 16) || EnemyNear(Var(54)),Statetype = L
+
 ;Trigger1 = (&& EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),hitdefattr = sca,aa,ap,at && EnemyNear(Var(54)),AnimTime <= -(Helper(97530),FVar(32)/40+5)) || EnemyNear(Var(54)),Movetype = H || EnemyNear(Var(54)),Statetype = L
 ;Trigger2 = (Var(49) = [1,25]) && Inguarddist
 ;Trigger2 = (EnemyNear(Var(54)),Time = (Helper(97531),FVar(Var(49))-3,Helper(97531),FVar(Var(49))]) && EnemyNear(Var(54)),AnimTime <= -(Helper(97530),FVar(32)/40+5)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ºÚ¹í¶Ô²ß¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch é»‘é¬¼å¯¹ç­–è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1867,8 +1874,8 @@ Trigger1 = EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(V
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch ºÚ¹í¶Ô²ßÕ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch é»‘é¬¼å¯¹ç­–ç«™è½»æ‹³23.44.4]
 type = null;ChangeState
 value = 200
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1881,7 +1888,7 @@ Trigger1 = EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(V
 Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = [120,140]))
 
 ;---------------------------------------------------------------------------
-[State -1, ºÚ¹í¶Ô²ßÇ°ÅÜ]
+[State -1, é»‘é¬¼å¯¹ç­–å‰è·‘]
 type = ChangeState
 value = 101
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1893,7 +1900,7 @@ Triggerall = (ctrl || (Stateno = [19,21])) && (Stateno != [100,101])
 Trigger1 = P2bodydist X > 20 && EnemyNear(Var(54)),Statetype = A
 
 ;---------------------------------------------------------------------------
-[State -1, ºÚ¹í¶Ô²ßÌø]
+[State -1, é»‘é¬¼å¯¹ç­–è·³]
 type = ChangeState
 value = 39
 Triggerall = Helper(97530),FVar(33) = 5
@@ -1905,7 +1912,7 @@ Trigger1 = P2bodydist X > 30 && EnemyNear(Var(54)),Statetype = S
 Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¡¢ºÚ¹í¶Ô²ßÎŞÏŞÁ¬¿ªÆô]
+[State -1, SMHã€é»‘é¬¼å¯¹ç­–æ— é™è¿å¼€å¯]
 Type = VarSet 
 Trigger1 = Var(59) = 5
 Trigger1 = Helper(97530),FVar(33) = (0,10]
@@ -1915,8 +1922,8 @@ IgnoreHitPause = 1
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch SMH¶Ô²ß¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch SMHå¯¹ç­–è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1931,7 +1938,7 @@ Trigger2 = ((P2bodydist X-EnemyNear(Var(54)),Vel X*4 = [-5,32]) && P2dist X >= 0
 Trigger2 = EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C
 
 ;---------------------------------------------------------------------------
-[State -1, SMH¶Ô²ßÇ°ÅÜ]
+[State -1, SMHå¯¹ç­–å‰è·‘]
 type = ChangeState
 value = 101
 Triggerall = Helper(97530),FVar(33) = (0,4]
@@ -1947,7 +1954,7 @@ Trigger2 = P2bodydist X > 30
 Trigger2 = (ctrl || (Stateno = [19,21]))
 
 ;---------------------------------------------------------------------------
-[State -1, ÌôĞÆ]
+[State -1, æŒ‘è¡…]
 type = ChangeState
 value = 195
 Triggerall = !Ishelper
@@ -1966,12 +1973,12 @@ Trigger3 = Alive && Win && Helper(97530),FVar(28) < 2
 
 ;===========================================================================
 
-;[ÇĞ·´¡¢×¥³öÕĞÓ²Ö±]
+;[åˆ‡åã€æŠ“å‡ºæ‹›ç¡¬ç›´]
 
 ;---------------------------------------------------------------------------
 ;Triple Kung Fu Palm (uses one super bar)
-;O—óƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Triple Kung Fu Palm ³¬ÈıÁ¬ÕÆ72+72+75.14]
+;å¶°æ¥åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Triple Kung Fu Palm è¶…ä¸‰è¿æŒ72+72+75.14]
 type = ChangeState
 value = 3000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -1996,8 +2003,8 @@ Trigger1 = (Var(49) = [1,25]) && (Helper(97531),FVar(Var(49)) - EnemyNear(Var(54
 
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Smash Kung Fu Upper ³¬ÉıÁú155+70.8]
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Smash Kung Fu Upper è¶…å‡é¾™155+70.8]
 type = ChangeState
 value = 3050
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2025,8 +2032,8 @@ Trigger3 = EnemyNear(Var(54)),Vel X >= 0
 
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Smash Kung Fu Upper ³¬ÉıÁú155+70.8]
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Smash Kung Fu Upper è¶…å‡é¾™155+70.8]
 type = ChangeState
 value = 3050
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2052,8 +2059,8 @@ Trigger1 = (Var(49) = [1,25]) && (Helper(97531),FVar(Var(49)) - EnemyNear(Var(54
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2082,8 +2089,8 @@ Trigger2 = Helper(97530),FVar(32) < 75 - Var(59)*15
 
 ;---------------------------------------------------------------------------
 ;Kung Fu Throw
-;“Š‚°
-[State -1, Kung Fu Throw Í¶78.1]
+;æ³å˜
+[State -1, Kung Fu Throw æŠ•78.1]
 type = ChangeState
 value = 800
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2113,8 +2120,8 @@ Trigger1 = (Helper(97530),FVar(32) < Var(59)*100)
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2148,8 +2155,8 @@ Trigger2 = Helper(97530),FVar(32) < 75 - Var(59)*15
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2180,8 +2187,8 @@ Trigger2 = Helper(97530),FVar(32) < 75 - Var(59)*15
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2208,8 +2215,8 @@ Trigger1 = (Random < Var(59)*100)
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2236,8 +2243,8 @@ Trigger2 = ((Pos Y + Vel Y * 7 + const(movement.yaccel) * 7 * (7 + 1) / 2 = [-40
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
-[State -1, Crouching Strong Kick ¶×ÖØ½Å72.60.10]
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Strong Kick è¹²é‡è„š72.60.10]
 type = ChangeState
 value = 440
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2263,8 +2270,8 @@ Trigger1 = ctrl || (Stateno = [19,21])
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm ÇáÕÆ90.70.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm è½»æŒ90.70.9]
 type = ChangeState
 value = 1000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2287,8 +2294,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (((Stateno =
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
-[State -1, Fast Kung Fu Palm ¿ìÕÆ95.150.11]
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Palm å¿«æŒ95.150.11]
 type = ChangeState
 value = 1020
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2312,8 +2319,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (((Stateno =
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2335,8 +2342,8 @@ Trigger1 = ctrl || (Stateno = [19,21]) || (Stateno = [100,101])
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2361,8 +2368,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = 2
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2385,8 +2392,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = 4
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2409,8 +2416,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || ((Stateno = 
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2436,8 +2443,8 @@ Trigger2 = ((Pos Y + Vel Y * 7 + const(movement.yaccel) * 7 * (7 + 1) / 2 = [-40
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2460,8 +2467,8 @@ Trigger1 = (Var(49) = [1,25]) && EnemyNear(Var(54)),Time > Helper(97531),FVar(Va
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2485,8 +2492,8 @@ Trigger1 = (Var(49) = [1,25]) && EnemyNear(Var(54)),Time > Helper(97531),FVar(Va
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm ÇáÕÆ90.70.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm è½»æŒ90.70.9]
 type = ChangeState
 value = 1000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2508,8 +2515,8 @@ Trigger1 = (Var(49) = [1,25]) && EnemyNear(Var(54)),Time > Helper(97531),FVar(Va
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ÆÆ·À¼¼¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick ç ´é˜²æŠ€è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2531,8 +2538,8 @@ Trigger2 = (EnemyNear(Var(54)), Stateno = Helper(97530),Var(24)) && (EnemyNear(V
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick ÆÆ·À¼¼Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç ´é˜²æŠ€ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2554,8 +2561,8 @@ Trigger2 = (EnemyNear(Var(54)), Stateno = Floor((Helper(97530),Var(24))/1000)) &
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ÆÆ·À¼¼¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch ç ´é˜²æŠ€è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2574,15 +2581,34 @@ Trigger2 = (EnemyNear(Var(54)), Stateno = Floor((Helper(97530),Var(24))/1000)) &
 ;Trigger1 = Statetype = C
 ;Trigger1 = ctrl
 
+;---------------------------------------------------------------------------
+[State -1, ç ´ç©ºé˜²æŠ€äºŒæ®µè·³]
+type = ChangeState
+value = 46
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 2
+Triggerall = Statetype = A
+Triggerall = Var(59) > 3
+Triggerall = (P2bodydist X-EnemyNear(Var(54)),Vel X*5 = [-30,80]) && P2dist X >= 0
+Triggerall = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),const(movement.yaccel) * 4 * (4 + 1) / 2 < 0) && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
+Triggerall = (Random < Var(59)*150) && EnemyNear(Var(54)),Stateno >= 160
+Triggerall = ctrl
+Triggerall = Helper(97530),Fvar(36) = 0
+Trigger1 = EnemyNear(Var(54)), Stateno = Helper(97530),Var(19)
+Trigger2 = EnemyNear(Var(54)), Stateno = Helper(97530),Var(20)
+Trigger3 = EnemyNear(Var(54)), Stateno = Helper(97530),Var(21)
+Trigger4 = EnemyNear(Var(54)), Stateno = Helper(97530),Var(22)
+
 
 ;===========================================================================
 
-;[ÇÀÕĞ]
+;[æŠ¢æ‹›]
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2604,8 +2630,8 @@ Trigger1 = (Var(49) = [31,34]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2629,8 +2655,8 @@ Trigger1 = (Var(49) = [1,30]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2652,8 +2678,8 @@ Trigger1 = (Var(49) = [1,30]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2675,8 +2701,8 @@ Trigger1 = (Var(49) = [1,30]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Kung Fu Throw
-;“Š‚°
-[State -1, Kung Fu Throw Í¶78.1]
+;æ³å˜
+[State -1, Kung Fu Throw æŠ•78.1]
 type = ChangeState
 value = 800
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2703,8 +2729,8 @@ Trigger1 = (Var(49) = [1,35]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm ÇáÕÆ90.70.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm è½»æŒ90.70.9]
 type = ChangeState
 value = 1000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2723,8 +2749,8 @@ Trigger1 = (Var(49) = [1,30]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
-[State -1, Fast Kung Fu Palm ¿ìÕÆ95.150.11]
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Palm å¿«æŒ95.150.11]
 type = ChangeState
 value = 1020
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2744,8 +2770,8 @@ Trigger1 = (Var(49) = [1,30]) && Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2766,8 +2792,8 @@ trigger6 = EnemyNear(Var(54)),Stateno = Helper(97531),Var(57)
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
-[State -1, Crouching Strong Kick ¶×ÖØ½Å72.60.10]
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Strong Kick è¹²é‡è„š72.60.10]
 type = ChangeState
 value = 440
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2794,14 +2820,14 @@ trigger6 = EnemyNear(Var(54)),Stateno = Helper(97531),Var(57)
 
 ;===========================================================================
 
-;[(Æğ¹¥¡¢Ñ¹ÖÆ¡¢×¥ÊÜÉí¡¢Æ­ÕĞ¡¢Õ©·É)]
-;£ü©À[µØÉÏ]
-;£ü©¸[¿ÕÖĞ]
+;[(èµ·æ”»ã€å‹åˆ¶ã€æŠ“å—èº«ã€éª—æ‹›ã€è¯ˆé£)]
+;ï½œâ”œ[åœ°ä¸Š]
+;ï½œâ””[ç©ºä¸­]
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2809,21 +2835,24 @@ Triggerall = Var(59) > 0
 Triggerall = Roundstate = 2
 Triggerall = Statetype != A
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -40)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -35)))
+Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger1 = Helper(97530),FVar(0) != 9
 Trigger1 = EnemyNear(Var(54)),Stateno = 5120 && (P2bodydist X < 36+(Stateno = [100,101])*5 && P2dist X >= 0)
 Trigger1 = (EnemyNear(Var(54)),AnimTime = [-1,0])
 Trigger1 = EnemyNear(Var(54)),Vel X = 0
 Trigger1 = Var(59) > 3
-Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger1 = (Helper(97530),FVar(32) <= 800)
+Trigger2 = EnemyNear(Var(54)),Stateno = Helper(97530),FVar(22) && P2bodydist X-Vel X*4 < 40
+Trigger2 = (EnemyNear(Var(54)),AnimTime = [-4,-Floor(Helper(97530),FVar(32)/250)])
+Trigger2 = Var(59) > 3
 
 ;Trigger1 = Statetype = C
 ;Trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2850,8 +2879,8 @@ Trigger2 = Helper(97530),FVar(32) < 1000 - (EnemyNear(Var(54)),Statetype = S && 
 
 ;---------------------------------------------------------------------------
 ;Standing Strong Kick
-;—§‚¿‹­ƒLƒbƒN
-[State -1, Standing Strong Kick Õ¾ÖØ½Å63.54.8]
+;æ£«åªå«®åƒ‰åƒ¢åƒ‹
+[State -1, Standing Strong Kick ç«™é‡è„š63.54.8]
 type = ChangeState
 value = 240
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2874,8 +2903,8 @@ Trigger2 = P2bodydist X < 5 && P2dist X >= 0
 
 ;---------------------------------------------------------------------------
 ;Stand Strong Punch
-;—§‚¿‹­ƒpƒ“ƒ`
-[State -1, Stand Strong Punch Õ¾ÖØÈ­57.63.9]
+;æ£«åªå«®åƒ·å„åƒ 
+[State -1, Stand Strong Punch ç«™é‡æ‹³57.63.9]
 type = ChangeState
 value = 210
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2899,8 +2928,8 @@ Trigger2 = EnemyNear(Var(54)),Statetype = S
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Punch
-;‚µ‚á‚ª‚İ‹­ƒpƒ“ƒ`
-[State -1, Crouching Strong Punch ¶×ÖØÈ­37.40.8]
+;åŸå‚–å‘å‚’å«®åƒ·å„åƒ 
+[State -1, Crouching Strong Punch è¹²é‡æ‹³37.40.8]
 type = ChangeState
 value = 410
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2919,8 +2948,8 @@ Trigger1 = (EnemyNear(Var(54)),Stateno = [120,160))
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2945,8 +2974,8 @@ Trigger2 = (EnemyNear(Var(54)),Stateno = [120,160))
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
-[State -1, Crouching Strong Kick ¶×ÖØ½Å72.60.10]
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Strong Kick è¹²é‡è„š72.60.10]
 type = ChangeState
 value = 440
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2964,8 +2993,8 @@ Trigger1 = (EnemyNear(Var(54)),Stateno = [120,160))
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -2996,7 +3025,7 @@ Trigger4 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = 2
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Blow
-[State -1, Light Kung Fu Blow Çá»÷100.70.14]
+[State -1, Light Kung Fu Blow è½»å‡»100.70.14]
 type = ChangeState
 value = 1200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3019,8 +3048,8 @@ Trigger5 = Helper(97530),FVar(32) > 950
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3045,8 +3074,8 @@ Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3068,8 +3097,8 @@ Trigger1 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 5 + EnemyNear
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3091,8 +3120,8 @@ Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3116,8 +3145,8 @@ Trigger1 = ctrl || (Stateno = 600 && statetime >= 7)
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3141,8 +3170,8 @@ Trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3167,8 +3196,8 @@ Trigger2 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7= [-5,52]) || (P2body
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3193,8 +3222,8 @@ Trigger2 = Helper(97530),FVar(10) != 1 && Helper(97530),FVar(1) = 9
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3217,7 +3246,7 @@ Trigger1 = ctrl && (Helper(97530),FVar(32) < 150*Var(59))
 ;Trigger3 = Stateno = 1350 ;Air blocking
 
 ;---------------------------------------------------------------------------
-[State -1, Ñ¹ÖÆÇ°ÅÜ]
+[State -1, å‹åˆ¶å‰è·‘]
 type = ChangeState
 value = 101
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3232,16 +3261,17 @@ Trigger1 = P2bodydist X - (Helper(97530),FVar(34)-1-4)*4.6 + EnemyNear(Var(54)),
 Trigger1 = EnemyNear(Var(54)),Movetype = H && (EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C) && (EnemyNear(Var(54)),Stateno = [120,160))
 Trigger2 = P2bodydist X > 135 && ((EnemyNear(Var(54)),Stateno = [5200,5220)) || (EnemyNear(Var(54)),Stateno = 5210 && EnemyNear(Var(54)),Statetype = A))
 
+
 ;===========================================================================
 
-;[(Á¬ÕĞ¡¢Ä¿Ñº¡¢µØÃæ×·»÷)]
-;£ü©À[µØÉÏ]
-;£ü©¸[¿ÕÖĞ]
+;[(è¿æ‹›ã€ç›®æŠ¼ã€åœ°é¢è¿½å‡»)]
+;ï½œâ”œ[åœ°ä¸Š]
+;ï½œâ””[ç©ºä¸­]
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-;[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+;[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 ;type = ChangeState
 ;value = 400
 ;Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3261,8 +3291,8 @@ Trigger2 = P2bodydist X > 135 && ((EnemyNear(Var(54)),Stateno = [5200,5220)) || 
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3274,19 +3304,19 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-4))
 Triggerall = !(EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -70))
 Triggerall = Helper(97530),FVar(37) >= 1
-Triggerall = Helper(97530),FVar(33) != 5 && !(Var(56) < 0 && Helper(97530),FVar(10) = 12)
+Triggerall = Helper(97530),FVar(33) != 5 && !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
 Trigger1 = (Stateno = 200 && Time > 6)
 Trigger1 = ((P2bodydist X = [0,25]) && EnemyNear(Var(54)),Statetype = S)
-Trigger1 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
+Trigger1 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
 Trigger2 = (Stateno = 200 && Time > 6) && (P2bodydist X = [0,40])
 Trigger2 = EnemyNear(Var(54)),Pos Y > -35 && EnemyNear(Var(54)),Statetype = A
-Trigger2 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
+Trigger2 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
 Trigger3 = (Facing = 1 && Abs(helper(97533),RootDist X) < 75) || (Facing = -1 && Abs(helper(97532),RootDist X) < 75)
 Trigger3 = P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(10) != 1 && Helper(97530),FVar(10) != 4
 Trigger3 = (EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-35,-15]) && EnemyNear(Var(54)),Statetype = A
 Trigger3 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger4 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) = [-10,30]) && EnemyNear(Var(54)),Movetype = H && (Helper(97530),FVar(37) = [5,7]) && Helper(97530),FVar(10) != 4 && Helper(97530),FVar(1) < 9
-Trigger4 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) > 25) || (Helper(97530),FVar(32) < (500 + Helper(97530),FVar(1) * 250))
+Trigger4 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) > 25) || (Helper(97530),FVar(32) < (600 + Helper(97530),FVar(1) * 200))
 Trigger4 = (EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-35,-15]) && EnemyNear(Var(54)),Statetype = A
 Trigger4 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger5 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) = [-10,30]) && EnemyNear(Var(54)),Movetype = H && (Helper(97530),FVar(37) = [5,7]) && Helper(97530),FVar(10) != 4 && Helper(97530),FVar(1) < 9
@@ -3304,8 +3334,8 @@ Trigger6 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3315,9 +3345,9 @@ Triggerall = Statetype != A
 Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-5))
 Triggerall = Helper(97530),FVar(37) >= 4
-Trigger1 = (Stateno = 230 && Time > 9) && (P2bodydist X = [0,5])
+Trigger1 = (((Stateno = 230 && Time > 9) && (P2bodydist X = [0,5])) || ((Stateno = 200 && Time > 7) && (P2bodydist X = [0,25]) && EnemyNear(Var(54)),Statetype = C)) && Helper(97530),FVar(23) < 0.85
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -8 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Vel Y >= 0) || EnemyNear(Var(54)),Statetype != A
-Trigger1 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
+Trigger1 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
 Trigger2 = (P2bodydist X < 50 && (P2bodydist X - Const(velocity.run.fwd.x) > 36) && P2dist X >= 0 && Helper(97530),FVar(34) = 6)
 Trigger2 = (EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C) && EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Stateno >= 5000
 Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
@@ -3329,8 +3359,8 @@ Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
 ;Standing Strong Kick
-;—§‚¿‹­ƒLƒbƒN
-[State -1, Standing Strong Kick Õ¾ÖØ½Å63.54.8]
+;æ£«åªå«®åƒ‰åƒ¢åƒ‹
+[State -1, Standing Strong Kick ç«™é‡è„š63.54.8]
 type = ChangeState
 value = 240
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3341,13 +3371,18 @@ Triggerall = EnemyNear(Var(54)),Statetype != C
 Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-8))
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -50)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -45)))
-Triggerall = Helper(97530),FVar(37) >= 5 && Helper(97530),FVar(34) > 9
-Trigger1 = (Stateno = 200 && Time > 5) && (P2bodydist X = [0,32])
+Triggerall = Helper(97530),FVar(37) >= 5 && (Helper(97530),FVar(34) > 9 || Helper(97530),FVar(10) = 3)
+Trigger1 = (Stateno = 200 && Time > 5) && (P2bodydist X = [0,28])
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype = S
-Trigger1 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && Random < (Life - EnemyNear(Var(54)),Life) / 2 + 100
-Trigger2 = (Stateno = 230 && Time > 6) && (P2bodydist X = [0,21])
+Trigger1 = Movehit && P2dist X >= 0 && Numtarget && Random < (Life - EnemyNear(Var(54)),Life) / 2 + 100
+Trigger2 = (Stateno = 230 && Time > 6) && (P2bodydist X = [0,18])
 Trigger2 = (EnemyNear(Var(54)),Pos Y > -8 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype = S
-Trigger2 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
+Trigger2 = Movehit && P2dist X >= 0 && Numtarget
+Trigger3 = P2dist X >= 0 && ((Facing = 1 && Abs(helper(97533),RootDist X) < 80) || (Facing = -1 && Abs(helper(97532),RootDist X) < 80))
+Trigger3 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A && Helper(97530),FVar(10) = 3 ;&& PrevStateno = 810 
+Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 8 + EnemyNear(Var(54)),gethitvar(yaccel) * 8 * (8 + 1) / 2 = [-35,0]) && EnemyNear(Var(54)),Statetype = A)
+Trigger3 = (EnemyNear(Var(54)),life < (190+80*(Power>=330)+50*(Power>=1000))*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence))
+Trigger3 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;Trigger1 = Statetype = S
 ;Trigger1 = ctrl
@@ -3356,8 +3391,8 @@ Trigger2 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
 
 ;---------------------------------------------------------------------------
 ;Stand Strong Punch
-;—§‚¿‹­ƒpƒ“ƒ`
-[State -1, Stand Strong Punch Õ¾ÖØÈ­57.63.9]
+;æ£«åªå«®åƒ·å„åƒ 
+[State -1, Stand Strong Punch ç«™é‡æ‹³57.63.9]
 type = ChangeState
 value = 210
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3369,12 +3404,12 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-9))
 Triggerall = !(EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -60))
 Triggerall = Helper(97530),FVar(37) >= 4 && Helper(97530),FVar(34) > 9
-Trigger1 = (Stateno = 200 && Time > 5) && (P2bodydist X = [24,44])
+Trigger1 = (Stateno = 200 && Time > 5) && (P2bodydist X = [21,42])
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -35 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype = S
-Trigger1 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
-Trigger2 = (Stateno = 230 && Time > 6) && (P2bodydist X = [0,35])
+Trigger1 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
+Trigger2 = (Stateno = 230 && Time > 6) && (P2bodydist X = [0,27])
 Trigger2 = (EnemyNear(Var(54)),Pos Y > -35 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype = S
-Trigger2 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
+Trigger2 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
 
 ;Trigger1 = Statetype = S
 ;Trigger1 = ctrl
@@ -3383,8 +3418,8 @@ Trigger2 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Pow
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
-[State -1, Crouching Strong Kick ¶×ÖØ½Å72.60.10]
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Strong Kick è¹²é‡è„š72.60.10]
 type = ChangeState
 value = 440
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3402,7 +3437,7 @@ Trigger1 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 3 + EnemyNear
 Trigger1 = !(EnemyNear(Var(54)),Stateno = 5110 && EnemyNear(Var(54)),Const(data.liedown.time) - Floor(Helper(97530),FVar(29))%1000 < 15)
 Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Trigger2 = Stateno = 430 && Time > 5 && (P2bodydist X = [0,30]) && EnemyNear(Var(54)),Statetype != A
-Trigger2 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && Random < (Life - EnemyNear(Var(54)),Life) / 5 + 50
+Trigger2 = Movehit && P2dist X >= 0 && Numtarget && Random < (Life - EnemyNear(Var(54)),Life) / 5 + 50
 
 ;Trigger1 = (Stateno = 430 && Time > 5) && (P2bodydist X = (20,52]) && (EnemyNear(Var(54)),Pos Y = [-10,0])
 ;Trigger1 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
@@ -3414,8 +3449,8 @@ Trigger2 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && Random
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Punch
-;‚µ‚á‚ª‚İ‹­ƒpƒ“ƒ`
-[State -1, Crouching Strong Punch ¶×ÖØÈ­37.40.8]
+;åŸå‚–å‘å‚’å«®åƒ·å„åƒ 
+[State -1, Crouching Strong Punch è¹²é‡æ‹³37.40.8]
 type = ChangeState
 value = 410
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3426,13 +3461,16 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5080,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-8))
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -35)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -30)))
 Triggerall = Helper(97530),FVar(37) >= 6
-Triggerall = Helper(97530),FVar(33) != 5 && !(Var(56) < 0 && Helper(97530),FVar(10) = 12)
-Trigger1 = (Stateno = 400 && Time > 5) && (P2bodydist X = [0,12+(EnemyNear(Var(54)),Statetype = S)*3])
-Trigger1 = (EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
-Trigger1 = Movehit && P2dist X >= 0
-Trigger2 = (Stateno = 430 && Time > 5) && (P2bodydist X = [0,27])
-Trigger2 = (EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
-Trigger2 = Movehit && P2dist X >= 0 && Helper(97530),FVar(37) >= 10
+Triggerall = Helper(97530),FVar(33) != 5 && !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || (Var(56) = 0 && EnemyNear(Var(54)),Backedgebodydist > 3) || Var(56) < 0) && Helper(97530),FVar(10) = 12)
+Trigger1 = (Stateno = 400 && Time > 5) && (P2bodydist X = [0,10+(EnemyNear(Var(54)),Statetype = S)*2])
+Trigger1 = (EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Backedgebodydist > 3) || EnemyNear(Var(54)),Statetype != A
+Trigger1 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
+Trigger2 = (Stateno = 430 && Time > 5) && (P2bodydist X = [0,8])
+Trigger2 = (EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Backedgebodydist > 3) || EnemyNear(Var(54)),Statetype != A
+Trigger2 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59))) && Helper(97530),FVar(37) >= 10
+Trigger3 = (Stateno = 400 && Time > 5) && (P2bodydist X = [-5,10])
+Trigger3 = EnemyNear(Var(54)),Pos Y > -12 && EnemyNear(Var(54)),Statetype = A && Var(56) = 0 && EnemyNear(Var(54)),Backedgebodydist < 3
+Trigger3 = Movehit && P2dist X >= 0
 
 ;Trigger1 = Statetype = C
 ;Trigger1 = ctrl
@@ -3441,8 +3479,8 @@ Trigger2 = Movehit && P2dist X >= 0 && Helper(97530),FVar(37) >= 10
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3454,9 +3492,9 @@ Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),
 Triggerall = Helper(97530),FVar(37) >= 5
 Triggerall = Helper(97530),FVar(10) != 1
 Trigger1 = Stateno = 400 && Time > 5 && (P2bodydist X = [0,27]) && EnemyNear(Var(54)),Statetype != A
-Trigger1 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
-Trigger2 = Stateno = 430 && Time > 5 && (P2bodydist X = [0,24]) && EnemyNear(Var(54)),Statetype != A
-Trigger2 = Movehit && P2dist X >= 0 && (EnemyNear(Var(54)),Movetype = H || !(Power >= 1000 && Random < 300))
+Trigger1 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
+Trigger2 = Stateno = 430 && Time > 5 && (P2bodydist X = [0,21]) && EnemyNear(Var(54)),Statetype != A
+Trigger2 = Movehit && P2dist X >= 0 && (Numtarget || !(Power >= 1000 && Random < 60*Var(59)))
 Trigger3 = (P2bodydist X = [-3,45]) && EnemyNear(Var(54)),Movetype = H
 Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 1 + EnemyNear(Var(54)),gethitvar(yaccel) * 1 * (1 + 1) / 2 > 0 && EnemyNear(Var(54)),Statetype = A && Stateno != 430) || EnemyNear(Var(54)),Statetype = L)
 Trigger3 = !(Helper(97530),FVar(3) = 2 && (Helper(97530),FVar(37) = [7,9))) ;&& (EnemyNear(Var(54)),Stateno = [5080,5120))
@@ -3475,7 +3513,7 @@ Trigger3 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = 4
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Punch
-[State -1, Jump Strong Punch ÌøÖØÈ­72.45.7]
+[State -1, Jump Strong Punch è·³é‡æ‹³72.45.7]
 type = ChangeState
 value = 610
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3489,7 +3527,8 @@ Triggerall = (Pos Y + Vel Y * 7 + Const(movement.yaccel) * 7 * (7+1) / 2 < 0)
 Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = Stateno = 600 && Movehit && P2dist X >= 0
 Trigger1 = ((P2dist Y = [-15,35]) && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [0,45])
+Trigger1 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [-5,45]) || (P2bodydist X < 40 && P2dist X >= 0)
+Trigger1 = !(Floor(Helper(97530),FVar(10)) = 8 && Stateno = 600 && Prevstateno != 600)
 
 ;Trigger1 = Statetype = A
 ;Trigger1 = ctrl
@@ -3499,8 +3538,8 @@ Trigger1 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [0,45])
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3515,6 +3554,7 @@ Triggerall = Stateno = 600 && Movehit
 Triggerall = !(EnemyNear(Var(54)),Statetype = S && Helper(97530),FVar(33) = 12 && EnemyNear(Var(54)),Movetype = H)
 Trigger1 = ((P2dist Y = [-5,50]) && EnemyNear(Var(54)),Statetype = A)
 Trigger1 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [-5,54]) || (P2bodydist X < 48 && P2dist X >= 0)
+Trigger1 = !(Floor(Helper(97530),FVar(10)) = 8 && Stateno = 600 && Prevstateno != 600)
 Trigger2 = (((Pos Y + Vel Y * 9 + Const(movement.yaccel) * 9 * (9+1) / 2 >= 0) || Helper(97530),FVar(34) = 8) && (EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C))
 Trigger2 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [-5,52]) || (P2bodydist X < 48 && P2dist X >= 0)
 
@@ -3526,8 +3566,8 @@ Trigger2 = (P2bodydist X-Vel X*7-EnemyNear(Var(54)),Vel X*7 = [-5,52]) || (P2bod
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3536,11 +3576,16 @@ Triggerall = Roundstate = 2
 Triggerall = Statetype = A
 Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-4))
+Triggerall = Pos Y + Vel Y * 4 + Const(movement.yaccel) * 4 * (4+1) / 2 < 0
 Triggerall = Helper(97530),FVar(37) >= 2
-Triggerall = (Stateno = 600 && statetime >= 7) && (P2bodydist X = [0,32])
-Triggerall = Movecontact && P2dist X >= 0
+Triggerall = P2bodydist X < 32 && P2dist X >= 0
+Trigger1 = Movecontact && (Stateno = 600 && statetime >= 7)
 Trigger1 = ((P2dist Y = [-20,20]) && EnemyNear(Var(54)),Statetype = A)
+Trigger2 = Movecontact && (Stateno = 600 && statetime >= 7)
 Trigger2 = (((Pos Y + Vel Y * 7 + Const(movement.yaccel) * 7 * (7+1) / 2 >= 0) || Helper(97530),FVar(34) = 5) && EnemyNear(Var(54)),Statetype = S)
+Trigger3 = EnemyNear(Var(54)),Statetype = A && Floor(Helper(97530),FVar(10)) = 8
+Trigger3 = (P2dist Y - Vel Y * 4 - const(movement.yaccel) * 4 * (4 + 1) / 2 + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-10,20])
+Trigger3 = ctrl
 
 ;Trigger1 = Statetype = A
 ;Trigger1 = ctrl
@@ -3550,8 +3595,8 @@ Trigger2 = (((Pos Y + Vel Y * 7 + Const(movement.yaccel) * 7 * (7+1) / 2 >= 0) |
 
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Smash Kung Fu Upper ³¬ÉıÁú155+70.8]
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Smash Kung Fu Upper è¶…å‡é¾™155+70.8]
 type = ChangeState
 value = 3050
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3567,9 +3612,9 @@ Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = (Helper(97530),FVar(32) < 300*Var(59) && Var(59) < 3) || Var(59) > 2
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = EnemyNear(Var(54)),life < 170 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) || ((((EnemyNear(Var(54)),Pos Y = [-50,0]) && EnemyNear(Var(54)),Statetype = A) || Helper(97530),FVar(2) > 0) && Power >= 2000)
-Trigger1 = P2bodydist X < 12 && P2dist X >= 0 && (Stateno = [1000,1020)) && Movehit && EnemyNear(Var(54)),Movetype = H
-Trigger2 = EnemyNear(Var(54)),life > 100 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) && (EnemyNear(Var(54)),Pos Y = [-50,0]) && EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = H
-Trigger2 = P2bodydist X < 27 && P2dist X >= 0 && Stateno = 200 && Movehit
+Trigger1 = P2bodydist X < 12 && P2dist X >= 0 && (Stateno = [1000,1020)) && Movehit && Numtarget
+Trigger2 = EnemyNear(Var(54)),life > 100 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) && (EnemyNear(Var(54)),Pos Y = [-50,0]) && EnemyNear(Var(54)),Statetype = A
+Trigger2 = P2bodydist X < 27 && P2dist X >= 0 && Stateno = 200 && Movehit && Numtarget
 Trigger2 = (Helper(97530),FVar(1) < 9) && (Helper(97530),FVar(37) = [4,7])
 Trigger2 = Power > 2800 || (EnemyNear(Var(54)),life = [125*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence),170*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)])
 
@@ -3583,8 +3628,8 @@ Trigger2 = Power > 2800 || (EnemyNear(Var(54)),life = [125*Const(data.attack)/En
 
 ;---------------------------------------------------------------------------
 ;Triple Kung Fu Palm (uses one super bar)
-;O—óƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Triple Kung Fu Palm ³¬ÈıÁ¬ÕÆ72+72+75.14]
+;å¶°æ¥åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Triple Kung Fu Palm è¶…ä¸‰è¿æŒ72+72+75.14]
 type = ChangeState
 value = 3000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3599,8 +3644,8 @@ Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),
 Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = (Helper(97530),FVar(32) < 300*Var(59) && Var(59) < 3) || Var(59) > 2
 Triggerall = (P2bodydist X = [0,68]) && !(EnemyNear(Var(54)),Statetype = A && Helper(97530),FVar(2) = 9) 
-Triggerall = (Stateno = [1000,1020)) && AnimElemNo(0) = 6
-Triggerall = Movehit && EnemyNear(Var(54)),Movetype = H
+Triggerall = (Stateno = [1000,1020)) && (hitdefattr = SC, SA)
+Triggerall = Movehit && Numtarget
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = EnemyNear(Var(54)),Statetype != A
 Trigger2 = EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Pos Y > -25
@@ -3614,8 +3659,8 @@ Trigger2 = EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Pos Y > -25
 
 ;---------------------------------------------------------------------------
 ;Smash Kung Fu Upper (uses one super bar)
-;ƒXƒ}ƒbƒVƒ…EƒJƒ“ƒt[EƒEƒbƒp[iƒQ[ƒWƒŒƒxƒ‹‚Pj
-[State -1, Smash Kung Fu Upper ³¬ÉıÁú155+70.8]
+;åƒ—å„…åƒ¢åƒ”å„ä¸’åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹¯
+[State -1, Smash Kung Fu Upper è¶…å‡é¾™155+70.8]
 type = ChangeState
 value = 3050
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3631,12 +3676,12 @@ Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = (Helper(97530),FVar(32) < 300*Var(59) && Var(59) < 3) || Var(59) > 2
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = Stateno = 3000 && Movehit && hitcount >= 2 && (AnimElemNo(0) = 14) && (Power >= 1800 || EnemyNear(Var(54)),life <= 170 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence))
-Trigger1 = Frontedgebodydist <= 48 && EnemyNear(Var(54)),life > 100 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) && EnemyNear(Var(54)),Movetype = H
-Trigger2 = (Stateno = [1100,1120)) && Movehit && (AnimElemNo(0) = 3)
-Trigger2 = EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = H
+Trigger1 = Frontedgebodydist <= 48 && EnemyNear(Var(54)),life > 100 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) && Numtarget
+Trigger2 = (Stateno = [1100,1120)) && Movehit && Numtarget && (AnimElemNo(0) = 3)
+Trigger2 = EnemyNear(Var(54)),Statetype = A
 Trigger2 = (EnemyNear(Var(54)),life = (60*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence),170*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)]) && (life < 450 || Power >= 1800)
-Trigger3 = (Stateno = [1100,1120)) && Movehit && (AnimElemNo(0) = 3)
-Trigger3 = EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = H
+Trigger3 = (Stateno = [1100,1120)) && Movehit && Numtarget && (AnimElemNo(0) = 3)
+Trigger3 = EnemyNear(Var(54)),Statetype = A
 Trigger3 = EnemyNear(Var(54)),life >= 55 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence) && (Helper(97530),FVar(37) = [4,7]) && Power >= 2800
 Trigger3 = Helper(97530),FVar(1) = 1 && Helper(97530),FVar(32) < Power/30
 
@@ -3651,8 +3696,52 @@ Trigger3 = Helper(97530),FVar(1) = 1 && Helper(97530),FVar(32) < Power/30
 ;Trigger2 = Movecontact
 
 ;---------------------------------------------------------------------------
+;Fast Kung Fu Knee (1/3 super bar)
+;æ‡å„åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Knee å¿«è†98.7]
+type = ChangeState
+value = 1070
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 2
+Triggerall = Power >= 330
+Triggerall = Var(1)
+Triggerall = Helper(97530),FVar(37) >= 6
+Triggerall = EnemyNear(Var(54)),Stateno != [1027,1028]
+Triggerall = (Helper(97530),FVar(32) < 150*Var(59) && Var(59) < 4) || Var(59) > 3
+Triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
+Triggerall = (Helper(97530),FVar(33) != (0,10])
+Trigger1 = (Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,16]) && P2dist X >= 0
+Trigger1 = EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),life = (40*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence),145*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)])
+Trigger1 = Movehit && Numtarget && Helper(97530),FVar(37) >= 14 && (Power > 1250 - 500 * (Life - EnemyNear(Var(54)),Life > 450))
+
+;trigger1 = var(1)
+
+;---------------------------------------------------------------------------
+;Fast Kung Fu Upper (1/3 super bar)
+;æ‡å„åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•
+[State -1, Fast Kung Fu Upper å¿«å‡é¾™98.(4,9)]
+type = ChangeState
+value = 1120
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 2
+Triggerall = Power >= 330
+Triggerall = Var(1)
+Triggerall = Helper(97530),FVar(37) >= 6
+Triggerall = EnemyNear(Var(54)),Stateno != [1027,1028]
+Triggerall = (Helper(97530),FVar(32) < 150*Var(59) && Var(59) < 4) || Var(59) > 3
+Triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
+Triggerall = (Helper(97530),FVar(33) != (0,10])
+Trigger1 = (Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,10]) && P2dist X >= 0 && EnemyNear(Var(54)),Backedgebodydist > 15
+Trigger1 = EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),life = (135*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence),240*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)])
+Trigger1 = Movehit && Numtarget && Helper(97530),FVar(37) >= 14 && (Power > 1250 - 500 * (Life - EnemyNear(Var(54)),Life > 450))
+
+;trigger1 = var(1)
+
+;---------------------------------------------------------------------------
 ;Fast Kung Fu Blow (1/3 super bar)
-[State -1, Fast Kung Fu Blow ¿ì»÷125.70.10]
+[State -1, Fast Kung Fu Blow å¿«å‡»125.70.10]
 type = ChangeState
 value = 1220
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3664,17 +3753,18 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5070,5210]
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-10))
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -50)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -45)))
 Triggerall = Helper(97530),FVar(37) >= 6
-Triggerall = (P2bodydist X = [0+(Stateno = 400)*32,45]) && Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
+Triggerall = (P2bodydist X = [0+(Stateno = 400)*32,45]) && Movehit && P2dist X >= 0 && Numtarget
 Triggerall = EnemyNear(Var(54)),Statetype != A && (EnemyNear(Var(54)),life = (100*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence),125*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)])
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = Stateno = 210 || Stateno = 230 || Stateno = 240
-Trigger1 = (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && (AnimElemNo(0) = 5)))) || Stateno = 430
+Trigger2 = (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10)))
+Trigger3 = (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && animelemtime(4) > 1))) || Stateno = 430
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Blow
-[State -1, Light Kung Fu Blow Çá»÷100.70.14]
+[State -1, Light Kung Fu Blow è½»å‡»100.70.14]
 type = ChangeState
 value = 1200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3685,20 +3775,20 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5070,5210]
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-14))
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -50)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -45)))
 Triggerall = Helper(97530),FVar(37) >= 4
-Triggerall = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
+Triggerall = Movehit && P2dist X >= 0 && Numtarget
 Triggerall = EnemyNear(Var(54)),Statetype != A && ((EnemyNear(Var(54)),life < 125*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)) || (Random < (Life - EnemyNear(Var(54)),Life) / 5 + 500*(Power<330)))
 Triggerall = (Facing = 1 && Abs(helper(97533),RootDist X) > 150) || (Facing = -1 && Abs(helper(97532),RootDist X) > 150)
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = Stateno = 210 && (P2bodydist X = [0,36])
 Trigger2 = Stateno = 240 && (P2bodydist X = [0,32])
-Trigger3 = (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && (AnimElemNo(0) = 5)))) && (P2bodydist X = [0,25])
+Trigger3 = (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && animelemtime(4) > 1))) && (P2bodydist X = [0,25])
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
-[State -1, Fast Kung Fu Palm ¿ìÕÆ95.150.11]
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Palm å¿«æŒ95.150.11]
 type = ChangeState
 value = 1020
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3710,21 +3800,21 @@ Triggerall = EnemyNear(Var(54)),Stateno != [5070,5210]
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-11))
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -45)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -40)))
 Triggerall = Helper(97530),FVar(37) >= 6
-Triggerall = Helper(97530),FVar(33) != 5
 Triggerall = Var(59) > 3
 Triggerall = Power < 1500 || (Power >= 1500 && Helper(97530),FVar(32) < 1600-Power*2/5) || Helper(97530),FVar(2) = 9
-Triggerall = Stateno = 210 || Stateno = 230 || Stateno = 240
-Triggerall = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),life > 90 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence)
+Triggerall = Stateno = 210 || Stateno = 230 || Stateno = 240 || (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10)))
+Triggerall = Movehit && P2dist X >= 0 && Numtarget && EnemyNear(Var(54)),life > 90 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence)
+Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21,90-(Stateno = 230||Stateno = 430)*15]) && EnemyNear(Var(54)),Statetype != A
-Trigger2 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27,75]) && (Stateno != [410,430])
+Trigger2 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27,75]) && !(Stateno = 430 || (Stateno = 410 && Helper(97530),FVar(37) < 15))
 Trigger2 = EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A && Helper(97530),FVar(37) >= 10
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
-[State -1, Fast Kung Fu Palm ¿ìÕÆ95.150.11]
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Palm å¿«æŒ95.150.11]
 type = ChangeState
 value = 1020
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3737,19 +3827,19 @@ Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),
 Triggerall = !((EnemyNear(Var(54)),Statetype = S && (EnemyNear(Var(54)),Const(size.head.pos.y) > -45)) || (EnemyNear(Var(54)),Statetype = C && (EnemyNear(Var(54)),Const(size.mid.pos.y) > -40)))
 Triggerall = Helper(97530),FVar(37) >= 6
 Triggerall = Var(59) > 3
-Triggerall = Power < 1500 || (Power >= 1500 && Helper(97530),FVar(32) < 1600-Power*2/5) || Helper(97530),FVar(2) = 9
-Triggerall = (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && (AnimElemNo(0) = 5)))) || Stateno = 430
-Triggerall = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),life > 90 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence)
+;Triggerall = Power < 1500 || (Power >= 1500 && Helper(97530),FVar(32) < 1600-Power*2/5) || Helper(97530),FVar(2) = 9
+Triggerall = (Stateno = 410 && ((EnemyNear(Var(54)),Statetype = S && animelemtime(4) > 1) || EnemyNear(Var(54)),Statetype = C || EnemyNear(Var(54)),Statetype = A)) || Stateno = 430
+Triggerall = Movehit && P2dist X >= 0 && Numtarget && EnemyNear(Var(54)),life > 90 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence)
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21,90-(Stateno = 230||Stateno = 430)*15]) && EnemyNear(Var(54)),Statetype != A
-Trigger2 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27,75]) && (Stateno != [410,430])
+Trigger2 = (P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27,75]) && !(Stateno = 430 || (Stateno = 410 && Helper(97530),FVar(37) < 15))
 Trigger2 = EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A && Helper(97530),FVar(37) >= 10
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Blow
-[State -1, Strong Kung Fu Blow ÖØ»÷125.70.18]
+[State -1, Strong Kung Fu Blow é‡å‡»125.70.18]
 type = ChangeState
 value = 1210
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3764,19 +3854,16 @@ Triggerall = (Helper(97530),FVar(32) < 300*Var(59) && Var(59) < 3) || Var(59) > 
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = (P2bodydist X - EnemyNear(Var(54)),Vel X*18 = [20,60])
 Trigger1 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 18 + EnemyNear(Var(54)),gethitvar(yaccel) * 18 * (18 + 1) / 2 = [-30,-5]) && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = EnemyNear(Var(54)),life < 120 * Const(data.attack) / EnemyNear(Var(54)),Const(data.defence)
+Trigger1 = (EnemyNear(Var(54)),life < 120*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence)) || ((Random < (Life - EnemyNear(Var(54)),Life) / 5) && !(EnemyNear(Var(54)),Statetype = A && Helper(97530),FVar(1) > 0))
 Trigger1 = P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && ((Helper(97530),FVar(37) = [4,7]) || EnemyNear(Var(54)),Stateno = 1028)
 Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
-
-;+++
-;Trigger2 =
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Upper
-;ƒJƒ“ƒt[EƒEƒbƒp[i‹­j
-[State -1, Strong Kung Fu Upper ÖØÉıÁú57.(5,12)]
+;åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®å«®ä¹¯
+[State -1, Strong Kung Fu Upper é‡å‡é¾™57.(5,12)]
 type = ChangeState
 value = 1110
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3790,23 +3877,24 @@ Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = !(Facing = -1 && Abs(helper(97532),RootDist X) < 35 && Abs(helper(97532),RootDist X) <= Abs(helper(97532),P2dist X))
 Triggerall = !(Facing = 1 && Abs(helper(97533),RootDist X) < 35 && Abs(helper(97533),RootDist X) <= Abs(helper(97533),P2dist X))
 Triggerall = (Helper(97530),FVar(32) < 150*Var(59) && Var(59) < 4) || Var(59) > 3
-Triggerall = !(Var(56) < 0 && Helper(97530),FVar(10) = 12)
+Triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
 Trigger1 = ((Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,20])) || ((Stateno = 210 || Stateno = 410) && (P2bodydist X = [0,15]))
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -30 && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = Movehit && EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(37) = 15 ;&& Helper(97530),FVar(1) < 9
-Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*5 = [-10,27]) && EnemyNear(Var(54)),Movetype = H
-Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 5 + EnemyNear(Var(54)),gethitvar(yaccel) * 5 * (5 + 1) / 2 = [-25,-5]) && EnemyNear(Var(54)),Statetype = A)
-Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101])) && Var(59) > 2 && ((Helper(97530),FVar(1) < 9 && (Helper(97530),FVar(32) >= (500 + Helper(97530),FVar(1) * 250))) || EnemyNear(Var(54)),Stateno = 1028)
-Trigger3 = Helper(97530),FVar(10) = 3 && Frontedgebodydist < 50 && Helper(97530),FVar(1) = 0 ;(Prevstateno = [800,830))
-Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 5 + EnemyNear(Var(54)),gethitvar(yaccel) * 5 * (5 + 1) / 2 = [-25,-5]) && EnemyNear(Var(54)),Statetype = A)
+Trigger1 = Movehit && Numtarget && Helper(97530),FVar(37) = 15 ;&& Helper(97530),FVar(1) < 9
+Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*5*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) = [-10,27]) && EnemyNear(Var(54)),Movetype = H
+Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 5 + EnemyNear(Var(54)),gethitvar(yaccel) * 5 * (5 + 1) / 2 = [-16,0)) && EnemyNear(Var(54)),Statetype = A)
+Trigger2 = Var(59) > 2 && ((Helper(97530),FVar(1) < 9 && (Helper(97530),FVar(37) > 7 || (Helper(97530),FVar(32) >= 600 + Helper(97530),FVar(1) * 200))) || EnemyNear(Var(54)),Stateno = 1028)
+Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
+Trigger3 = Helper(97530),FVar(10) = 3 && Frontedgebodydist < 45 && Helper(97530),FVar(1) = 0 ;(Prevstateno = [800,830))
+Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 5 + EnemyNear(Var(54)),gethitvar(yaccel) * 5 * (5 + 1) / 2 = [-16,0)) && EnemyNear(Var(54)),Statetype = A)
 Trigger3 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Upper
-;ƒJƒ“ƒt[EƒEƒbƒp[iãj
-[State -1, Light Kung Fu Upper ÇáÉıÁú52.(4,10)]
+;åƒ‡å„åƒ¼ä¹•ä¸’åƒ‚åƒ¢åƒ·ä¹•ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Upper è½»å‡é¾™52.(4,10)]
 type = ChangeState
 value = 1100
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3820,23 +3908,24 @@ Triggerall = Helper(97530),FVar(37) >= 4
 Triggerall = !(Facing = -1 && Abs(helper(97532),RootDist X) < 35 && Abs(helper(97532),RootDist X) <= Abs(helper(97532),P2dist X))
 Triggerall = !(Facing = 1 && Abs(helper(97533),RootDist X) < 35 && Abs(helper(97533),RootDist X) <= Abs(helper(97533),P2dist X))
 Triggerall = (Helper(97530),FVar(32) < 150*Var(59) && Var(59) < 4) || Var(59) > 3
-Triggerall = !(Var(56) < 0 && Helper(97530),FVar(10) = 12)
+Triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
 Trigger1 = ((Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,20])) || ((Stateno = 210 || Stateno = 410) && (P2bodydist X = [0,15]))
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -30 && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = Movehit && EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(37) = 15 ;&& Helper(97530),FVar(1) < 9
-Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4 = [-10,25]) && EnemyNear(Var(54)),Movetype = H
-Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-25,-5]) && EnemyNear(Var(54)),Statetype = A)
-Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101])) && Var(59) > 2 && ((Helper(97530),FVar(1) < 9 && (Helper(97530),FVar(32) >= (500 + Helper(97530),FVar(1) * 250))) || EnemyNear(Var(54)),Stateno = 1028)
-Trigger3 = Helper(97530),FVar(10) = 3 && Frontedgebodydist < 40 && Helper(97530),FVar(1) = 0
-Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-25,-5]) && EnemyNear(Var(54)),Statetype = A)
+Trigger1 = Movehit && Numtarget && Helper(97530),FVar(37) = 15 ;&& Helper(97530),FVar(1) < 9
+Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*4*ifelse((facing != EnemyNear(Var(54)),facing),1,-1) = [-10,25]) && EnemyNear(Var(54)),Movetype = H
+Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-16,0)) && EnemyNear(Var(54)),Statetype = A)
+Trigger2 = Var(59) > 2 && ((Helper(97530),FVar(1) < 9 && (Helper(97530),FVar(37) > 7 || (Helper(97530),FVar(32) >= 600 + Helper(97530),FVar(1) * 200))) || EnemyNear(Var(54)),Stateno = 1028)
+Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
+Trigger3 = Helper(97530),FVar(10) = 3 && Frontedgebodydist < 45 && Helper(97530),FVar(1) = 0
+Trigger3 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 = [-16,0)) && EnemyNear(Var(54)),Statetype = A)
 Trigger3 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Strong Kung Fu Knee
-;ƒJƒ“ƒt[R‚èiãj
-[State -1, Strong Kung Fu Knee ÖØÏ¥90.8]
+;åƒ‡å„åƒ¼ä¹•å»Ÿå‚ä¹®åº›ä¹¯
+[State -1, Strong Kung Fu Knee é‡è†90.8]
 type = ChangeState
 value = 1060
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3846,17 +3935,21 @@ Triggerall = Var(1)
 Triggerall = EnemyNear(Var(54)),Stateno != [5120,5210)
 Triggerall = !((EnemyNear(Var(54)),Stateno = [5210,5220)) && EnemyNear(Var(54)),Time <= (15-8))
 Triggerall = Helper(97530),FVar(37) >= 4
-Triggerall = !(Var(56) < 0 && Helper(97530),FVar(10) = 12)
-Trigger1 = ((Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,39])) || ((Stateno = 210 || Stateno = 230 || Stateno = 410) && (P2bodydist X = [0,21-(Stateno = 410)*3]))
+Triggerall = !(((Var(56) > 0 && Var(56) > Ceil(Helper(97530),FVar(11)/10)) || Var(56) <= 0) && Helper(97530),FVar(10) = 12)
+Trigger1 = ((Stateno = 200 || Stateno = 400) && (P2bodydist X = [0,39])) || ((Stateno = 210 || Stateno = 230 || Stateno = 240 || Stateno = 410) && (P2bodydist X = [0,21-(Stateno = 410)*3]))
 Trigger1 = (EnemyNear(Var(54)),Pos Y = [-60,-5]) && EnemyNear(Var(54)),Statetype = A
-Trigger1 = Movehit && EnemyNear(Var(54)),Movetype = H
+Trigger1 = Movehit && Numtarget
+Trigger2 = Stateno = 240 && P2dist X >= 0 && ((Facing = 1 && Abs(helper(97533),RootDist X) < 100) || (Facing = -1 && Abs(helper(97532),RootDist X) < 100))
+Trigger2 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A
+Trigger2 = (EnemyNear(Var(54)),life < 130*Const(data.attack)/EnemyNear(Var(54)),Const(data.defence))
+Trigger2 = Movehit && Numtarget
 
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Light Kung Fu Palm
-;ƒJƒ“ƒt[“Ë‚«èiãj
-[State -1, Light Kung Fu Palm ÇáÕÆ90.85.9]
+;åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åº›ä¹¯
+[State -1, Light Kung Fu Palm è½»æŒ90.85.9]
 type = ChangeState
 value = 1000
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3872,14 +3965,17 @@ Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = ((P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21,70]) || (Frontedgebodydist < 75 && P2bodydist X > ((Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21)))
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
 Trigger1 = (Stateno = 200 && Movehit = 1) || Stateno = 210 || Stateno = 230 || Stateno = 240
-Trigger1 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
+Trigger1 = Movehit && P2dist X >= 0 && Numtarget
 Trigger2 = ((P2bodydist X = [(Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21,70]) || (Frontedgebodydist < 75 && P2bodydist X > ((Stateno = 200)*40+(Stateno = 230)*27+(Stateno = 400)*27+(Stateno = 430)*21)))
 Trigger2 = (EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
-Trigger2 = (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && (AnimElemNo(0) = 5)))) || Stateno = 430
-Trigger2 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
-Trigger3 = Stateno = 430 && ((Facing = 1 && Abs(helper(97533),RootDist X) < 100) || (Facing = -1 && Abs(helper(97532),RootDist X) < 100))
-Trigger3 = EnemyNear(Var(54)),Pos Y > -5 && EnemyNear(Var(54)),Statetype = A
-Trigger3 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
+Trigger2 = (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && (EnemyNear(Var(54)),Statetype = C || (EnemyNear(Var(54)),Statetype = S && animelemtime(4) > 1))) || Stateno = 430
+Trigger2 = Movehit && P2dist X >= 0 && Numtarget
+Trigger3 = Stateno = 200 && P2bodydist X > 25 && EnemyNear(Var(54)),Statetype = C
+Trigger3 = (EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A) || EnemyNear(Var(54)),Statetype != A
+Trigger3 = Movehit && P2dist X >= 0 && Numtarget
+Trigger4 = Stateno = 430 && ((Facing = 1 && Abs(helper(97533),RootDist X) < 100) || (Facing = -1 && Abs(helper(97532),RootDist X) < 100))
+Trigger4 = EnemyNear(Var(54)),Pos Y > -5 && EnemyNear(Var(54)),Statetype = A
+Trigger4 = Movehit && P2dist X >= 0 && Numtarget
 
 ;Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*9  = [20,75]) && EnemyNear(Var(54)),Movetype = H
 ;Trigger2 = !(P2bodydist X - EnemyNear(Var(54)),Vel X*4 - Const(velocity.run.fwd.x)*4 < 20 && (EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 4 + EnemyNear(Var(54)),gethitvar(yaccel) * 4 * (4 + 1) / 2 < -30) && EnemyNear(Var(54)),Statetype = A)
@@ -3887,12 +3983,17 @@ Trigger3 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
 ;Trigger2 = P2dist X >= 0 && (Helper(97530),FVar(1) < 9 || EnemyNear(Var(54)),Stateno = 1028) && EnemyNear(Var(54)),Backedgebodydist > 5
 ;Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
+;Trigger4 = P2dist X >= 0 && ((Facing = 1 && (Abs(helper(97533),RootDist X) = [80,125))) || (Facing = -1 && (Abs(helper(97532),RootDist X) = [80,125))))
+;Trigger4 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A ;&& Helper(97530),FVar(10) = 3 ;&& PrevStateno = 810 
+;Trigger4 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 9 + EnemyNear(Var(54)),gethitvar(yaccel) * 9 * (9 + 1) / 2 = [-35,-5]) && EnemyNear(Var(54)),Statetype = A)
+;Trigger4 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
+
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
 ;Fast Kung Fu Palm (1/3 super bar)
-;‘¬‚¢ƒJƒ“ƒt[“Ë‚«èiƒQ[ƒWƒŒƒxƒ‹‚P^‚Rj
-[State -1, Fast Kung Fu Palm ¿ìÕÆ95.150.11]
+;æ‡å„åƒ‡å„åƒ¼ä¹•æ’å’åº¤ä¹®åƒä¹•åƒ•å„—å„€å„–ä¾¾ä¹›ä¿ä¹¯
+[State -1, Fast Kung Fu Palm å¿«æŒ95.150.11]
 type = ChangeState
 value = 1020
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3908,9 +4009,9 @@ Triggerall = (Helper(97530),FVar(32) < 300*Var(59) && Var(59) < 3) || Var(59) > 
 Triggerall = Helper(97530),FVar(33) != 5
 Trigger1 = (P2bodydist X = (50,75])
 Trigger1 = (EnemyNear(Var(54)),Pos Y > -25 && EnemyNear(Var(54)),Statetype = A && (Stateno != [410,430])) || EnemyNear(Var(54)),Statetype != A
-Trigger1 = (Stateno = 210 || Stateno = 230 || Stateno = 240 || (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && (AnimElemNo(0) = 5))) || Stateno = 430
-Trigger1 = Movehit && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H
-Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*11 = [60,125]) && P2dist X >= 0 && EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(10) = 1 && Helper(97530),FVar(37) >= 10
+Trigger1 = (Stateno = 210 || Stateno = 230 || Stateno = 240 || (Stateno = 400 && (Var(56) > 0 && Var(56) <= Ceil(Helper(97530),FVar(11)/10))) || (Stateno = 410 && animelemtime(4) > 1)) || Stateno = 430
+Trigger1 = Movehit && P2dist X >= 0 && Numtarget
+Trigger2 = (P2bodydist X - EnemyNear(Var(54)),Vel X*11 = [60,125]) && P2dist X >= 0 && Numtarget && Helper(97530),FVar(10) = 1 && Helper(97530),FVar(37) >= 10
 Trigger2 = !(P2bodydist X - EnemyNear(Var(54)),Vel X*7 - Const(velocity.run.fwd.x)*7 < 20 && (EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 11 + EnemyNear(Var(54)),gethitvar(yaccel) * 11 * (11 + 1) / 2 < -25) && EnemyNear(Var(54)),Statetype = A)
 Trigger2 = ((EnemyNear(Var(54)),Pos Y + EnemyNear(Var(54)),Vel Y * 11 + EnemyNear(Var(54)),gethitvar(yaccel) * 11 * (11 + 1) / 2 = [-35,-5]) && EnemyNear(Var(54)),Statetype = A)
 Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
@@ -3918,7 +4019,22 @@ Trigger2 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 ;Trigger1 = Var(1)
 
 ;---------------------------------------------------------------------------
-[State -1, ×·»÷Ç°ÅÜ]
+[State -1, è¿½å‡»å‰è·³]
+type = ChangeState
+value = 41 ;Frontedgebodydist >= 20
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 2
+Triggerall = Statetype != A
+Triggerall = !inguarddist
+Triggerall = Helper(97530),FVar(37) >= 4
+Triggerall = (Stateno = [100,101])
+Triggerall = Helper(97530),FVar(33) != 5
+Trigger1 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A && Floor(Helper(97530),FVar(10)) = 8 && EnemyNear(Var(54)),Vel Y > 1
+Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
+
+;---------------------------------------------------------------------------
+[State -1, è¿½å‡»å‰è·‘]
 type = ChangeState
 value = 101
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3930,33 +4046,34 @@ Triggerall = !inguarddist
 Triggerall = (Stateno != [100,101])
 Triggerall = ctrl || (Stateno = [19,21])
 Triggerall = Helper(97530),FVar(11) > -6 
-Trigger1 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype != L
-Trigger1 = (Helper(97530),FVar(37) >= 4 && P2bodydist X > 15) || (Helper(97530),FVar(37) < 4 && (P2bodydist X > 60 || (P2bodydist X > 15 && Helper(97530),FVar(1) = 9)))
+Triggerall = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype != L
+Trigger1 = Helper(97530),FVar(37) >= 4 && P2bodydist X > 25
+Trigger2 = Helper(97530),FVar(37) < 4 && (P2bodydist X > 60 || (P2bodydist X > 20 && Helper(97530),FVar(1) = 9))
 
 ;---------------------------------------------------------------------------
-;[State -1, ×·»÷ÏòÇ°×ß]
-;type = ChangeState
-;value = 21
-;Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
-;Triggerall = Var(59) > 0
-;Triggerall = Roundstate = 2
-;Triggerall = Statetype != A
-;Triggerall = Frontedgebodydist >= 20
-;Triggerall = !inguarddist
-;Triggerall = Stateno != 20 && Stateno != 100
-;Triggerall = ctrl
-;Trigger1 = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A
-;Trigger1 = Helper(97530),FVar(37) >= 4 && (P2bodydist X = [15,25))
-
+[State -1, è¿½å‡»å‘å‰èµ°]
+type = ChangeState
+value = 21
+Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 2
+Triggerall = Statetype != A
+Triggerall = Frontedgebodydist >= 20
+Triggerall = !inguarddist
+Triggerall = Stateno != 20 && Stateno != 100
+Triggerall = ctrl
+Triggerall = EnemyNear(Var(54)),Movetype = H && EnemyNear(Var(54)),Statetype = A
+Trigger1 = Helper(97530),FVar(37) >= 4 && (P2bodydist X = [15,25))
+Trigger2 = Helper(97530),FVar(37) < 4 && ((P2bodydist X = [30,60]) || ((P2bodydist X = [15,20]) && Helper(97530),FVar(1) = 9))
 
 ;===========================================================================
 
-;[Á¢»Ø]
+;[ç«‹å›]
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -3982,8 +4099,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 
 ;---------------------------------------------------------------------------
 ;Kung Fu Throw
-;“Š‚°
-[State -1, Kung Fu Throw Í¶78.1]
+;æ³å˜
+[State -1, Kung Fu Throw æŠ•78.1]
 type = ChangeState
 value = 800
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4012,8 +4129,8 @@ Trigger1 = (Helper(97530),FVar(31) > 1000-20*Var(59)-Random/10)
 
 ;---------------------------------------------------------------------------
 ;Stand Light Punch
-;—§‚¿ãƒpƒ“ƒ`
-[State -1, Stand Light Punch Õ¾ÇáÈ­23.44.4]
+;æ£«åªåº›åƒ·å„åƒ 
+[State -1, Stand Light Punch ç«™è½»æ‹³23.44.4]
 type = ChangeState
 value = 200
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4042,8 +4159,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || (Stateno = 2
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Kick
-;‚µ‚á‚ª‚İãƒLƒbƒN
-[State -1, Crouching Light Kick ¶×Çá½Å28.47.5]
+;åŸå‚–å‘å‚’åº›åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Light Kick è¹²è½»è„š28.47.5]
 type = ChangeState
 value = 430
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4070,8 +4187,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || ((Stateno = 
 
 ;---------------------------------------------------------------------------
 ;Stand Light Kick
-;—§‚¿ãƒLƒbƒN
-[State -1, Stand Light Kick Õ¾Çá½Å26.52.5]
+;æ£«åªåº›åƒ‰åƒ¢åƒ‹
+[State -1, Stand Light Kick ç«™è½»è„š26.52.5]
 type = ChangeState
 value = 230
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4097,8 +4214,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]) || ((Stateno = 
 
 ;---------------------------------------------------------------------------
 ;Crouching Strong Kick
-;‚µ‚á‚ª‚İ‹­ƒLƒbƒN
-[State -1, Crouching Strong Kick ¶×ÖØ½Å72.60.10]
+;åŸå‚–å‘å‚’å«®åƒ‰åƒ¢åƒ‹
+[State -1, Crouching Strong Kick è¹²é‡è„š72.60.10]
 type = ChangeState
 value = 440
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4124,8 +4241,8 @@ Trigger1 = (ctrl || (Stateno = [19,21]))
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4153,7 +4270,7 @@ Trigger2 = ((Pos Y + Vel Y * 6 + Const(movement.yaccel) * 6 * (6+1) / 2 >= 0) &&
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Punch
-[State -1, Jump Strong Punch ÌøÖØÈ­72.45.7]
+[State -1, Jump Strong Punch è·³é‡æ‹³72.45.7]
 type = ChangeState
 value = 610
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4179,8 +4296,8 @@ Trigger1 = ((P2dist Y - Vel Y * 7 - const(movement.yaccel) * 7 * (7 + 1) / 2 + E
 
 ;---------------------------------------------------------------------------
 ;Jump Strong Kick
-;‹ó’†‹­ƒLƒbƒN
-[State -1, Jump Strong Kick ÌøÖØ½Å70.56.7]
+;å¬»æ‹å«®åƒ‰åƒ¢åƒ‹
+[State -1, Jump Strong Kick è·³é‡è„š70.56.7]
 type = ChangeState
 value = 640
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4214,14 +4331,14 @@ Trigger4 = (Facing = 1 && Abs(helper(97532),RootDist X) < 25 && Abs(helper(97532
 
 ;===========================================================================
 
-;[·ÀÓù]
-;£ü
-;[ÒÆ¶¯]
-;£ü
-;[ĞîÆø]
+;[é˜²å¾¡]
+;ï½œ
+;[ç§»åŠ¨]
+;ï½œ
+;[è“„æ°”]
 
 ;---------------------------------------------------------------------------
-[State -1, ¶×·À¶ã±ÜÕ¾Á¢¹¥»÷]
+[State -1, è¹²é˜²èº²é¿ç«™ç«‹æ”»å‡»]
 type = ChangeState
 value = 131
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4233,7 +4350,7 @@ triggerall = !(Ceil(Helper(97530),FVar(39)) & 2**5)
 Trigger1 = (Var(49) = [1,25]) && EnemyNear(Var(54)),Time <= Helper(97531),FVar(Var(49))
 
 ;---------------------------------------------------------------------------
-[State -1,±»·ÉµÀ½Ó½ü]
+[State -1,è¢«é£é“æ¥è¿‘]
 type = ChangeState
 value = ifelse(EnemyNear(Var(54)),Statetype = C, 131, 130)
 Triggerall = !Ishelper
@@ -4244,10 +4361,10 @@ Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Triggerall = Helper(97530),FVar(33) != 2 && !(Helper(97530),FVar(33) = 5 && EnemyNear(Var(54)),Statetype = A)
 Triggerall = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))**2) - 1) * 25) || (EnemyNear(Var(54)),Time > ((6-Var(59))**2)) || Var(59) = 5
 Trigger1 = EnemyNear(Var(54)),Numproj > 0 || (EnemyNear(Var(54)),Numhelper > Helper(97530),FVar(35) && (EnemyNear(Var(54)),Movetype = A || Random > 750))
-Trigger1 = Inguarddist
+Trigger1 = (Inguarddist || (Helper(97535),Inguarddist && Helper(97535),Var(0) > 0))
 
 ;---------------------------------------------------------------------------
-[State -1, ¶×·À]
+[State -1, è¹²é˜²]
 type = ChangeState
 value = 131
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4259,7 +4376,7 @@ Triggerall = !(EnemyNear(Var(54)),hitdefattr = sca,at)
 Triggerall = !(Ceil(Helper(97530),FVar(39)) & 2**0) 
 Triggerall = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))**2) - 1) * 25) || (EnemyNear(Var(54)),Time > ((6-Var(59))**2)) || Var(59) = 5
 Triggerall = Helper(97530),FVar(33) != 2 && !(Helper(97530),FVar(33) = 5 && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = Inguarddist || (!InGuardDist && EnemyNear(Var(54)),P2dist X < 5 && P2bodydist X < 60 && (EnemyNear(Var(54)),HitDefAttr = SCA,AA || (EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Statetype = A))) ;inguarddist»ò±»´ò±³
+Trigger1 = Inguarddist || (!InGuardDist && EnemyNear(Var(54)),P2dist X < 5 && P2bodydist X < 60 && (EnemyNear(Var(54)),HitDefAttr = SCA,AA || (EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Statetype = A))) ;inguarddistæˆ–è¢«æ‰“èƒŒ
 Trigger1 = EnemyNear(Var(54)),Statetype = C
 Trigger2 = (Helper(97530),Var(15) = [EnemyNear(Var(54)),Stateno*10,EnemyNear(Var(54)),Stateno*10+1]) || (Helper(97530),Var(16) = [EnemyNear(Var(54)),Stateno*10,EnemyNear(Var(54)),Stateno*10+1])
 Trigger2 = EnemyNear(Var(54)),Statetype = S && EnemyNear(Var(54)),Stateno >= 200
@@ -4269,7 +4386,7 @@ Trigger4 = ((Floor(Helper(97530),Var(23)/1000) = Enemynear,Stateno) || (Floor(He
 Trigger4 = EnemyNear(Var(54)),Statetype = S && EnemyNear(Var(54)),Stateno >= 200
 
 ;---------------------------------------------------------------------------
-[State -1, Á¢·À]
+[State -1, ç«‹é˜²]
 type = ChangeState
 value = 130
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4278,10 +4395,10 @@ Triggerall = Roundstate = 2
 Triggerall = Statetype != A
 Triggerall = (ctrl || (Stateno = [19,21]) || (Stateno = [100,101]))
 Triggerall = !(EnemyNear(Var(54)),hitdefattr = sca,at)
-Triggerall = !(Ceil(Helper(97530),FVar(39)) & 2**0) 
+Triggerall = !(Ceil(Helper(97530),FVar(39)) & 2**0)
 Triggerall = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))**2) - 1) * 25) || (EnemyNear(Var(54)),Time > ((6-Var(59))**2)) || Var(59) = 5
 Triggerall = Helper(97530),FVar(33) != 2 && !(Helper(97530),FVar(33) = 5 && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = Inguarddist || (!InGuardDist && EnemyNear(Var(54)),P2dist X < 5 && P2bodydist X < 60 && (EnemyNear(Var(54)),HitDefAttr = SCA,AA || (EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Statetype = A))) ;inguarddist»ò±»´ò±³
+Trigger1 = Inguarddist || (!InGuardDist && EnemyNear(Var(54)),P2dist X < 5 && P2bodydist X < 60 && (EnemyNear(Var(54)),HitDefAttr = SCA,AA || (EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Statetype = A))) ;inguarddistæˆ–è¢«æ‰“èƒŒ
 Trigger1 = EnemyNear(Var(54)),Statetype != C
 Trigger2 = (Helper(97530),Var(15) = [EnemyNear(Var(54)),Stateno*10,EnemyNear(Var(54)),Stateno*10+1]) || (Helper(97530),Var(16) = [EnemyNear(Var(54)),Stateno*10,EnemyNear(Var(54)),Stateno*10+1])
 Trigger2 = EnemyNear(Var(54)),Statetype = C && EnemyNear(Var(54)),Stateno >= 200
@@ -4291,7 +4408,7 @@ Trigger4 = ((Floor(Helper(97530),Var(23)/1000) = Enemynear,Stateno) || (Floor(He
 Trigger4 = EnemyNear(Var(54)),Statetype = C && EnemyNear(Var(54)),Stateno >= 200
 
 ;---------------------------------------------------------------------------
-[State -1, ¿Õ·À]
+[State -1, ç©ºé˜²]
 type = ChangeState
 value = 132
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4303,11 +4420,11 @@ Triggerall = !(EnemyNear(Var(54)),hitdefattr = sca,at)
 Triggerall = !(Ceil(Helper(97530),FVar(39)) & 2**0) 
 Triggerall = (Helper(97530),FVar(32) < 1000 - (((6-Var(59))**2) - 1) * 25) || (EnemyNear(Var(54)),Time > ((6-Var(59))**2)) || Var(59) = 5
 Triggerall = Helper(97530),FVar(33) != 2 && !(Helper(97530),FVar(33) = 5 && EnemyNear(Var(54)),Statetype = A)
-Trigger1 = Inguarddist                                                             ;inguarddist»ò±»´ò±³
+Trigger1 = Inguarddist                                                             ;inguarddistæˆ–è¢«æ‰“èƒŒ
 Trigger2 = !InGuardDist && EnemyNear(Var(54)),P2dist X < 5 && P2bodydist X < 60 && (EnemyNear(Var(54)),HitDefAttr = SCA,AA || (EnemyNear(Var(54)),Movetype = A && EnemyNear(Var(54)),Statetype = A))
 
 ;---------------------------------------------------------------------------
-[State -1, Ê¤ÀûºóÍ£Ö¹×ß¶¯]
+[State -1, èƒœåˆ©ååœæ­¢èµ°åŠ¨]
 type = ChangeState
 value = 0
 Triggerall = !Ishelper
@@ -4321,7 +4438,7 @@ Trigger3 = Stateno = 40
 ctrl = 1
 
 ;---------------------------------------------------------------------------
-[State -1, ×¥ÉÁ±ÜÓ²Ö±Ç°ÅÜ/¶Ô·½Ô¶·ÉĞĞµÀ¾ßÇ°ÅÜ×¼±¸´óÌø]
+[State -1, æŠ“é—ªé¿ç¡¬ç›´å‰è·‘/å¯¹æ–¹è¿œé£è¡Œé“å…·å‰è·‘å‡†å¤‡å¤§è·³]
 type = ChangeState
 value = 100
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4339,7 +4456,7 @@ Trigger2 = P2bodydist X > 160 && (Helper(97530),FVar(32) < 80*Var(59)) && EnemyN
 Trigger2 = (EnemyNear(Var(54)),Stateno = Helper(97531),Var(26)) || (EnemyNear(Var(54)),Stateno = Helper(97531),Var(27)) || (EnemyNear(Var(54)),Stateno = Helper(97531),Var(28)) || (EnemyNear(Var(54)),Stateno = Helper(97531),Var(29)) ; || (EnemyNear(Var(54)),Stateno = Helper(97531),Var(29))
 
 ;---------------------------------------------------------------------------
-[State -1, ÌøÔ¾Ç°]
+[State -1, è·³è·ƒå‰]
 type = ChangeState
 value = 41
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4359,7 +4476,7 @@ Trigger3 = !inguarddist && EnemyNear(Var(54)),Statetype != A && Random < 600 && 
 Trigger3 = EnemyNear(Var(54)),Numproj > 0 || (EnemyNear(Var(54)),Numhelper > Helper(97530),FVar(35) && EnemyNear(Var(54)),Movetype = A)
 
 ;---------------------------------------------------------------------------
-[State -1, ÌøÔ¾Ç°¶ã±Ü·ÉĞĞµÀ¾ß]
+[State -1, è·³è·ƒå‰èº²é¿é£è¡Œé“å…·]
 type = ChangeState
 value = 41
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4376,7 +4493,7 @@ Trigger1 = !EnemyNear(Var(54)),hitdefattr = sca,sa,ha,sp,hp
 Trigger1 = (Var(49) = [26,30]) && (Helper(97531),FVar(Var(49)) - EnemyNear(Var(54)),Time = [3,9])
 
 ;---------------------------------------------------------------------------
-[State -1, Ç°ÅÜ]
+[State -1, å‰è·‘]
 type = ChangeState
 value = 100
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4407,7 +4524,7 @@ Trigger8 = P2bodydist X > 90 && PrevStateno = 400
 ;Trigger7 = !(P2bodydist X > 75 && Helper(97530),FVar(37) < 4 && Frontedgebodydist > 60)
 
 ;---------------------------------------------------------------------------
-[State -1, ÏòÇ°×ß]
+[State -1, å‘å‰èµ°]
 type = ChangeState
 value = 21
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4435,7 +4552,7 @@ Trigger6 = P2bodydist X > 90 && ((EnemyNear(Var(54)),Stateno = [5200,5220)) || (
 ;Trigger5 = P2bodydist X > 10 && (EnemyNear(Var(54)),Movetype != H && EnemyNear(Var(54)),Statetype != L)
 
 ;---------------------------------------------------------------------------
-[State -1, Ïòºó×ß±äÁ¢·À]
+[State -1, å‘åèµ°å˜ç«‹é˜²]
 type = ChangeState
 value = 130
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4446,7 +4563,7 @@ Triggerall = Stateno = 19
 Trigger1 = Inguarddist
 
 ;---------------------------------------------------------------------------
-[State -1, Ïòºó×ß]
+[State -1, å‘åèµ°]
 type = ChangeState
 value = 19
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4462,10 +4579,12 @@ Triggerall = (P2dist X > 0 || Frontedgebodydist < 10)
 Triggerall = EnemyNear(Var(54)),Numproj = 0
 Triggerall = Helper(97530),FVar(33) != 1
 Trigger1 = P2bodydist X < 75 && Random > 960 + P2bodydist X/2 && EnemyNear(Var(54)),Movetype != H && (EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C)
-Trigger2 = Facing = -1 && Abs(helper(97532),RootDist X) < 35 && Abs(helper(97532),RootDist X) <= Abs(helper(97532),P2dist X)
-Trigger3 = Facing = 1 && Abs(helper(97533),RootDist X) < 35 && Abs(helper(97533),RootDist X) <= Abs(helper(97533),P2dist X)
-Trigger4 = P2bodydist X < 30 && Var(59) > 3 && (EnemyNear(Var(54)),Stateno = [5200,5210))
-Trigger5 = EnemyNear(Var(54)),Stateno = 5120 && P2bodydist X < 20
+Trigger2 = EnemyNear(Var(54)),Movetype != H && (P2bodydist X = [5,15]) && P2dist X > 0 && (EnemyNear(Var(54)),ctrl || (EnemyNear(Var(54)),Movetype = I && Random > 800)) && (EnemyNear(Var(54)),Statetype = S || EnemyNear(Var(54)),Statetype = C)
+Trigger2 = !(Stateno = 21 && Time < 20)
+Trigger3 = Facing = -1 && Abs(helper(97532),RootDist X) < 35 && Abs(helper(97532),RootDist X) <= Abs(helper(97532),P2dist X)
+Trigger4 = Facing = 1 && Abs(helper(97533),RootDist X) < 35 && Abs(helper(97533),RootDist X) <= Abs(helper(97533),P2dist X)
+Trigger5 = P2bodydist X < 30 && Var(59) > 3 && (EnemyNear(Var(54)),Stateno = [5200,5210))
+Trigger6 = EnemyNear(Var(54)),Stateno = 5120 && P2bodydist X < 20 - 2.2 * (Abs(EnemyNear(Var(54)),AnimTime)-4)
 ;Trigger6 = Helper(97530),FVar(34) < 5 && Var(56) <= Ceil(Helper(97530),FVar(11)/10
 
 ;Trigger4 = EnemyNear(Var(54)),Movetype != H && EnemyNear(Var(54)),Statetype != L && EnemyNear(Var(54)),Statetype != A 
@@ -4473,7 +4592,7 @@ Trigger5 = EnemyNear(Var(54)),Stateno = 5120 && P2bodydist X < 20
 ;Trigger4 = EnemyNear(Var(54)),Stateno != [5200,5220)
 
 ;---------------------------------------------------------------------------
-[State -1, µØÃæ¶¯×÷ÏŞÖÆ]
+[State -1, åœ°é¢åŠ¨ä½œé™åˆ¶]
 type = ChangeState
 value = 0
 Triggerall = !Ishelper
@@ -4491,8 +4610,8 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ;Crouching Light Punch
-;‚µ‚á‚ª‚İãƒpƒ“ƒ`
-[State -1, Crouching Light Punch ¶×ÇáÈ­23.38.4]
+;åŸå‚–å‘å‚’åº›åƒ·å„åƒ 
+[State -1, Crouching Light Punch è¹²è½»æ‹³23.38.4]
 type = ChangeState
 value = 400
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4503,10 +4622,10 @@ Triggerall = !inguarddist
 Triggerall = EnemyNear(Var(54)),Numproj = 0 
 Triggerall = !(NumPartner > 0 && partner,alive)
 Triggerall = Var(59) > 2
-Triggerall = (ctrl || (Stateno = [19,21])) && Power < Powermax ;|| (Stateno = [100,101])
+Triggerall = (ctrl || (Stateno = [19,21]) || ((Stateno = [100,101]) && P2bodydist X < 50 && Time > 20 + Floor(Helper(97530),FVar(32))%100)) && Power < Powermax
 Triggerall = !(EnemyNear(Var(54)),Stateno = 5120 && (EnemyNear(Var(54)),AnimTime > -12 || (P2bodydist X != [20,32])))
 Trigger1 = EnemyNear(Var(54)),Statetype = L ;&& !(EnemyNear(Var(54)),Stateno < 5110 && Helper(97530),FVar(37) >= 5 && P2bodydist X < 50)
-Trigger2 = EnemyNear(Var(54)),Statetype != L && Helper(97530),FVar(37) < 5 && !(EnemyNear(Var(54)),Pos Y < -45 && P2bodydist X > 75)
+Trigger2 = EnemyNear(Var(54)),Statetype = A && EnemyNear(Var(54)),Movetype = H && Helper(97530),FVar(37) < (4 + !(EnemyNear(Var(54)),Pos Y < -45 && P2bodydist X > 75))
 Trigger3 = P2bodydist X > 50 &&(EnemyNear(Var(54)),Stateno = [5200,5210)) && EnemyNear(Var(54)),Vel X < 0
 
 ;Trigger1 = (P2bodydist X > 85 && EnemyNear(Var(54)),Statetype = L) && Frontedgebodydist > 60
@@ -4521,8 +4640,8 @@ Trigger3 = P2bodydist X > 50 &&(EnemyNear(Var(54)),Stateno = [5200,5210)) && Ene
 
 ;---------------------------------------------------------------------------
 ;Jump Light Punch
-;‹ó’†ãƒpƒ“ƒ`
-[State -1, Jump Light Punch ÌøÇáÈ­20.36.4]
+;å¬»æ‹åº›åƒ·å„åƒ 
+[State -1, Jump Light Punch è·³è½»æ‹³20.36.4]
 type = ChangeState
 value = 600
 Triggerall = !Ishelper && EnemyNear(Var(54)),Alive
@@ -4546,7 +4665,7 @@ Trigger1 = EnemyNear(Var(54)),Movetype != A
 ;Trigger3 = Stateno = 1350 ;Air blocking
 
 ;---------------------------------------------------------------------------
-[State -1, Ê¤Àûºóºó³·Î»ÖÃµ÷Õû]
+[State -1, èƒœåˆ©ååæ’¤ä½ç½®è°ƒæ•´]
 type = ChangeState
 value = 105
 Triggerall = !Ishelper
@@ -4556,55 +4675,65 @@ Triggerall = Statetype != A
 triggerall = ctrl && Alive
 trigger1 = Frontedgebodydist < 60
 
+;---------------------------------------------------------------------------
+[State -1, èƒœåˆ©åå‰è·‘ä½ç½®è°ƒæ•´]
+type = ChangeState
+value = 100
+Triggerall = !Ishelper
+Triggerall = Var(59) > 0
+Triggerall = Roundstate = 3
+Triggerall = Statetype != A
+triggerall = ctrl && Alive
+trigger1 = Backedgebodydist < 40 && P2bodydist X > 50
 
 ;===========================================================================
 
 ;[AI helper]
 
 ;---------------------------------------------------------------------------
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=helper
 trigger1 = !numHelper(97530)
 ;trigger1= alive && roundstate=2
 helpertype=normal
 name="AI helper0"
-ID=97530             ;²»ÒªÓëÒÑÓĞµÄhelper³åÍ»
-pos=Pos x,99999      ;ÈÓÆÁÄ»ÓÒÏÂ½Ç¿´²»¼ûµÄµØ·½
-stateno=97530        ;²»ÒªÓëÒÑÓĞµÄstate³åÍ»
+ID=97530             ;ä¸è¦ä¸å·²æœ‰çš„helperå†²çª
+pos=Pos x,99999      ;æ‰”å±å¹•å³ä¸‹è§’çœ‹ä¸è§çš„åœ°æ–¹
+stateno=97530        ;ä¸è¦ä¸å·²æœ‰çš„stateå†²çª
 keyctrl=0           
 pausemovetime=2147483647
 supermovetime=2147483647
 persistent = 0
 
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=changestate
 trigger1= isHelper(97530)
 trigger1= stateno!=97530   
 value=97530
 
 ;---------------------------------------------------------------------------
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=helper
 trigger1 = !numHelper(97531)
 ;trigger1= alive && roundstate=2
 helpertype=normal
 name="AI helper1"
-ID=97531             ;²»ÒªÓëÒÑÓĞµÄhelper³åÍ»
-pos=Pos x,99999      ;ÈÓÆÁÄ»ÓÒÏÂ½Ç¿´²»¼ûµÄµØ·½
-stateno=97531        ;²»ÒªÓëÒÑÓĞµÄstate³åÍ»
+ID=97531             ;ä¸è¦ä¸å·²æœ‰çš„helperå†²çª
+pos=Pos x,99999      ;æ‰”å±å¹•å³ä¸‹è§’çœ‹ä¸è§çš„åœ°æ–¹
+stateno=97531        ;ä¸è¦ä¸å·²æœ‰çš„stateå†²çª
 keyctrl=0           
 pausemovetime=2147483647
 supermovetime=2147483647
 persistent = 0
 
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=changestate
 trigger1= isHelper(97531)
 trigger1= stateno!=97531   
 value=97531
 
 ;---------------------------------------------------------------------------
-[State -1, Helper ×ó°æ±ß¾àÀë¼ì²â]
+[State -1, Helper å·¦ç‰ˆè¾¹è·ç¦»æ£€æµ‹]
 type = helper
 trigger1 = numhelper(97532) = 0
 ID = 97532
@@ -4619,7 +4748,7 @@ pausemovetime = 9999999999
 supermovetime = 9999999999
 ignorehitpause = 1
 
-[State -1, Helper ÓÒ°æ±ß¾àÀë¼ì²â]
+[State -1, Helper å³ç‰ˆè¾¹è·ç¦»æ£€æµ‹]
 type = helper
 trigger1 = numhelper(97533) = 0
 ID = 97533
@@ -4634,47 +4763,68 @@ pausemovetime = 9999999999
 supermovetime = 9999999999
 ignorehitpause = 1
 
-[State -1, Helper ×ó°æ±ß¾àÀë¼ì²â]
+[State -1, Helper å·¦ç‰ˆè¾¹è·ç¦»æ£€æµ‹]
 type=changestate
 trigger1= ishelper(97532)
 trigger1= stateno!=97532   
 value=97532
 
-[State -1, Helper ÓÒ°æ±ß¾àÀë¼ì²â]
+[State -1, Helper å³ç‰ˆè¾¹è·ç¦»æ£€æµ‹]
 type=changestate
 trigger1= ishelper(97533)
 trigger1= stateno!=97532   
 value=97532
 
 ;---------------------------------------------------------------------------
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=helper
 trigger1 = !numHelper(97534)
 ;trigger1= alive && roundstate=2
 helpertype=normal
 name="AI helper2"
-ID=97534             ;²»ÒªÓëÒÑÓĞµÄhelper³åÍ»
-pos=Pos x,99999      ;ÈÓÆÁÄ»ÓÒÏÂ½Ç¿´²»¼ûµÄµØ·½
-stateno=97534        ;²»ÒªÓëÒÑÓĞµÄstate³åÍ»
+ID=97534             ;ä¸è¦ä¸å·²æœ‰çš„helperå†²çª
+pos=Pos x,99999      ;æ‰”å±å¹•å³ä¸‹è§’çœ‹ä¸è§çš„åœ°æ–¹
+stateno=97534        ;ä¸è¦ä¸å·²æœ‰çš„stateå†²çª
 keyctrl=0           
 pausemovetime=2147483647
 supermovetime=2147483647
 persistent = 0
 
-[State -1, AI Helper ¼ÇÂ¼±äÁ¿]
+[State -1, AI Helper è®°å½•å˜é‡]
 type=changestate
 trigger1= isHelper(97534)
 trigger1= stateno!=97534   
 value=97534
 
+;---------------------------------------------------------------------------
+[State -3, AI Helper é£è¡Œé“å…·æ£€æµ‹]
+type=helper
+trigger1 = !numHelper(97535)
+;trigger1= alive && roundstate=2
+helpertype=normal
+name="proj detecter"
+ID=97535
+pos= Pos x-ifelse(Facing=1,50,-50),Pos y
+stateno=97535
+keyctrl=0
+pausemovetime=2147483647
+supermovetime=2147483647
+persistent = 0
+
+[State -3, AI Helper è®°å½•å˜é‡]
+type=changestate
+trigger1= isHelper(97535)
+trigger1= stateno!=97535 
+value=97535
+
 
 ;===========================================================================
 
-[State -1, Display] ;»òÕßState -1, Êı¾İ
+[State -1, Display] ;æˆ–è€…State -1, æ•°æ®
 type = DisplaytoClipboard
 Trigger1 = 1
 text = "X : %d | Y : %d | var : %d | LX : %d | RX: %d "
-params = ceil(P2bodydist X) , ceil(P2bodydist Y) , ceil(Prevstateno), ceil(helper(97532),RootDist X), ceil(helper(97533),RootDist X)
+params = ceil(P2bodydist X) , ceil(P2bodydist Y) , ceil(stateno = 810 && animtime = [-3,0]), ceil(helper(97532),RootDist X), ceil(helper(97533),RootDist X)
 
 ;Helper(97530),Var(40)
 
@@ -4709,3 +4859,4 @@ Triggerall = Time = 1
 Trigger1 = Stateno = 52 ;Jump land
 Trigger2 = Stateno = 106 ;Run-Back land
 value = 40, 0
+
